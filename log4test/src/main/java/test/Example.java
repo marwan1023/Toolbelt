@@ -10,8 +10,8 @@ public class Example {
 
     static Logger log = LogManager.getLogger(Example.class.getName());
 
-    public static void main(String[] args) throws IOException {
-
+    public void createLog() throws IOException
+    {
         System.out.println("===> Please enter a number:\n===>");
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int number = Integer.valueOf(br.readLine());
@@ -44,5 +44,17 @@ public class Example {
                 log.fatal("Fatal : Your number has the digit " + i);
             }
         }
+    }
+    
+    public static void main(String[] args) throws IOException {
+
+        try {
+            Example ex = new Example();
+            ex.createLog();
+        } catch (IOException e)
+        {
+            
+        }
+        
     }
 }
