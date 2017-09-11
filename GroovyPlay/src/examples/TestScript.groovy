@@ -1,5 +1,7 @@
 package examples
 
+import javax.swing.JButton
+
 //Book book = new Book("New Title")
 def book = new BookBean()
 
@@ -24,6 +26,16 @@ while (x < 10)
 def vwc = new VendorWithCtor("hello", "world")
 
 print(vwc.getName())
+
+//def button = new JButton("Push")
+//button.actionPerformed = { event ->
+//    println button.text
+//}
+
+
+
+
+
 
 
 
