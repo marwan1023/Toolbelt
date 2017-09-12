@@ -1,8 +1,5 @@
 package examples
 
-import javax.swing.JButton
-
-//Book book = new Book("New Title")
 def book = new BookBean()
 
 book.setTitle('New Title')
@@ -25,13 +22,43 @@ while (x < 10)
 
 def vwc = new VendorWithCtor("hello", "world")
 
-print(vwc.getName())
+println(vwc.getName())
 
-//def button = new JButton("Push")
-//button.actionPerformed = { event ->
-//    println button.text
-//}
+def command = "start"
 
+switch (command)
+{
+    case "start":
+        println("Starting...")
+        break
+    case "stop":
+        println("Stopping...")
+        break
+    default:
+        println("no command")
+        break
+}
+
+String str = "12345"
+switch (str) {
+   case ~/^[A-Za-z]+$/: println "Alphabet only"; break;
+   case ~/^[0-9]+$/: println "Numeric only"; break;
+   default: println "Others";
+}
+
+def sout = new StringBuilder()
+def serr = new StringBuilder()
+def testCommand = "whoami".execute()
+testCommand.consumeProcessOutput(sout, serr)
+testCommand.waitForOrKill(1000)
+println(sout)
+
+try {
+    def arr = new int[3];
+    arr[5] = 5;
+ } catch(Exception ex) {
+    println("Catching the exception");
+ }
 
 
 
