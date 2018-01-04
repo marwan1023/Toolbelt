@@ -1,0 +1,4 @@
+#!/bin/sh
+sudo service ntp stop
+sudo ntpdate -s time.nist.gov
+sudo service ntp start
