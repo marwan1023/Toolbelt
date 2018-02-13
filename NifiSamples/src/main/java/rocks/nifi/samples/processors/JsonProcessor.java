@@ -38,7 +38,7 @@ public class JsonProcessor extends AbstractProcessor {
 
     public static final Relationship SUCCESS = new Relationship.Builder()
             .name("SUCCESS")
-            .description("Succes relationship")
+            .description("Successful relationship")
             .build();
 
     @Override

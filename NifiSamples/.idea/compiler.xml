@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="NifiSamples" />
+        <module name="samples" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="1.8">
-      <module name="NifiSamples" target="1.7" />
+    <bytecodeTargetLevel>
+      <module name="samples" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
