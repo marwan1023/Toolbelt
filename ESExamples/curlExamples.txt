@@ -1,4 +1,5 @@
 curl 'http://localhost:9200/?pretty'
+curl "localhost:9200/_nodes/settings?pretty=true"
 curl -XPOST 'http://localhost:9200/_shutdown'
 curl -XGET 'http://localhost:9200/_count?pretty' -d -H 'Content-Type: application/json' -d'{    "query": {        "match_all": {}    }}'
 curl -XGET 'localhost:9200/_count?pretty' -d '
