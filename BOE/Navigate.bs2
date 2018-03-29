@@ -1,0 +1,34 @@
+'{$STAMP BS2}
+'{$PBASIC 2.5}
+
+DEBUG "Program Running..."
+
+counter VAR Word
+pulseLeft VAR Word
+pulseRight VAR Word
+pulseCount VAR Word
+
+FREQOUT 4, 2000, 3000
+
+'Forward
+pulseLeft = 850: pulseRight = 650: pulseCount = 64: GOSUB Navigate
+
+'Left Turn
+pulseLeft = 650: pulseRight = 650: pulseCount = 24: GOSUB Navigate
+
+'Right Turn
+pulseLeft = 850: pulseRight = 850: pulseCount = 24: GOSUB Navigate
+
+'Backward
+pulseLeft = 650: pulseRight = 850: pulseCount = 64: GOSUB Navigate
+
+END
+
+Navigate:
+  FOR counter = 1 TO pulseCount
+    PULSOUT 13, pulseLeft
+    PULSOUT 12, pulseRight
+    PAUSE 20
+  NEXT
+  PAUSE 200
+  RETURN
