@@ -19,7 +19,6 @@ public class HelloWorld {
                         new HttpHost("localhost", 9201, "http")));
 
 
-        System.out.println(client.toString());
 
         MainResponse response = client.info();
         ClusterName clusterName = response.getClusterName();
@@ -27,6 +26,11 @@ public class HelloWorld {
         String nodeName = response.getNodeName();
         Version version = response.getVersion();
         Build build = response.getBuild();
+
+        System.out.println("Cluster: " + clusterName.toString());
+        System.out.println("Cluster ID: " + clusterUuid);
+        System.out.println("NodeName: " + nodeName);
+
 
         client.close();
 
