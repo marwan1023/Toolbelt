@@ -55,9 +55,13 @@ public class CreateIndexExample {
             System.out.println("ACK: " + acknowledged);
             System.out.println("Shards ACK: " + shardsAcknowledged);
 
+            client.close();
+
         } catch (IOException e) {
             e.printStackTrace();
         }
+
+
 
     }
 }
