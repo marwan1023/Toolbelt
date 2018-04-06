@@ -46,5 +46,5 @@ def gp(directory):
 
 
 if __name__ == "__main__":
-    gp("/home/pi/telemetry/logs/")
+    gp("/home/pi/logs/")
 
