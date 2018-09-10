@@ -30,7 +30,10 @@ public class SensorDeserializer extends StdDeserializer<Sensor> {
                     sensor.setTemperature(parser.getValueAsString());
                 } else if ("humidity".equals(fieldName)){
                     sensor.setHumidity(parser.getValueAsString());
-                } else if ("host".equals(fieldName)) {
+                } else if ("pressure".equals(fieldName)) {
+                    sensor.setPressure(parser.getValueAsString());
+                }
+                else if ("host".equals(fieldName)) {
                     sensor.setHost(parser.getValueAsString());
                 }
             }

@@ -9,7 +9,6 @@ import javafx.scene.chart.Chart;
 import javafx.scene.chart.LineChart;
 import javafx.scene.chart.NumberAxis;
 import javafx.scene.chart.XYChart;
-import javafx.scene.control.Tooltip;
 import javafx.stage.Stage;
 
 import java.io.BufferedReader;
@@ -24,7 +23,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadFactory;
 
-public class TemperatureGraph extends Application {
+public class PressureGraph extends Application {
 
     private static final int MAX_DATA_POINTS = 200;
     private int xSeriesData = 0;
@@ -37,7 +36,7 @@ public class TemperatureGraph extends Application {
 
     private NumberAxis xAxis;
 
-    private Chart tempChart;
+    private Chart pressureChart;
 
     public Chart getChart() {
 
@@ -59,16 +58,16 @@ public class TemperatureGraph extends Application {
         };
 
         lineChart.setAnimated(false);
-        lineChart.setTitle("Temperature (degrees F)");
+        lineChart.setTitle("Pressure (Millibars)");
         lineChart.setHorizontalGridLinesVisible(true);
 
         // Set Name for Series
         series1.setName("192.168.52.1");
         series2.setName("192.168.52.2");
 
+
         // Add Chart Series
         lineChart.getData().addAll(series1, series2);
-
 
         lineChart.setCursor(Cursor.CROSSHAIR);
 
@@ -76,11 +75,10 @@ public class TemperatureGraph extends Application {
 
     }
 
-
     @Override
     public void start(Stage stage) {
 
-        this.setTempChart(getChart());
+        this.setPressureChart(getChart());
 
         executor = Executors.newCachedThreadPool(new ThreadFactory() {
             @Override
@@ -91,14 +89,14 @@ public class TemperatureGraph extends Application {
             }
         });
 
-        TemperatureGraph.AddToQueue addToQueue = new TemperatureGraph.AddToQueue();
+        PressureGraph.AddToQueue addToQueue = new PressureGraph.AddToQueue();
         executor.execute(addToQueue);
         //-- Prepare Timeline
         prepareTimeline();
     }
 
 
-    private class AddToQueue implements Runnable {
+   private class AddToQueue implements Runnable {
         public void run() {
             try {
                 // add a item of random data to queue
@@ -147,7 +145,7 @@ public class TemperatureGraph extends Application {
 
                     Sensor sensor = mapper.readValue(inputLine, Sensor.class);
 
-                    data.put(ip, Double.parseDouble(sensor.getTemperature()));
+                    data.put(ip, Double.parseDouble(sensor.getPressure()));
 
 
                 }
@@ -198,12 +196,12 @@ public class TemperatureGraph extends Application {
         xAxis.setUpperBound(xSeriesData - 1);
     }
 
-    public Chart getTempChart() {
-        return tempChart;
+    public Chart getPressureChart() {
+        return pressureChart;
     }
 
-    public void setTempChart(Chart tempChart) {
-        this.tempChart = tempChart;
+    public void setPressureChart(Chart pressureChart) {
+        this.pressureChart = pressureChart;
     }
 
     public static void main(String[] args) {

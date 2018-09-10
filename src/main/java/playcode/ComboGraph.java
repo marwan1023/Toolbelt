@@ -1,45 +1,36 @@
-package hive;
+package playcode;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.module.SimpleModule;
 import javafx.animation.AnimationTimer;
 import javafx.application.Application;
-import javafx.scene.Cursor;
+import javafx.scene.Scene;
 import javafx.scene.chart.Chart;
 import javafx.scene.chart.LineChart;
 import javafx.scene.chart.NumberAxis;
 import javafx.scene.chart.XYChart;
-import javafx.scene.control.Tooltip;
+import javafx.scene.layout.FlowPane;
 import javafx.stage.Stage;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.net.HttpURLConnection;
-import java.net.URL;
-import java.util.HashMap;
-import java.util.Map;
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadFactory;
 
-public class TemperatureGraph extends Application {
+public class ComboGraph extends Application{
 
-    private static final int MAX_DATA_POINTS = 200;
+
+    private static final int MAX_DATA_POINTS = 50;
     private int xSeriesData = 0;
     private XYChart.Series<Number, Number> series1 = new XYChart.Series<>();
     private XYChart.Series<Number, Number> series2 = new XYChart.Series<>();
-
+    private XYChart.Series<Number, Number> series3 = new XYChart.Series<>();
     private ExecutorService executor;
     private ConcurrentLinkedQueue<Number> dataQ1 = new ConcurrentLinkedQueue<>();
     private ConcurrentLinkedQueue<Number> dataQ2 = new ConcurrentLinkedQueue<>();
+    private ConcurrentLinkedQueue<Number> dataQ3 = new ConcurrentLinkedQueue<>();
 
     private NumberAxis xAxis;
 
-    private Chart tempChart;
-
-    public Chart getChart() {
+    private LineChart getAnimatedScene() {
 
         xAxis = new NumberAxis(0, MAX_DATA_POINTS, MAX_DATA_POINTS / 10);
         xAxis.setForceZeroInRange(false);
@@ -59,29 +50,29 @@ public class TemperatureGraph extends Application {
         };
 
         lineChart.setAnimated(false);
-        lineChart.setTitle("Temperature (degrees F)");
+        lineChart.setTitle("Animated Line Chart");
         lineChart.setHorizontalGridLinesVisible(true);
 
         // Set Name for Series
-        series1.setName("192.168.52.1");
-        series2.setName("192.168.52.2");
+        series1.setName("Series 1");
+        series2.setName("Series 2");
+        series3.setName("Series 3");
 
         // Add Chart Series
-        lineChart.getData().addAll(series1, series2);
-
-
-        lineChart.setCursor(Cursor.CROSSHAIR);
+        lineChart.getData().addAll(series1, series2, series3);
 
         return lineChart;
 
     }
 
-
     @Override
     public void start(Stage stage) {
+        stage.setTitle("Combo Graph");
 
-        this.setTempChart(getChart());
+        stage.show();
 
+        // Animated Line Chart
+        Chart animatedChart = getAnimatedScene();
         executor = Executors.newCachedThreadPool(new ThreadFactory() {
             @Override
             public Thread newThread(Runnable r) {
@@ -91,25 +82,62 @@ public class TemperatureGraph extends Application {
             }
         });
 
-        TemperatureGraph.AddToQueue addToQueue = new TemperatureGraph.AddToQueue();
+        ComboGraph.AddToQueue addToQueue = new ComboGraph.AddToQueue();
         executor.execute(addToQueue);
         //-- Prepare Timeline
         prepareTimeline();
-    }
 
+
+        //Line Chart Sample
+
+        //defining the axes
+        final NumberAxis xAxis = new NumberAxis();
+        final NumberAxis yAxis = new NumberAxis();
+        xAxis.setLabel("Number of Month");
+        //creating the chart
+        final LineChart<Number,Number> lineChart =
+                new LineChart<Number,Number>(xAxis,yAxis);
+
+        lineChart.setTitle("Stock Monitoring, 2010");
+        //defining a series
+        XYChart.Series series = new XYChart.Series();
+        series.setName("My portfolio");
+        //populating the series with data
+        series.getData().add(new XYChart.Data(1, 23));
+        series.getData().add(new XYChart.Data(2, 14));
+        series.getData().add(new XYChart.Data(3, 15));
+        series.getData().add(new XYChart.Data(4, 24));
+        series.getData().add(new XYChart.Data(5, 34));
+        series.getData().add(new XYChart.Data(6, 36));
+        series.getData().add(new XYChart.Data(7, 22));
+        series.getData().add(new XYChart.Data(8, 45));
+        series.getData().add(new XYChart.Data(9, 43));
+        series.getData().add(new XYChart.Data(10, 17));
+        series.getData().add(new XYChart.Data(11, 29));
+        series.getData().add(new XYChart.Data(12, 25));
+
+        lineChart.getData().add(series);
+
+        FlowPane root = new FlowPane();
+        root.getChildren().addAll(animatedChart, lineChart);
+
+        Scene scene = new Scene(root);
+
+        stage.setFullScreen(true);
+        stage.setScene(scene);
+
+
+    }
 
     private class AddToQueue implements Runnable {
         public void run() {
             try {
                 // add a item of random data to queue
-                Map<String,Double> data = getHiveData();
+                dataQ1.add(Math.random());
+                dataQ2.add(Math.random());
+                dataQ3.add(Math.random());
 
-
-                dataQ1.add(data.get("192.168.52.1"));
-                dataQ2.add(data.get("192.168.52.2"));
-
-
-                Thread.sleep(3*1000);
+                Thread.sleep(5*1000);
                 executor.execute(this);
             } catch (InterruptedException ex) {
                 ex.printStackTrace();
@@ -117,56 +145,8 @@ public class TemperatureGraph extends Application {
         }
     }
 
-    public Map<String,Double> getHiveData() {
-        Map<String,Double> data = new HashMap<>();
-
-        try {
-
-            String subnet = "192.168.52";
-
-            for (int x=1; x <= 2; x++)
-            {
-                String ip = subnet + "." + x;
-
-                URL u = new URL("http://" + ip + ":8090/telemetry");
-
-                HttpURLConnection huc = (HttpURLConnection) u.openConnection();
-                HttpURLConnection.setFollowRedirects(false);
-                huc.setConnectTimeout(5 * 1000);
-
-                BufferedReader in = new BufferedReader(new InputStreamReader(
-                        huc.getInputStream()));
-                String inputLine;
-                if ((inputLine = in.readLine()) != null) {
-                    SimpleModule module =
-                            new SimpleModule("SensorDeserializer");
-                    module.addDeserializer(Sensor.class, new SensorDeserializer(Sensor.class));
-
-                    ObjectMapper mapper = new ObjectMapper();
-                    mapper.registerModule(module);
-
-                    Sensor sensor = mapper.readValue(inputLine, Sensor.class);
-
-                    data.put(ip, Double.parseDouble(sensor.getTemperature()));
-
-
-                }
-                //System.out.println(inputLine);
-                huc.disconnect();
-                in.close();
-            }
-
-        } catch (IOException ie) {
-            ie.printStackTrace();
-        }
-
-
-        return data;
-    }
-
-
     //-- Timeline gets called in the JavaFX Main thread
-    public void prepareTimeline() {
+    private void prepareTimeline() {
         // Every frame to take any data from queue and add to chart
         new AnimationTimer() {
             @Override
@@ -183,7 +163,7 @@ public class TemperatureGraph extends Application {
 
             series1.getData().add(new XYChart.Data(xSeriesData++, dataQ1.remove()));
             series2.getData().add(new XYChart.Data(xSeriesData++, dataQ2.remove()));
-
+            series3.getData().add(new XYChart.Data(xSeriesData++, dataQ3.remove()));
         }
         // remove points to keep us at no more than MAX_DATA_POINTS
         if (series1.getData().size() > MAX_DATA_POINTS) {
@@ -192,18 +172,12 @@ public class TemperatureGraph extends Application {
         if (series2.getData().size() > MAX_DATA_POINTS) {
             series2.getData().remove(0, series2.getData().size() - MAX_DATA_POINTS);
         }
-
+        if (series3.getData().size() > MAX_DATA_POINTS) {
+            series3.getData().remove(0, series3.getData().size() - MAX_DATA_POINTS);
+        }
         // update
         xAxis.setLowerBound(xSeriesData - MAX_DATA_POINTS);
         xAxis.setUpperBound(xSeriesData - 1);
-    }
-
-    public Chart getTempChart() {
-        return tempChart;
-    }
-
-    public void setTempChart(Chart tempChart) {
-        this.tempChart = tempChart;
     }
 
     public static void main(String[] args) {
