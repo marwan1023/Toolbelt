@@ -75,7 +75,13 @@ for aFile in picts:
     
     if os.path.isfile(targetFile):
 
-        gpsDictionary, exifList = _modEXIF.ExtractGPSDictionary(targetFile)
+        #print(targetFile)
+        gpsDictionary, exifList = None, None 
+
+        try: 
+           gpsDictionary, exifList = _modEXIF.ExtractGPSDictionary(targetFile)
+        except Exception:
+           print("Image: " + targetFile + " contained no GPS data")
 
         if (gpsDictionary):
 

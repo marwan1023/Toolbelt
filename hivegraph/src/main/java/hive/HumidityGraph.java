@@ -4,7 +4,8 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.module.SimpleModule;
 import javafx.animation.AnimationTimer;
 import javafx.application.Application;
-import javafx.scene.Scene;
+import javafx.scene.Cursor;
+import javafx.scene.chart.Chart;
 import javafx.scene.chart.LineChart;
 import javafx.scene.chart.NumberAxis;
 import javafx.scene.chart.XYChart;
@@ -35,7 +36,11 @@ public class HumidityGraph extends Application {
 
     private NumberAxis xAxis;
 
-    private void init(Stage primaryStage) {
+
+
+    private Chart humidityChart;
+
+    public Chart getChart() {
 
         xAxis = new NumberAxis(0, MAX_DATA_POINTS, MAX_DATA_POINTS / 10);
         xAxis.setForceZeroInRange(false);
@@ -55,7 +60,7 @@ public class HumidityGraph extends Application {
         };
 
         lineChart.setAnimated(false);
-        lineChart.setTitle("Envirohive Humidity (Percentage)");
+        lineChart.setTitle("Humidity (Percentage)");
         lineChart.setHorizontalGridLinesVisible(true);
 
         // Set Name for Series
@@ -66,24 +71,21 @@ public class HumidityGraph extends Application {
         // Add Chart Series
         lineChart.getData().addAll(series1, series2);
 
-        primaryStage.setScene(new Scene(lineChart));
-    }
+        lineChart.setCursor(Cursor.CROSSHAIR);
 
+        return lineChart;
+
+    }
 
     @Override
     public void start(Stage stage) {
-        stage.setTitle("Envirohive");
-        init(stage);
-        stage.show();
 
+        this.setHumidityChart(getChart());
 
-        executor = Executors.newCachedThreadPool(new ThreadFactory() {
-            @Override
-            public Thread newThread(Runnable r) {
-                Thread thread = new Thread(r);
-                thread.setDaemon(true);
-                return thread;
-            }
+        executor = Executors.newCachedThreadPool(r -> {
+            Thread thread = new Thread(r);
+            thread.setDaemon(true);
+            return thread;
         });
 
         HumidityGraph.AddToQueue addToQueue = new HumidityGraph.AddToQueue();
@@ -93,7 +95,7 @@ public class HumidityGraph extends Application {
     }
 
 
-    private class AddToQueue implements Runnable {
+   private class AddToQueue implements Runnable {
         public void run() {
             try {
                 // add a item of random data to queue
@@ -112,7 +114,7 @@ public class HumidityGraph extends Application {
         }
     }
 
-    private Map<String,Double> getHiveData() {
+    public Map<String,Double> getHiveData() {
         Map<String,Double> data = new HashMap<>();
 
         try {
@@ -161,7 +163,7 @@ public class HumidityGraph extends Application {
 
 
     //-- Timeline gets called in the JavaFX Main thread
-    private void prepareTimeline() {
+    public void prepareTimeline() {
         // Every frame to take any data from queue and add to chart
         new AnimationTimer() {
             @Override
@@ -193,7 +195,12 @@ public class HumidityGraph extends Application {
         xAxis.setUpperBound(xSeriesData - 1);
     }
 
-    public static void main(String[] args) {
-        launch(args);
+    public Chart getHumidityChart() {
+        return humidityChart;
     }
+
+    public void setHumidityChart(Chart humidityChart) {
+        this.humidityChart = humidityChart;
+    }
+
 }

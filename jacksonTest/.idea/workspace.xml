@@ -4,11 +4,372 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b332ba3-941f-45f1-8f58-398838535cbc" name="Default" comment="" />
+    <list default="true" id="4b332ba3-941f-45f1-8f58-398838535cbc" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ESExamples/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ESExamples/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ESExamples/.idea/libraries/Maven__io_netty_netty_buffer_4_1_16_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ESExamples/.idea/libraries/Maven__io_netty_netty_codec_4_1_16_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ESExamples/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_16_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ESExamples/.idea/libraries/Maven__io_netty_netty_common_4_1_16_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ESExamples/.idea/libraries/Maven__io_netty_netty_handler_4_1_16_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ESExamples/.idea/libraries/Maven__io_netty_netty_resolver_4_1_16_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ESExamples/.idea/libraries/Maven__io_netty_netty_transport_4_1_16_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ESExamples/.idea/libraries/Maven__org_elasticsearch_client_transport_6_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ESExamples/.idea/libraries/Maven__org_elasticsearch_plugin_lang_mustache_client_6_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ESExamples/.idea/libraries/Maven__org_elasticsearch_plugin_parent_join_client_6_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ESExamples/.idea/libraries/Maven__org_elasticsearch_plugin_percolator_client_6_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ESExamples/.idea/libraries/Maven__org_elasticsearch_plugin_reindex_client_6_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ESExamples/.idea/libraries/Maven__org_elasticsearch_plugin_transport_netty4_client_6_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ESExamples/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ESExamples/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ESExamples/ESExamples.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ESExamples/ESExamples.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ESExamples/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ESExamples/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ESExamples/target/classes/examples/HelloWorld.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GNURadio/fm_radio_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../GNURadio/fm_radio_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/ImageProcess/chapter03/prog01.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PythonScripts/ImageProcess/chapter03/prog01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/ImageProcess/img/shot_0_000.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/ImageProcess/img/shot_0_001.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/._README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/._bonus" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/._ch01" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/._ch02" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/._ch03" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/._ch04" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/._ch05" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/._ch06" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/._ch07" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/._ch08" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/._ch09" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/._ch10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/._ch11" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/._ch12" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/._ch13" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/bonus/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/bonus/._.ipynb_checkpoints" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/bonus/._README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/bonus/._flask_webapp_ex01" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/bonus/._images" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/bonus/._logistic_regression.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/bonus/._nested_cross_validation.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/bonus/._reading_mnist.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/bonus/._scikit-model-to-json.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/bonus/._sckit-model-to-json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/bonus/._svm_iris_pipeline_and_gridsearch.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/bonus/.ipynb_checkpoints/._logistic_regression-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/bonus/.ipynb_checkpoints/._mean_accuracy-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/bonus/.ipynb_checkpoints/._reading_mnist-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/bonus/.ipynb_checkpoints/._scikit-model-to-json-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/bonus/.ipynb_checkpoints/._svm_iris_pipeline_and_gridsearch-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/bonus/flask_webapp_ex01/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/bonus/flask_webapp_ex01/._README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/bonus/flask_webapp_ex01/._app.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/bonus/flask_webapp_ex01/._flask_webapp_ex01.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/bonus/flask_webapp_ex01/._img" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/bonus/flask_webapp_ex01/._static" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/bonus/flask_webapp_ex01/._templates" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/bonus/flask_webapp_ex01/img/._img_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/bonus/flask_webapp_ex01/static/._style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/bonus/flask_webapp_ex01/templates/.__formhelpers.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/bonus/flask_webapp_ex01/templates/._entry.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/bonus/images/._logistic_regression_schematic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/bonus/sckit-model-to-json/._attributes.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/bonus/sckit-model-to-json/._params.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch01/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch01/._.ipynb_checkpoints" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch01/._README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch01/._ch01.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch01/._images" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch01/.ipynb_checkpoints/._ch01-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch01/images/._01_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch01/images/._01_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch01/images/._01_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch01/images/._01_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch01/images/._01_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch01/images/._01_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch01/images/._01_07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch01/images/._01_08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch01/images/._01_09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch01/images/._ipynb_ex1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch01/images/._ipynb_ex2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch02/._.ipynb_checkpoints" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch02/._README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch02/._ch02.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch02/._images" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch02/.ipynb_checkpoints/._3547_02_Code-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch02/.ipynb_checkpoints/._ch02-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch02/images/._02_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch02/images/._02_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch02/images/._02_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch02/images/._02_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch02/images/._02_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch02/images/._02_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch02/images/._02_07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch02/images/._02_08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch02/images/._02_09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch02/images/._02_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch02/images/._02_11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch02/images/._02_12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch02/images/._02_13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch02/images/._02_14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch03/._.ipynb_checkpoints" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch03/._README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch03/._ch03.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch03/._images" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch03/.ipynb_checkpoints/._ch03-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch03/images/._03_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch03/images/._03_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch03/images/._03_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch03/images/._03_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch03/images/._03_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch03/images/._03_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch03/images/._03_07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch03/images/._03_08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch03/images/._03_09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch03/images/._03_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch03/images/._03_11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch03/images/._03_12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch03/images/._03_13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch03/images/._03_14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch03/images/._03_15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch03/images/._03_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch03/images/._03_17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch03/images/._03_18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch03/images/._03_19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch03/images/._03_20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch03/images/._03_21.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch03/images/._03_22.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch03/images/._03_23.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch04/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch04/._.ipynb_checkpoints" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch04/._README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch04/._ch04.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch04/._images" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch04/.ipynb_checkpoints/._ch04-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch04/images/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch04/images/._04_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch04/images/._04_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch04/images/._04_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch04/images/._04_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch04/images/._04_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch04/images/._04_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch04/images/._04_07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch04/images/._04_08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch04/images/._04_09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch04/images/._04_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch04/images/._04_11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch04/images/._04_12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch04/images/._04_13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch04/images/._04_14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch04/images/._04_15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch04/images/._04_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch05/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch05/._.ipynb_checkpoints" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch05/._README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch05/._ch05.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch05/._code" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch05/._images" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch05/.ipynb_checkpoints/._ch05-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch05/code/._.ipynb_checkpoints" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch05/code/.ipynb_checkpoints/._3547_Ch05_Code-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch05/images/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch05/images/._05_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch05/images/._05_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch05/images/._05_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch05/images/._05_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch05/images/._05_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch05/images/._05_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch05/images/._05_07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch05/images/._05_08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch05/images/._05_09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch05/images/._05_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch05/images/._05_11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch05/images/._05_12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch05/images/._05_13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch05/images/._05_14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch05/images/._05_15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch05/images/._05_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch05/images/._05_17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch05/images/._05_18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch05/images/._05_19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch06/._.ipynb_checkpoints" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch06/._README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch06/._ch06.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch06/._images" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch06/.ipynb_checkpoints/._ch06-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch06/images/._06_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch06/images/._06_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch06/images/._06_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch06/images/._06_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch06/images/._06_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch06/images/._06_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch06/images/._06_07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch06/images/._06_08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch06/images/._06_09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch06/images/._06_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch07/._.ipynb_checkpoints" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch07/._README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch07/._ch07.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch07/._images" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch07/.ipynb_checkpoints/._ch07-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch07/images/._07_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch07/images/._07_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch07/images/._07_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch07/images/._07_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch07/images/._07_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch07/images/._07_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch07/images/._07_07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch07/images/._07_08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch07/images/._07_09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch07/images/._07_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch07/images/._07_11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch08/._.ipynb_checkpoints" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch08/._README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch08/._ch08.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch08/._images" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch08/.ipynb_checkpoints/._ch08-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch08/images/._08_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/._.ipynb_checkpoints" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/._1st_flask_app_1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/._1st_flask_app_2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/._README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/._ch09.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/._images" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/._movieclassifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/._movieclassifier_with_update" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/.ipynb_checkpoints/._ch09-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/1st_flask_app_1/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/1st_flask_app_1/._app.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/1st_flask_app_1/._templates" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/1st_flask_app_1/templates/._first_app.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/1st_flask_app_2/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/1st_flask_app_2/._app.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/1st_flask_app_2/._static" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/1st_flask_app_2/._templates" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/1st_flask_app_2/static/._style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/1st_flask_app_2/templates/.__formhelpers.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/1st_flask_app_2/templates/._first_app.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/1st_flask_app_2/templates/._hello.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/images/._09_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/images/._09_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/images/._09_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/images/._09_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/images/._09_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/images/._09_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/images/._09_07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/images/._09_08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/movieclassifier/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/movieclassifier/._app.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/movieclassifier/._pkl_objects" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/movieclassifier/._reviews.sqlite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/movieclassifier/._static" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/movieclassifier/._templates" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/movieclassifier/._vectorizer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/movieclassifier/pkl_objects/._classifier.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/movieclassifier/pkl_objects/._stopwords.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/movieclassifier/static/._style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/movieclassifier/templates/.__formhelpers.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/movieclassifier/templates/._results.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/movieclassifier/templates/._reviewform.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/movieclassifier/templates/._thanks.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/movieclassifier_with_update/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/movieclassifier_with_update/._app.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/movieclassifier_with_update/._pkl_objects" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/movieclassifier_with_update/._reviews.sqlite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/movieclassifier_with_update/._static" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/movieclassifier_with_update/._templates" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/movieclassifier_with_update/._update.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/movieclassifier_with_update/._vectorizer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/movieclassifier_with_update/pkl_objects/._classifier.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/movieclassifier_with_update/pkl_objects/._stopwords.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/movieclassifier_with_update/static/._style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/movieclassifier_with_update/templates/.__formhelpers.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/movieclassifier_with_update/templates/._results.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/movieclassifier_with_update/templates/._reviewform.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/movieclassifier_with_update/templates/._thanks.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch10/._.ipynb_checkpoints" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch10/._README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch10/._ch10.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch10/._images" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch10/.ipynb_checkpoints/._ch10-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch10/images/._10_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch10/images/._10_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch10/images/._10_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch10/images/._10_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch10/images/._10_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch10/images/._10_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch10/images/._10_07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch10/images/._10_08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch10/images/._10_09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch10/images/._10_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch10/images/._10_11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch10/images/._10_12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch10/images/._10_13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch10/images/._10_14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch11/._.ipynb_checkpoints" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch11/._README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch11/._ch11.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch11/._images" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch11/.ipynb_checkpoints/._ch11-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch11/images/._11_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch11/images/._11_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch11/images/._11_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch11/images/._11_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch11/images/._11_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch11/images/._11_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch11/images/._11_07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch11/images/._11_08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch11/images/._11_09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch11/images/._11_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch11/images/._11_11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch11/images/._11_12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch11/images/._11_13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch11/images/._11_14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch11/images/._11_15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch11/images/._11_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch12/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch12/._.ipynb_checkpoints" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch12/._README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch12/._ch12.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch12/._images" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch12/.ipynb_checkpoints/._ch12-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch12/images/._12_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch12/images/._12_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch12/images/._12_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch12/images/._12_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch12/images/._12_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch12/images/._12_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch12/images/._12_07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch12/images/._12_08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch12/images/._12_09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch12/images/._12_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch12/images/._12_11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch12/images/._12_12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch12/images/._12_13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch12/images/._12_14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch12/images/._12_15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch12/images/._12_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch12/images/._12_17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch13/._.ipynb_checkpoints" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch13/._README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch13/._ch13.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch13/._images" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch13/._mnist_keras_mlp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch13/.ipynb_checkpoints/._ch13-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch13/images/._13_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch13/images/._13_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch13/images/._13_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch13/images/._13_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch13/images/._13_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/forensics/imageextract/RESULTS/ForensicLog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../PythonScripts/forensics/imageextract/RESULTS/ForensicLog.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/forensics/imageextract/RESULTS/imageResults.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../PythonScripts/forensics/imageextract/RESULTS/imageResults.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScripts/forensics/imageextract/p-GPSExtractor.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PythonScripts/forensics/imageextract/p-GPSExtractor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jackson/ParserWithJsonOrgSampleTest.java" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,23 +382,34 @@
     <option name="hideWarnings" value="true" />
     <option name="HIDE_WARNINGS" value="true" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-786771471">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" column="21" lean-forward="false" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
-              <folding />
+            <state relative-caret-position="165">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JacksonTester.java" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/jackson/JacksonTester.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="35" column="38" lean-forward="false" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
+            <state relative-caret-position="122">
+              <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -45,21 +417,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Car.java" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/jackson/Car.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="16" column="60" lean-forward="false" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
-              <folding />
+              <caret line="16" column="60" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CarDeserializer.java" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/jackson/CarDeserializer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="23" column="47" lean-forward="false" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+              <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#367#368#0" expanded="true" />
@@ -69,11 +440,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CarWriteAsString.java" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/jackson/CarWriteAsString.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -81,27 +452,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CarSerializer.java" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/jackson/CarSerializer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="20" column="62" lean-forward="false" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
+              <caret line="20" column="62" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#315#316#0" expanded="true" />
                 <element signature="e#339#340#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ParserWithJsonOrgSampleTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/jackson/ParserWithJsonOrgSampleTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="39" column="25" lean-forward="false" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -115,6 +474,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -143,23 +505,14 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="8" />
-    <option name="y" value="33" />
+    <option name="x" value="73" />
+    <option name="y" value="70" />
     <option name="width" value="1260" />
     <option name="height" value="651" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -211,18 +564,18 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -238,132 +591,76 @@
   </component>
   <component name="RunManager" selected="Application.JacksonTester">
     <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="CarWriteAsString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+      <option name="MAIN_CLASS_NAME" value="jackson.CarWriteAsString" />
+      <module name="jacksonTest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="jackson.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="jackson.CarWriteAsString" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="jacksonTest" />
-      <envs />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="JacksonTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+      <option name="MAIN_CLASS_NAME" value="jackson.JacksonTester" />
+      <module name="jacksonTest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="jackson.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="jackson.JacksonTester" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="jacksonTest" />
-      <envs />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Application.JacksonTester" />
-      <item index="1" class="java.lang.String" itemvalue="Application.CarWriteAsString" />
+    <list>
+      <item itemvalue="Application.JacksonTester" />
+      <item itemvalue="Application.CarWriteAsString" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.JacksonTester" />
-        <item index="1" class="java.lang.String" itemvalue="Application.CarWriteAsString" />
+      <list>
+        <item itemvalue="Application.JacksonTester" />
+        <item itemvalue="Application.CarWriteAsString" />
       </list>
     </recent_temporary>
   </component>
@@ -371,9 +668,6 @@
     <option name="externalProjectsViewState">
       <projects_view />
     </option>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -389,512 +683,94 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="8" y="33" width="1260" height="651" extended-state="0" />
-    <editor active="true" />
+    <frame x="73" y="70" width="1260" height="651" extended-state="0" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298791" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298791" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298791" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25779969" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3291592" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Dependency Viewer" order="7" weight="0.3298791" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3298791" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="JProfiler" order="13" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="21" lean-forward="false" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/JacksonTester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="38" lean-forward="false" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/Car.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="60" lean-forward="false" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/CarDeserializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="23" column="47" lean-forward="false" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/CarSerializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="20" column="62" lean-forward="false" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#315#316#0" expanded="true" />
-            <element signature="e#339#340#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/CarWriteAsString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="31" lean-forward="false" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="21" lean-forward="false" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/JacksonTester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="38" lean-forward="false" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/Car.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="60" lean-forward="false" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/CarDeserializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="47" lean-forward="false" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/CarSerializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="20" column="62" lean-forward="false" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#315#316#0" expanded="true" />
-            <element signature="e#339#340#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/CarWriteAsString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="31" lean-forward="false" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="21" lean-forward="false" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/JacksonTester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="38" lean-forward="false" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/Car.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="60" lean-forward="false" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/CarDeserializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="47" lean-forward="false" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/CarSerializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="62" lean-forward="false" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#315#316#0" expanded="true" />
-            <element signature="e#339#340#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/CarWriteAsString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/JacksonTester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="38" lean-forward="false" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/CarDeserializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="47" lean-forward="false" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/CarWriteAsString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/CarSerializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="20" column="62" lean-forward="false" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#315#316#0" expanded="true" />
-            <element signature="e#339#340#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/JacksonTester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="38" lean-forward="false" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/Car.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="60" lean-forward="false" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/CarDeserializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="23" column="47" lean-forward="false" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/CarWriteAsString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/CarSerializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="20" column="62" lean-forward="false" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#315#316#0" expanded="true" />
-            <element signature="e#339#340#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="21" lean-forward="false" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/JacksonTester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="38" lean-forward="false" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/Car.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="60" lean-forward="false" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/CarSerializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="20" column="62" lean-forward="false" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#315#316#0" expanded="true" />
-            <element signature="e#339#340#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/CarWriteAsString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="21" lean-forward="false" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/JacksonTester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="38" lean-forward="true" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/Car.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="60" lean-forward="false" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/CarDeserializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="23" column="47" lean-forward="false" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/CarSerializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="20" column="62" lean-forward="false" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#315#316#0" expanded="true" />
-            <element signature="e#339#340#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/CarWriteAsString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/JacksonTester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.9.2/jackson-databind-2.9.2.jar!/com/fasterxml/jackson/databind/module/SimpleModule.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1887">
-          <caret line="170" column="11" lean-forward="false" selection-start-line="170" selection-start-column="11" selection-end-line="170" selection-end-column="11" />
+          <caret line="170" column="11" selection-start-line="170" selection-start-column="11" selection-end-line="170" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/jshell/jshell_console.snippet">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/ParserWithJsonOrgSampleTest.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="60" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/CarDeserializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/jackson/CarWriteAsString.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/CarDeserializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="23" column="47" lean-forward="false" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/Car.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="60" lean-forward="false" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/jackson/CarSerializer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="20" column="62" lean-forward="false" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
+          <caret line="20" column="62" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#315#316#0" expanded="true" />
@@ -905,26 +781,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/jackson/JacksonTester.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="35" column="38" lean-forward="false" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="21" lean-forward="false" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/ParserWithJsonOrgSampleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="39" column="25" lean-forward="false" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+        <state relative-caret-position="122">
+          <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

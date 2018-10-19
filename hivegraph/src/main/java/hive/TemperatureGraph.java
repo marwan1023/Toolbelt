@@ -4,10 +4,12 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.module.SimpleModule;
 import javafx.animation.AnimationTimer;
 import javafx.application.Application;
-import javafx.scene.Scene;
+import javafx.scene.Cursor;
+import javafx.scene.chart.Chart;
 import javafx.scene.chart.LineChart;
 import javafx.scene.chart.NumberAxis;
 import javafx.scene.chart.XYChart;
+import javafx.scene.control.Tooltip;
 import javafx.stage.Stage;
 
 import java.io.BufferedReader;
@@ -35,7 +37,9 @@ public class TemperatureGraph extends Application {
 
     private NumberAxis xAxis;
 
-    private void init(Stage primaryStage) {
+    private Chart tempChart;
+
+    public Chart getChart() {
 
         xAxis = new NumberAxis(0, MAX_DATA_POINTS, MAX_DATA_POINTS / 10);
         xAxis.setForceZeroInRange(false);
@@ -55,35 +59,33 @@ public class TemperatureGraph extends Application {
         };
 
         lineChart.setAnimated(false);
-        lineChart.setTitle("Envirohive Temperature (degrees F)");
+        lineChart.setTitle("Temperature (degrees F)");
         lineChart.setHorizontalGridLinesVisible(true);
 
         // Set Name for Series
         series1.setName("192.168.52.1");
         series2.setName("192.168.52.2");
 
-
         // Add Chart Series
         lineChart.getData().addAll(series1, series2);
 
-        primaryStage.setScene(new Scene(lineChart));
+
+        lineChart.setCursor(Cursor.CROSSHAIR);
+
+        return lineChart;
+
     }
 
 
     @Override
     public void start(Stage stage) {
-        stage.setTitle("Envirohive");
-        init(stage);
-        stage.show();
 
+        this.setTempChart(getChart());
 
-        executor = Executors.newCachedThreadPool(new ThreadFactory() {
-            @Override
-            public Thread newThread(Runnable r) {
-                Thread thread = new Thread(r);
-                thread.setDaemon(true);
-                return thread;
-            }
+        executor = Executors.newCachedThreadPool(r -> {
+            Thread thread = new Thread(r);
+            thread.setDaemon(true);
+            return thread;
         });
 
         TemperatureGraph.AddToQueue addToQueue = new TemperatureGraph.AddToQueue();
@@ -112,7 +114,7 @@ public class TemperatureGraph extends Application {
         }
     }
 
-    private Map<String,Double> getHiveData() {
+    public Map<String,Double> getHiveData() {
         Map<String,Double> data = new HashMap<>();
 
         try {
@@ -161,7 +163,7 @@ public class TemperatureGraph extends Application {
 
 
     //-- Timeline gets called in the JavaFX Main thread
-    private void prepareTimeline() {
+    public void prepareTimeline() {
         // Every frame to take any data from queue and add to chart
         new AnimationTimer() {
             @Override
@@ -193,7 +195,13 @@ public class TemperatureGraph extends Application {
         xAxis.setUpperBound(xSeriesData - 1);
     }
 
-    public static void main(String[] args) {
-        launch(args);
+    public Chart getTempChart() {
+        return tempChart;
     }
+
+    public void setTempChart(Chart tempChart) {
+        this.tempChart = tempChart;
+    }
+
+
 }

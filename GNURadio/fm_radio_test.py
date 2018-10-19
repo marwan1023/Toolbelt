@@ -3,7 +3,7 @@
 ##################################################
 # GNU Radio Python Flow Graph
 # Title: Fm Radio Test
-# Generated: Tue Jul  4 05:11:02 2017
+# Generated: Wed May 16 19:16:05 2018
 ##################################################
 
 if __name__ == '__main__':
@@ -37,8 +37,6 @@ class fm_radio_test(grc_wxgui.top_block_gui):
 
     def __init__(self):
         grc_wxgui.top_block_gui.__init__(self, title="Fm Radio Test")
-        _icon_path = "C:\Program Files\GNURadio-3.7\share\icons\hicolor\scalable/apps\gnuradio-grc.png"
-        self.SetIcon(wx.Icon(_icon_path, wx.BITMAP_TYPE_ANY))
 
         ##################################################
         # Variables
@@ -96,6 +94,8 @@ class fm_radio_test(grc_wxgui.top_block_gui):
         	quad_rate=500000,
         	audio_decimation=10,
         )
+
+
 
         ##################################################
         # Connections

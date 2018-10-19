@@ -9,8 +9,8 @@
         <module name="ESExamples" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="1.8">
-      <module name="ESExamples" target="1.5" />
+    <bytecodeTargetLevel target="9">
+      <module name="ESExamples" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
