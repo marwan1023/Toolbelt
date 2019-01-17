@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="EclipseModuleManager">
+    <libelement value="jar://$MODULE_DIR$/examples/Chapter2/employeeService/lib/eclipselink.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/eclipselink-jpa-modelgen_2.1.0.qualifier.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/org.eclipse.persistence.jpa.modelgen_2.1.0.qualifier.jar!/" />
+    <src_description expected_position="1">
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter2/employeeService/src/client" expected_position="1" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter2/employeeService/src/model" expected_position="2" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter3/01-slsbExample/src/model" expected_position="3" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter3/01-slsbExample/src/servlet" expected_position="4" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter3/02-slsbLifecycleExample/src/model" expected_position="5" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter3/02-slsbLifecycleExample/src/servlet" expected_position="6" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter3/03-slsbRemoteExample/src/client" expected_position="7" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter3/03-slsbRemoteExample/src/model" expected_position="8" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter3/03-slsbRemoteExample/src/servlet" expected_position="9" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter3/04-sfsbExample/src/model" expected_position="10" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter3/04-sfsbExample/src/servlet" expected_position="11" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter3/05-sfsbLifecycleExample/src/model" expected_position="12" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter3/05-sfsbLifecycleExample/src/servlet" expected_position="13" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter3/06-singletonBean/src" expected_position="14" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter3/06-singletonBean/src/servlet" expected_position="15" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter3/07-mdbExample/src/model" expected_position="16" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter3/07-mdbExample/src/servlet" expected_position="17" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter3/08-servletExample/src/servlet" expected_position="18" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter3/09-dependencyLookup/src/model" expected_position="19" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter3/09-dependencyLookup/src/servlet" expected_position="20" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter3/10-ejbContextLookup/src/model" expected_position="21" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter3/10-ejbContextLookup/src/servlet" expected_position="22" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter3/11-fieldInjection/src/model" expected_position="23" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter3/11-fieldInjection/src/servlet" expected_position="24" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter3/12-setterInjection/src/model" expected_position="25" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter3/12-setterInjection/src/servlet" expected_position="26" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter3/13-bmtExample/src/model" expected_position="27" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter3/13-bmtExample/src/servlet" expected_position="28" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter3/14-cmtExample/src/model" expected_position="29" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter3/14-cmtExample/src/servlet" expected_position="30" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter3/15-userTxExample/src/model" expected_position="31" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter3/15-userTxExample/src/servlet" expected_position="32" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter3/16-employeeService/src/model" expected_position="33" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter3/16-employeeService/src/servlet" expected_position="34" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter4/01-fieldAccess/src/model" expected_position="35" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter4/01-fieldAccess/src/servlet" expected_position="36" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter4/02-propertyAccess/src/model" expected_position="37" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter4/02-propertyAccess/src/servlet" expected_position="38" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter4/03-mixedAccess/src/model" expected_position="39" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter4/03-mixedAccess/src/servlet" expected_position="40" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter4/04-customTableSchema/src/model" expected_position="41" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter4/04-customTableSchema/src/servlet" expected_position="42" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter4/05-customColumnMapping/src/model" expected_position="43" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter4/05-customColumnMapping/src/servlet" expected_position="44" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter4/06-lobMapping/src/model" expected_position="45" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter4/06-lobMapping/src/servlet" expected_position="46" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter4/07-enumMapping/src/model" expected_position="47" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter4/07-enumMapping/src/servlet" expected_position="48" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter4/08-temporalMapping/src/model" expected_position="49" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter4/08-temporalMapping/src/servlet" expected_position="50" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter4/09-transientMapping/src/model" expected_position="51" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter4/09-transientMapping/src/servlet" expected_position="52" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter4/10-autoIdGeneration/src/model" expected_position="53" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter4/10-autoIdGeneration/src/servlet" expected_position="54" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter4/11-tableIdGeneration/src/model" expected_position="55" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter4/11-tableIdGeneration/src/servlet" expected_position="56" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter4/12-sequenceIdGeneration/src/model" expected_position="57" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter4/12-sequenceIdGeneration/src/servlet" expected_position="58" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter4/13-dbIdentityIdGeneration/src/model" expected_position="59" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter4/13-dbIdentityIdGeneration/src/servlet" expected_position="60" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter4/14-manyToOne/src/model" expected_position="61" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter4/14-manyToOne/src/servlet" expected_position="62" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter4/15-joinColumn/src/model" expected_position="63" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter4/15-joinColumn/src/servlet" expected_position="64" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter4/16-oneToOneUnidirectional/src/model" expected_position="65" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter4/16-oneToOneUnidirectional/src/servlet" expected_position="66" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter4/17-oneToOneBidirectional/src/model" expected_position="67" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter4/17-oneToOneBidirectional/src/servlet" expected_position="68" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter4/18-oneToOnePkMapping/src/model" expected_position="69" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter4/18-oneToOnePkMapping/src/servlet" expected_position="70" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter4/19-oneToManyBidirectional/src/model" expected_position="71" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter4/19-oneToManyBidirectional/src/servlet" expected_position="72" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter4/20-oneToManyTargetEntity/src/model" expected_position="73" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter4/20-oneToManyTargetEntity/src/servlet" expected_position="74" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter4/21-manyToManyBidirectional/src/model" expected_position="75" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter4/21-manyToManyBidirectional/src/servlet" expected_position="76" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter4/22-manyToManyJoinTable/src/model" expected_position="77" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter4/22-manyToManyJoinTable/src/servlet" expected_position="78" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter4/23-oneToManyUnidirectional/src/model" expected_position="79" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter4/23-oneToManyUnidirectional/src/servlet" expected_position="80" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter4/24-oneToOneLazy/src/model" expected_position="81" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter4/24-oneToOneLazy/src/servlet" expected_position="82" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter4/25-embeddedObjects/src/model" expected_position="83" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter4/25-embeddedObjects/src/servlet" expected_position="84" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter4/26-sharingEmbeddedObjects/src/model" expected_position="85" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter4/26-sharingEmbeddedObjects/src/servlet" expected_position="86" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter5/1-elementCollection/src/model" expected_position="87" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter5/1-elementCollection/src/servlet" expected_position="88" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter5/10-embeddableKeyMapping/src/model" expected_position="89" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter5/10-embeddableKeyMapping/src/servlet" expected_position="90" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter5/11-manyToManyEmbeddableKeyOverride/src/model" expected_position="91" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter5/11-manyToManyEmbeddableKeyOverride/src/servlet" expected_position="92" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter5/12-elementCollectionMapKeyEntity/src/model" expected_position="93" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter5/12-elementCollectionMapKeyEntity/src/servlet" expected_position="94" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter5/13-untypedMaps/src/model" expected_position="95" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter5/13-untypedMaps/src/servlet" expected_position="96" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter5/2-overrideCollectionTableColumn/src/model" expected_position="97" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter5/2-overrideCollectionTableColumn/src/servlet" expected_position="98" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter5/3-oneToManyList/src/model" expected_position="99" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter5/3-oneToManyList/src/servlet" expected_position="100" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter5/4-persistentlyOrderedList/src/model" expected_position="101" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter5/4-persistentlyOrderedList/src/servlet" expected_position="102" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter5/5-elementCollectionStringMap/src/model" expected_position="103" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter5/5-elementCollectionStringMap/src/servlet" expected_position="104" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter5/6-elementCollectionEnumMap/src/model" expected_position="105" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter5/6-elementCollectionEnumMap/src/servlet" expected_position="106" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter5/7-oneToManyMap/src/model" expected_position="107" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter5/7-oneToManyMap/src/servlet" expected_position="108" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter5/8-manyToManyMap/src/model" expected_position="109" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter5/8-manyToManyMap/src/servlet" expected_position="110" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter5/9-oneToManyEntityAttributeKey/src/model" expected_position="111" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter5/9-oneToManyEntityAttributeKey/src/servlet" expected_position="112" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter6/01-txScopedEmExample/src/model" expected_position="113" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter6/01-txScopedEmExample/src/servlet" expected_position="114" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter6/02-extendedEmExample1/src/model" expected_position="115" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter6/02-extendedEmExample1/src/servlet" expected_position="116" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter6/03-extendedEmExample2/src/model" expected_position="117" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter6/03-extendedEmExample2/src/servlet" expected_position="118" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter6/04-extendedEmExample3/src/model" expected_position="119" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter6/04-extendedEmExample3/src/servlet" expected_position="120" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter6/05-applicationManagedSE/src/client" expected_position="121" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter6/05-applicationManagedSE/src/model" expected_position="122" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter6/06-applicationManagedEE/src/model" expected_position="123" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter6/06-applicationManagedEE/src/servlet" expected_position="124" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter6/07-txScopedPersistenceContext/src/model" expected_position="125" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter6/07-txScopedPersistenceContext/src/servlet" expected_position="126" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter6/08-extendedPersistenceContext/src/model" expected_position="127" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter6/08-extendedPersistenceContext/src/servlet" expected_position="128" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter6/09-persistenceContextCollision/src/model" expected_position="129" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter6/09-persistenceContextCollision/src/servlet" expected_position="130" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter6/10-persistenceContextInheritance/src/model" expected_position="131" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter6/10-persistenceContextInheritance/src/servlet" expected_position="132" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter6/11-applicationManagedJTA/src/model" expected_position="133" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter6/11-applicationManagedJTA/src/servlet" expected_position="134" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter6/12-sharingApplicationManagedJTA/src/model" expected_position="135" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter6/12-sharingApplicationManagedJTA/src/servlet" expected_position="136" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter6/13-resourceLocalTxSE/src/client" expected_position="137" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter6/13-resourceLocalTxSE/src/model" expected_position="138" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter6/14-resourceLocalTxEE/src/model" expected_position="139" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter6/14-resourceLocalTxEE/src/servlet" expected_position="140" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter6/15-persistingWithRelationships/src/model" expected_position="141" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter6/15-persistingWithRelationships/src/servlet" expected_position="142" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter6/16-persistingWithRelationshipsUsingGetReference/src/model" expected_position="143" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter6/16-persistingWithRelationshipsUsingGetReference/src/servlet" expected_position="144" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter6/17-removingWithRelationships/src/model" expected_position="145" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter6/17-removingWithRelationships/src/servlet" expected_position="146" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter6/18-persistingWithRelationshipsCascade/src/model" expected_position="147" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter6/18-persistingWithRelationshipsCascade/src/servlet" expected_position="148" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter6/19-removingWithRelationshipsCascade/src/model" expected_position="149" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter6/19-removingWithRelationshipsCascade/src/servlet" expected_position="150" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter6/20-mergingDetachedEntities/src/model" expected_position="151" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter6/20-mergingDetachedEntities/src/servlet" expected_position="152" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter6/21-detachmentWithTriggeredLazyLoading/src/model" expected_position="153" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter6/21-detachmentWithTriggeredLazyLoading/src/servlet" expected_position="154" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter6/22-detachmentWithEagerLoading/src/model" expected_position="155" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter6/22-detachmentWithEagerLoading/src/servlet" expected_position="156" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter6/23-noDetachmentSingleTx/src/model" expected_position="157" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter6/23-noDetachmentSingleTx/src/servlet" expected_position="158" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter6/24-noDetachmentAppManagedEm/src/model" expected_position="159" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter6/24-noDetachmentAppManagedEm/src/servlet" expected_position="160" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter6/25-noDetachmentSFSBAndExtendedEm/src/model" expected_position="161" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter6/25-noDetachmentSFSBAndExtendedEm/src/servlet" expected_position="162" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter6/26-editSessionExample/src/model" expected_position="163" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter6/26-editSessionExample/src/servlet" expected_position="164" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter7/01-dynamicQueryExample/src/model" expected_position="165" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter7/01-dynamicQueryExample/src/servlet" expected_position="166" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter7/02-namedQueryExample/src/model" expected_position="167" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter7/02-namedQueryExample/src/servlet" expected_position="168" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter7/03-paramTypesExample/src/model" expected_position="169" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter7/03-paramTypesExample/src/servlet" expected_position="170" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter7/04-executingQueriesExample/src/model" expected_position="171" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter7/04-executingQueriesExample/src/servlet" expected_position="172" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter7/05-queryResultsExample/src/model" expected_position="173" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter7/05-queryResultsExample/src/servlet" expected_position="174" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter7/06-queryPagingExample/src/model" expected_position="175" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter7/06-queryPagingExample/src/servlet" expected_position="176" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter7/07-messageBoardExample/src/model" expected_position="177" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter7/07-messageBoardExample/src/servlet" expected_position="178" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter7/08-bulkQueryExample/src/model" expected_position="179" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter7/08-bulkQueryExample/src/servlet" expected_position="180" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter7/09-queryHintsExample/src/model" expected_position="181" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter7/09-queryHintsExample/src/servlet" expected_position="182" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter8/jpqlExamples/src/model" expected_position="183" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter8/jpqlExamples/src/servlet" expected_position="184" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter9/01-employeeSearchService/src/model" expected_position="185" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter9/01-employeeSearchService/src/servlet" expected_position="186" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter9/02-predicateConjunction/src/model" expected_position="187" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter9/02-predicateConjunction/src/servlet" expected_position="188" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter9/03-empSearchSubQuery/src/model" expected_position="189" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter9/03-empSearchSubQuery/src/servlet" expected_position="190" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter9/04-metamodelStronglyTyped/src/model" expected_position="191" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter9/04-metamodelStronglyTyped/src/servlet" expected_position="192" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter9/05-canonicalMetamodel/src/model" expected_position="193" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter9/06-canonicalMetamodelQuery/src/model" expected_position="194" />
+      <src_folder value="file://$MODULE_DIR$/examples/Chapter9/06-canonicalMetamodelQuery/src/servlet" expected_position="195" />
+    </src_description>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/bin" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter2/employeeService/src/client" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter2/employeeService/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter3/01-slsbExample/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter3/01-slsbExample/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter3/02-slsbLifecycleExample/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter3/02-slsbLifecycleExample/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter3/03-slsbRemoteExample/src/client" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter3/03-slsbRemoteExample/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter3/03-slsbRemoteExample/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter3/04-sfsbExample/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter3/04-sfsbExample/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter3/05-sfsbLifecycleExample/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter3/05-sfsbLifecycleExample/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter3/06-singletonBean/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter3/06-singletonBean/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter3/07-mdbExample/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter3/07-mdbExample/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter3/08-servletExample/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter3/09-dependencyLookup/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter3/09-dependencyLookup/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter3/10-ejbContextLookup/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter3/10-ejbContextLookup/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter3/11-fieldInjection/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter3/11-fieldInjection/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter3/12-setterInjection/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter3/12-setterInjection/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter3/13-bmtExample/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter3/13-bmtExample/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter3/14-cmtExample/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter3/14-cmtExample/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter3/15-userTxExample/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter3/15-userTxExample/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter3/16-employeeService/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter3/16-employeeService/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter4/01-fieldAccess/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter4/01-fieldAccess/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter4/02-propertyAccess/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter4/02-propertyAccess/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter4/03-mixedAccess/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter4/03-mixedAccess/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter4/04-customTableSchema/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter4/04-customTableSchema/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter4/05-customColumnMapping/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter4/05-customColumnMapping/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter4/06-lobMapping/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter4/06-lobMapping/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter4/07-enumMapping/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter4/07-enumMapping/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter4/08-temporalMapping/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter4/08-temporalMapping/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter4/09-transientMapping/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter4/09-transientMapping/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter4/10-autoIdGeneration/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter4/10-autoIdGeneration/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter4/11-tableIdGeneration/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter4/11-tableIdGeneration/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter4/12-sequenceIdGeneration/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter4/12-sequenceIdGeneration/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter4/13-dbIdentityIdGeneration/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter4/13-dbIdentityIdGeneration/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter4/14-manyToOne/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter4/14-manyToOne/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter4/15-joinColumn/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter4/15-joinColumn/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter4/16-oneToOneUnidirectional/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter4/16-oneToOneUnidirectional/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter4/17-oneToOneBidirectional/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter4/17-oneToOneBidirectional/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter4/18-oneToOnePkMapping/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter4/18-oneToOnePkMapping/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter4/19-oneToManyBidirectional/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter4/19-oneToManyBidirectional/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter4/20-oneToManyTargetEntity/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter4/20-oneToManyTargetEntity/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter4/21-manyToManyBidirectional/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter4/21-manyToManyBidirectional/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter4/22-manyToManyJoinTable/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter4/22-manyToManyJoinTable/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter4/23-oneToManyUnidirectional/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter4/23-oneToManyUnidirectional/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter4/24-oneToOneLazy/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter4/24-oneToOneLazy/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter4/25-embeddedObjects/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter4/25-embeddedObjects/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter4/26-sharingEmbeddedObjects/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter4/26-sharingEmbeddedObjects/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter5/1-elementCollection/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter5/1-elementCollection/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter5/10-embeddableKeyMapping/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter5/10-embeddableKeyMapping/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter5/11-manyToManyEmbeddableKeyOverride/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter5/11-manyToManyEmbeddableKeyOverride/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter5/12-elementCollectionMapKeyEntity/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter5/12-elementCollectionMapKeyEntity/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter5/13-untypedMaps/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter5/13-untypedMaps/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter5/2-overrideCollectionTableColumn/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter5/2-overrideCollectionTableColumn/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter5/3-oneToManyList/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter5/3-oneToManyList/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter5/4-persistentlyOrderedList/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter5/4-persistentlyOrderedList/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter5/5-elementCollectionStringMap/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter5/5-elementCollectionStringMap/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter5/6-elementCollectionEnumMap/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter5/6-elementCollectionEnumMap/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter5/7-oneToManyMap/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter5/7-oneToManyMap/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter5/8-manyToManyMap/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter5/8-manyToManyMap/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter5/9-oneToManyEntityAttributeKey/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter5/9-oneToManyEntityAttributeKey/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter6/01-txScopedEmExample/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter6/01-txScopedEmExample/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter6/02-extendedEmExample1/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter6/02-extendedEmExample1/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter6/03-extendedEmExample2/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter6/03-extendedEmExample2/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter6/04-extendedEmExample3/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter6/04-extendedEmExample3/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter6/05-applicationManagedSE/src/client" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter6/05-applicationManagedSE/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter6/06-applicationManagedEE/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter6/06-applicationManagedEE/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter6/07-txScopedPersistenceContext/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter6/07-txScopedPersistenceContext/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter6/08-extendedPersistenceContext/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter6/08-extendedPersistenceContext/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter6/09-persistenceContextCollision/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter6/09-persistenceContextCollision/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter6/10-persistenceContextInheritance/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter6/10-persistenceContextInheritance/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter6/11-applicationManagedJTA/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter6/11-applicationManagedJTA/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter6/12-sharingApplicationManagedJTA/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter6/12-sharingApplicationManagedJTA/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter6/13-resourceLocalTxSE/src/client" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter6/13-resourceLocalTxSE/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter6/14-resourceLocalTxEE/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter6/14-resourceLocalTxEE/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter6/15-persistingWithRelationships/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter6/15-persistingWithRelationships/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter6/16-persistingWithRelationshipsUsingGetReference/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter6/16-persistingWithRelationshipsUsingGetReference/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter6/17-removingWithRelationships/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter6/17-removingWithRelationships/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter6/18-persistingWithRelationshipsCascade/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter6/18-persistingWithRelationshipsCascade/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter6/19-removingWithRelationshipsCascade/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter6/19-removingWithRelationshipsCascade/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter6/20-mergingDetachedEntities/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter6/20-mergingDetachedEntities/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter6/21-detachmentWithTriggeredLazyLoading/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter6/21-detachmentWithTriggeredLazyLoading/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter6/22-detachmentWithEagerLoading/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter6/22-detachmentWithEagerLoading/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter6/23-noDetachmentSingleTx/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter6/23-noDetachmentSingleTx/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter6/24-noDetachmentAppManagedEm/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter6/24-noDetachmentAppManagedEm/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter6/25-noDetachmentSFSBAndExtendedEm/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter6/25-noDetachmentSFSBAndExtendedEm/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter6/26-editSessionExample/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter6/26-editSessionExample/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter7/01-dynamicQueryExample/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter7/01-dynamicQueryExample/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter7/02-namedQueryExample/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter7/02-namedQueryExample/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter7/03-paramTypesExample/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter7/03-paramTypesExample/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter7/04-executingQueriesExample/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter7/04-executingQueriesExample/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter7/05-queryResultsExample/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter7/05-queryResultsExample/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter7/06-queryPagingExample/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter7/06-queryPagingExample/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter7/07-messageBoardExample/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter7/07-messageBoardExample/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter7/08-bulkQueryExample/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter7/08-bulkQueryExample/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter7/09-queryHintsExample/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter7/09-queryHintsExample/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter8/jpqlExamples/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter8/jpqlExamples/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter9/01-employeeSearchService/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter9/01-employeeSearchService/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter9/02-predicateConjunction/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter9/02-predicateConjunction/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter9/03-empSearchSubQuery/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter9/03-empSearchSubQuery/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter9/04-metamodelStronglyTyped/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter9/04-metamodelStronglyTyped/src/servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter9/05-canonicalMetamodel/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter9/06-canonicalMetamodelQuery/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Chapter9/06-canonicalMetamodelQuery/src/servlet" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="eclipselink.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/examples/Chapter2/employeeService/lib/eclipselink.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="eclipselink-jpa-modelgen_2.1.0.qualifier.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/eclipselink-jpa-modelgen_2.1.0.qualifier.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.eclipse.persistence.jpa.modelgen_2.1.0.qualifier.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/org.eclipse.persistence.jpa.modelgen_2.1.0.qualifier.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>

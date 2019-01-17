@@ -1,0 +1,43 @@
+' {$STAMP BS2}
+' {$PBASIC 2.5}
+
+freqSelect  VAR Nib
+irFrequency VAR Word
+irDetectLeft  VAR   Bit
+irDetectRight VAR   Bit
+distanceLeft  VAR   Nib
+distanceRight VAR   Nib
+
+
+DEBUG CLS,
+      "IR OBJECT ZONE", CR,
+      "LEFT  RIGHT", CR,
+      "----  -----"
+
+DO
+   GOSUB Get_Distances
+   GOSUB Display_Distances
+LOOP
+
+Get_Distances:
+   distanceLeft = 0
+   distanceRight = 0
+
+   FOR freqSelect = 0 TO 4
+     LOOKUP freqSelect,[37500,38250,39500,40500,41500], irFrequency
+     FREQOUT 8,1, irFrequency
+     irDetectLeft = IN9
+     distanceLeft = distanceLeft + irDetectLeft
+
+     FREQOUT 2,1, irFrequency
+     irDetectRight = IN0
+     distanceRight = distanceRight + irDetectRight
+
+     PAUSE 100
+    NEXT
+    RETURN
+
+Display_Distances:
+   DEBUG CRSRXY,2,3, DEC1 distanceLeft,
+         CRSRXY,9,3, DEC1 distanceRight
+   RETURN
