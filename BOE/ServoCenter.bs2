@@ -1,7 +1,0 @@
-' {$STAMP BS2}
-' {$PBASIC 2.5}
-DEBUG "Program Running"
-DO
-  PULSOUT 13, 750
-  PAUSE 20
-LOOP
