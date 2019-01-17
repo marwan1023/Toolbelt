@@ -1,0 +1,28 @@
+'{$STAMP BS2}
+'{$PBASIC 2.5}
+
+DEBUG "Program Running..."
+
+pulseCount VAR WORD
+
+FREQOUT 4, 2000, 3000
+
+FOR pulseCount = 1 TO 100
+  PULSOUT 13, 750 + pulseCount 
+  PULSOUT 12, 750 - pulseCount
+  PAUSE 20
+NEXT
+
+FOR pulseCount = 1 TO 75
+  PULSOUT 13, 850
+  PULSOUT 12, 650
+  PAUSE 20
+NEXT
+
+FOR pulseCount = 100 TO 1
+  PULSOUT 13, 750 + pulseCount
+  PULSOUT 12, 750 - pulseCount
+  PAUSE 20
+NEXT
+
+END

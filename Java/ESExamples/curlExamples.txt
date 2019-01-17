@@ -1,0 +1,15 @@
+curl 'http://localhost:9200/?pretty'
+curl -u elastic:Xy7ba2A2R79X5iwPzfcw "localhost:9200/_nodes/settings?pretty=true"
+curl -XPOST 'http://localhost:9200/_shutdown'
+curl -XGET 'http://localhost:9200/_count?pretty' -d -H 'Content-Type: application/json' -d'{    "query": {        "match_all": {}    }}'
+curl -XGET 'localhost:9200/_count?pretty' -d '
+"http://localhost:9200/_search"
+curl -XPUT 'http://localhost:9200/blogs' -H 'Content-Type: application/json' -d '{"settings" : {"number_of_shards" : 3,"number_of_replicas" : 1}}'
+curl -XGET 'localhost:9200/_cluster/health?pretty'
+curl -XPUT 'localhost:9200/website/blog/1/_create' -H 'Content-Type: application/json' -d {  "title": "My first blog entry",  "text":  "Just trying this out..."}
+curl -XGET 'localhost:9200/website/blog/1?pretty'
+curl -XPUT 'localhost:9200/website/blog/1?version=1' -H 'Content-Type: application/json' -d {  "title": "My first blog entry",  "text":  "Starting to get the hang of this..."}
+curl -XPUT 'localhost:9200/website/blog/2?version=5&version_type=external' -H 'Content-Type: application/json' -d {  "title": "My first external blog entry",  "text":  "Starting to get the hang of this..."}
+curl -XPUT 'localhost:9200/website/blog/2?version=10&version_type=external' -H 'Content-Type: application/json' -d {  "title": "My first external blog entry",  "text":  "This is a piece of cake..."}
+curl -XGET 'localhost:9200/_mget?pretty' -H 'Content-Type: application/json' -d {   "docs" : [      {         "_index" : "website",         "_type" :  "blog",         "_id" :    2      },      {         "_index" : "website",         "_type" :  "pageviews",         "_id" :    1,         "_source": "views"      }   ]}
+curl -u elastic:Xy7ba2A2R79X5iwPzfcw -H 'Content-Type: application/x-ndjson' -XPOST 'localhost:9200/bank/account/_bulk?pretty' --data-binary @"/Users/johnson_marcus/Downloads/shakespeare_6.0.json"
