@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 ##################################################
 # GNU Radio Python Flow Graph
-# Title: Top Block
-# Generated: Tue Jul  4 05:16:47 2017
+# Title: Fm Radio Test
+# Generated: Wed Mar 13 04:47:07 2019
 ##################################################
 
 if __name__ == '__main__':
@@ -16,7 +16,10 @@ if __name__ == '__main__':
         except:
             print "Warning: failed to XInitThreads()"
 
+from gnuradio import analog
+from gnuradio import audio
 from gnuradio import eng_notation
+from gnuradio import filter
 from gnuradio import gr
 from gnuradio import wxgui
 from gnuradio.eng_option import eng_option
@@ -30,17 +33,17 @@ import time
 import wx
 
 
-class top_block(grc_wxgui.top_block_gui):
+class fm_radio_test(grc_wxgui.top_block_gui):
 
     def __init__(self):
-        grc_wxgui.top_block_gui.__init__(self, title="Top Block")
-        _icon_path = "C:\Program Files\GNURadio-3.7\share\icons\hicolor\scalable/apps\gnuradio-grc.png"
+        grc_wxgui.top_block_gui.__init__(self, title="Fm Radio Test")
+        _icon_path = "/usr/share/icons/hicolor/32x32/apps/gnuradio-grc.png"
         self.SetIcon(wx.Icon(_icon_path, wx.BITMAP_TYPE_ANY))
 
         ##################################################
         # Variables
         ##################################################
-        self.samp_rate = samp_rate = 10e6
+        self.samp_rate = samp_rate = 2e6
 
         ##################################################
         # Blocks
@@ -61,24 +64,48 @@ class top_block(grc_wxgui.top_block_gui):
         	peak_hold=False,
         )
         self.Add(self.wxgui_fftsink2_0.win)
+        self.rational_resampler_xxx_1 = filter.rational_resampler_fff(
+                interpolation=48,
+                decimation=50,
+                taps=None,
+                fractional_bw=None,
+        )
+        self.rational_resampler_xxx_0 = filter.rational_resampler_ccc(
+                interpolation=1,
+                decimation=4,
+                taps=None,
+                fractional_bw=None,
+        )
         self.osmosdr_source_0 = osmosdr.source( args="numchan=" + str(1) + " " + '' )
         self.osmosdr_source_0.set_sample_rate(samp_rate)
-        self.osmosdr_source_0.set_center_freq(95.5e6, 0)
+        self.osmosdr_source_0.set_center_freq(93.9e6, 0)
         self.osmosdr_source_0.set_freq_corr(0, 0)
         self.osmosdr_source_0.set_dc_offset_mode(0, 0)
         self.osmosdr_source_0.set_iq_balance_mode(0, 0)
-        self.osmosdr_source_0.set_gain_mode(False, 0)
-        self.osmosdr_source_0.set_gain(0, 0)
+        self.osmosdr_source_0.set_gain_mode(True, 0)
+        self.osmosdr_source_0.set_gain(10, 0)
         self.osmosdr_source_0.set_if_gain(20, 0)
         self.osmosdr_source_0.set_bb_gain(20, 0)
         self.osmosdr_source_0.set_antenna('', 0)
         self.osmosdr_source_0.set_bandwidth(0, 0)
 
+        self.low_pass_filter_0 = filter.fir_filter_ccf(1, firdes.low_pass(
+        	1, 2e6, 400000, 50000, firdes.WIN_BLACKMAN, 6.76))
+        self.audio_sink_0 = audio.sink(48000, '', True)
+        self.analog_wfm_rcv_0 = analog.wfm_rcv(
+        	quad_rate=500000,
+        	audio_decimation=10,
+        )
 
         ##################################################
         # Connections
         ##################################################
+        self.connect((self.analog_wfm_rcv_0, 0), (self.rational_resampler_xxx_1, 0))
+        self.connect((self.low_pass_filter_0, 0), (self.analog_wfm_rcv_0, 0))
+        self.connect((self.osmosdr_source_0, 0), (self.rational_resampler_xxx_0, 0))
         self.connect((self.osmosdr_source_0, 0), (self.wxgui_fftsink2_0, 0))
+        self.connect((self.rational_resampler_xxx_0, 0), (self.low_pass_filter_0, 0))
+        self.connect((self.rational_resampler_xxx_1, 0), (self.audio_sink_0, 0))
 
     def get_samp_rate(self):
         return self.samp_rate
@@ -89,7 +116,7 @@ class top_block(grc_wxgui.top_block_gui):
         self.osmosdr_source_0.set_sample_rate(self.samp_rate)
 
 
-def main(top_block_cls=top_block, options=None):
+def main(top_block_cls=fm_radio_test, options=None):
 
     tb = top_block_cls()
     tb.Start(True)
