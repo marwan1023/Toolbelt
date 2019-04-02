@@ -1,0 +1,4 @@
+class FightingGame extends TekkenFact {
+
+
+}
