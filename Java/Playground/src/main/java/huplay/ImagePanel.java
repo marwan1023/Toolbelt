@@ -7,7 +7,7 @@ import java.io.File;
 import java.io.IOException;
 
 import javax.imageio.ImageIO;
-import javax.swing.JPanel;
+import javax.swing.*;
 
 public class ImagePanel extends JPanel {
 
@@ -43,7 +43,7 @@ public class ImagePanel extends JPanel {
 
         int x = (componentWidth - imageWidth) / 2;
         int y = (componentHeight - imageHeight) / 2;
-        g.drawImage(image, x, y, null); 
+        g.drawImage(image, x, y, null);
     }
 
 }

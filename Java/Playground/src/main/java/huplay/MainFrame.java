@@ -1,12 +1,12 @@
 package huplay;
 
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
+
 import java.awt.Color;
 import java.awt.Font;
 
-import javax.swing.JButton;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.JTextField;
+import javax.swing.*;
 import javax.swing.border.BevelBorder;
 
 /**
@@ -114,20 +114,38 @@ public class MainFrame extends JFrame {
 
         new PlaySound(classLoader.getResource("welcome.au").getFile());
         imageViewer2 = new ImagePanel(classLoader.getResource("squirtle.gif").getFile());
+
+        Icon imgIcon = new ImageIcon(classLoader.getResource("squirtle.gif"));
+        JLabel label = new JLabel(imgIcon);
+        label.setBounds(12, 252, 144, 144);
+
         imageViewer2.setBackground(Color.WHITE);
-        getContentPane().add(imageViewer2);
+         getContentPane().add(label);
         imageViewer2.setBounds(12, 252, 144, 144);
+
+
+
+
+
 
         imageViewer3 = new ImagePanel(classLoader.getResource("garfield.gif").getFile());
         imageViewer3.setBackground(Color.WHITE);
 
-        getContentPane().add(imageViewer3);
+        imgIcon = new ImageIcon(classLoader.getResource("garfield.gif"));
+        label = new JLabel(imgIcon);
+        label.setBounds(408, 240, 155, 166);
+
+        getContentPane().add(label);
         imageViewer3.setBounds(408, 240, 155, 166);
 
         imageViewer4 = new ImagePanel(classLoader.getResource("clown2.gif").getFile());
         imageViewer4.setBackground(Color.WHITE);
 
-        getContentPane().add(imageViewer4);
+        imgIcon = new ImageIcon(classLoader.getResource("clown2.gif"));
+        label = new JLabel(imgIcon);
+        label.setBounds(204, 264, 144, 132);
+
+        getContentPane().add(label);
         imageViewer4.setBounds(204, 264, 144, 132);
 
         // {{REGISTER_LISTENERS
