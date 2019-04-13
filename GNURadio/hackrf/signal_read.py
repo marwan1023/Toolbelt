@@ -3,7 +3,7 @@
 ##################################################
 # GNU Radio Python Flow Graph
 # Title: Signal Read
-# Generated: Sat Apr 13 03:46:11 2019
+# Generated: Sat Apr 13 05:16:59 2019
 ##################################################
 
 if __name__ == '__main__':
@@ -25,6 +25,7 @@ from gnuradio.eng_option import eng_option
 from gnuradio.fft import window
 from gnuradio.filter import firdes
 from gnuradio.wxgui import fftsink2
+from gnuradio.wxgui import scopesink2
 from grc_gnuradio import wxgui as grc_wxgui
 from optparse import OptionParser
 import osmosdr
@@ -47,6 +48,20 @@ class signal_read(grc_wxgui.top_block_gui):
         ##################################################
         # Blocks
         ##################################################
+        self.wxgui_scopesink2_0 = scopesink2.scope_sink_c(
+        	self.GetWin(),
+        	title='Scope Plot',
+        	sample_rate=samp_rate,
+        	v_scale=0,
+        	v_offset=0,
+        	t_scale=0,
+        	ac_couple=False,
+        	xy_mode=False,
+        	num_inputs=1,
+        	trig_mode=wxgui.TRIG_MODE_AUTO,
+        	y_axis_label='Counts',
+        )
+        self.Add(self.wxgui_scopesink2_0.win)
         self.wxgui_fftsink2_0 = fftsink2.fft_sink_c(
         	self.GetWin(),
         	baseband_freq=0,
@@ -63,19 +78,6 @@ class signal_read(grc_wxgui.top_block_gui):
         	peak_hold=False,
         )
         self.Add(self.wxgui_fftsink2_0.win)
-        self.osmosdr_source_0 = osmosdr.source( args="numchan=" + str(1) + " " + '' )
-        self.osmosdr_source_0.set_sample_rate(samp_rate*4)
-        self.osmosdr_source_0.set_center_freq(26e6, 0)
-        self.osmosdr_source_0.set_freq_corr(0, 0)
-        self.osmosdr_source_0.set_dc_offset_mode(0, 0)
-        self.osmosdr_source_0.set_iq_balance_mode(0, 0)
-        self.osmosdr_source_0.set_gain_mode(False, 0)
-        self.osmosdr_source_0.set_gain(0, 0)
-        self.osmosdr_source_0.set_if_gain(24, 0)
-        self.osmosdr_source_0.set_bb_gain(24, 0)
-        self.osmosdr_source_0.set_antenna('', 0)
-        self.osmosdr_source_0.set_bandwidth(0, 0)
-
         self.osmosdr_sink_0 = osmosdr.sink( args="numchan=" + str(1) + " " + '' )
         self.osmosdr_sink_0.set_sample_rate(samp_rate)
         self.osmosdr_sink_0.set_center_freq(27e6, 0)
@@ -86,7 +88,8 @@ class signal_read(grc_wxgui.top_block_gui):
         self.osmosdr_sink_0.set_antenna('', 0)
         self.osmosdr_sink_0.set_bandwidth(0, 0)
 
-        self.blocks_throttle_0 = blocks.throttle(gr.sizeof_gr_complex*1, samp_rate*4,True)
+        self.blocks_throttle_0 = blocks.throttle(gr.sizeof_gr_complex*1, samp_rate,True)
+        self.blocks_multiply_const_vxx_0 = blocks.multiply_const_vcc((6, ))
         self.blocks_file_source_0 = blocks.file_source(gr.sizeof_gr_complex*1, '/tmp/signal/test', True)
         self.band_pass_filter_0 = filter.fir_filter_ccc(1, firdes.complex_band_pass(
         	6, samp_rate, 100e3, 200e3, 50e3, firdes.WIN_HAMMING, 6.76))
@@ -96,18 +99,20 @@ class signal_read(grc_wxgui.top_block_gui):
         ##################################################
         self.connect((self.band_pass_filter_0, 0), (self.osmosdr_sink_0, 0))
         self.connect((self.blocks_file_source_0, 0), (self.band_pass_filter_0, 0))
-        self.connect((self.blocks_throttle_0, 0), (self.wxgui_fftsink2_0, 0))
-        self.connect((self.osmosdr_source_0, 0), (self.blocks_throttle_0, 0))
+        self.connect((self.blocks_file_source_0, 0), (self.blocks_multiply_const_vxx_0, 0))
+        self.connect((self.blocks_multiply_const_vxx_0, 0), (self.blocks_throttle_0, 0))
+        self.connect((self.blocks_multiply_const_vxx_0, 0), (self.wxgui_fftsink2_0, 0))
+        self.connect((self.blocks_throttle_0, 0), (self.wxgui_scopesink2_0, 0))
 
     def get_samp_rate(self):
         return self.samp_rate
 
     def set_samp_rate(self, samp_rate):
         self.samp_rate = samp_rate
+        self.wxgui_scopesink2_0.set_sample_rate(self.samp_rate)
         self.wxgui_fftsink2_0.set_sample_rate(self.samp_rate*4)
-        self.osmosdr_source_0.set_sample_rate(self.samp_rate*4)
         self.osmosdr_sink_0.set_sample_rate(self.samp_rate)
-        self.blocks_throttle_0.set_sample_rate(self.samp_rate*4)
+        self.blocks_throttle_0.set_sample_rate(self.samp_rate)
         self.band_pass_filter_0.set_taps(firdes.complex_band_pass(6, self.samp_rate, 100e3, 200e3, 50e3, firdes.WIN_HAMMING, 6.76))
 
 
