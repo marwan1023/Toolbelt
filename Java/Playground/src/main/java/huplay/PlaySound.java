@@ -3,14 +3,15 @@ package huplay;
 import java.applet.Applet;
 import java.applet.AudioClip;
 import java.io.File;
+import java.net.URI;
 
 public class PlaySound {
 
-    @SuppressWarnings("deprecation")
     public PlaySound(String filename) {
         try {
             File f = new File(filename);
-            AudioClip sound = Applet.newAudioClip(f.toURL());
+            URI ui = f.toURI();
+            AudioClip sound = Applet.newAudioClip(ui.toURL());
             sound.play();
         } catch (Exception e) {
             e.printStackTrace();

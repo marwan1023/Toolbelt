@@ -15,20 +15,27 @@ public class Trophy extends JFrame {
 
     private static final long serialVersionUID = 1L;
     private ClassLoader classLoader = getClass().getClassLoader();
+    private Score score = Score.getInstance();
+
 
     ImagePanel imageViewer2 = new ImagePanel();
-    JLabel JLabel1 = new JLabel();
-    JTextField score = new JTextField();
-    JButton send = new JButton();
+    JLabel spellingLabel = new JLabel();
+    JLabel spellingScore = new JLabel();
+
+    JLabel mathLabel = new JLabel();
+    JLabel mathScore = new JLabel();
+
+
     ImagePanel imageViewer1 = new ImagePanel();
     ImagePanel sbronze = new ImagePanel();
     ImagePanel ssilver = new ImagePanel();
     ImagePanel sgold = new ImagePanel();
     ImagePanel swin = new ImagePanel();
     ImagePanel mwin = new ImagePanel();
-    JButton JButton1 = new JButton();
-    JTextField score2 = new JTextField();
-    JLabel JLabel2 = new JLabel();
+
+    //JButton nameEntryButton = new JButton();
+    //JTextField score2 = new JTextField();
+
     ImagePanel mbronze = new ImagePanel();
     ImagePanel msilver = new ImagePanel();
     ImagePanel mgold = new ImagePanel();
@@ -48,22 +55,21 @@ public class Trophy extends JFrame {
 
         getContentPane().add(imageViewer2);
         imageViewer2.setBounds(144, 96, 396, 24);
-        JLabel1.setText("Spelling Score:");
-        getContentPane().add(JLabel1);
-        JLabel1.setForeground(java.awt.Color.blue);
-        JLabel1.setBounds(36, 168, 120, 24);
-        score.setSelectionColor(new java.awt.Color(204, 204, 255));
-        score.setSelectedTextColor(java.awt.Color.black);
-        score.setCaretColor(java.awt.Color.black);
-        score.setDisabledTextColor(new java.awt.Color(153, 153, 153));
-        getContentPane().add(score);
-        score.setFont(new Font("SansSerif", Font.BOLD, 12));
-        score.setBounds(132, 156, 72, 36);
-        send.setText("Ok!");
-        send.setActionCommand("Ok!");
-        getContentPane().add(send);
-        send.setBackground(new java.awt.Color(204, 204, 204));
-        send.setBounds(204, 156, 60, 36);
+        spellingLabel.setText("Spelling Score:");
+        getContentPane().add(spellingLabel);
+        spellingLabel.setForeground(java.awt.Color.blue);
+        spellingLabel.setBounds(36, 168, 120, 24);
+        spellingScore.setForeground(java.awt.Color.black);
+        spellingScore.setBounds(160, 168, 120, 24);
+        spellingScore.setText("" + score.getSpellingScore());
+        getContentPane().add(spellingScore);
+       // score.setFont(new Font("SansSerif", Font.BOLD, 12));
+       // score.setBounds(132, 156, 72, 36);
+        //send.setText("Ok!");
+        //send.setActionCommand("Ok!");
+        //getContentPane().add(send);
+        //send.setBackground(new java.awt.Color(204, 204, 204));
+        //send.setBounds(204, 156, 60, 36);
 
         imageViewer1 = new ImagePanel(classLoader.getResource("trophy.gif").getFile());
         imageViewer1.setBackground(Color.WHITE);
@@ -103,22 +109,16 @@ public class Trophy extends JFrame {
         mwin.setLayout(null);
         getContentPane().add(mwin);
         mwin.setBounds(360, 228, 264, 239);
-        JButton1.setText("Ok!");
-        JButton1.setActionCommand("Ok!");
-        getContentPane().add(JButton1);
-        JButton1.setBackground(new java.awt.Color(204, 204, 204));
-        JButton1.setBounds(528, 156, 60, 36);
-        score2.setSelectionColor(new java.awt.Color(204, 204, 255));
-        score2.setSelectedTextColor(java.awt.Color.black);
-        score2.setCaretColor(java.awt.Color.black);
-        score2.setDisabledTextColor(new java.awt.Color(153, 153, 153));
-        getContentPane().add(score2);
-        score2.setFont(new Font("SansSerif", Font.BOLD, 12));
-        score2.setBounds(456, 156, 72, 36);
-        JLabel2.setText("Math Score:");
-        getContentPane().add(JLabel2);
-        JLabel2.setForeground(java.awt.Color.blue);
-        JLabel2.setBounds(360, 168, 120, 24);
+
+        mathLabel.setText("Math Score:");
+        mathLabel.setForeground(java.awt.Color.blue);
+        mathLabel.setBounds(360, 168, 120, 24);
+        getContentPane().add(mathLabel);
+
+        mathScore.setForeground(java.awt.Color.black);
+        mathScore.setBounds(456, 168, 120, 24);
+        mathScore.setText("" + score.getMathScore());
+        getContentPane().add(mathScore);
 
         mbronze = new ImagePanel(classLoader.getResource("mbronze.gif").getFile());
         mbronze.setBackground(Color.WHITE);
@@ -139,11 +139,11 @@ public class Trophy extends JFrame {
 
         // {{REGISTER_LISTENERS
         SymAction lSymAction = new SymAction();
-        send.addActionListener(lSymAction);
-        score.addActionListener(lSymAction);
+       // send.addActionListener(lSymAction);
+        //score.addActionListener(lSymAction);
         SymMouse aSymMouse = new SymMouse();
-        score.addMouseListener(aSymMouse);
-        JButton1.addActionListener(lSymAction);
+        //score.addMouseListener(aSymMouse);
+        //nameEntryButton.addActionListener(lSymAction);
         // }}
     }
 
@@ -181,12 +181,12 @@ public class Trophy extends JFrame {
     class SymAction implements java.awt.event.ActionListener {
         public void actionPerformed(java.awt.event.ActionEvent event) {
             Object object = event.getSource();
-            if (object == send)
-                send_actionPerformed(event);
-            else if (object == score)
-                score_actionPerformed(event);
-            else if (object == JButton1)
-                JButton1_actionPerformed(event);
+//            if (object == send)
+//                send_actionPerformed(event);
+//            else if (object == score)
+//                score_actionPerformed(event);
+//            else if (object == nameEntryButton)
+//                nameEntryButton_actionPerformed(event);
         }
     }
 
@@ -204,23 +204,23 @@ public class Trophy extends JFrame {
         try {
             // send.addActionListener(d);
             double sscore;
-            sscore = (Double.valueOf(score.getText())).doubleValue();
-            if (sscore <= 5) {
-                swin.removeAll();
-                swin = sbronze;
-                swin.paintComponent(sbronze.getGraphics());
-
-            } else if (sscore > 5 && sscore <= 8) {
-                swin.removeAll();
-                swin = ssilver;
-                swin.paintComponent(ssilver.getGraphics());
-                // swin.setImageURL(ssilver.getImageURL());
-            } else if (sscore > 8 && sscore <= 11) {
-                swin.removeAll();
-                swin = sgold;
-                swin.paintComponent(sgold.getGraphics());
-                // swin.setImageURL(sgold.getImageURL());
-            }
+           // sscore = (Double.valueOf(score.getText())).doubleValue();
+//            if (sscore <= 5) {
+//                swin.removeAll();
+//                swin = sbronze;
+//                swin.paintComponent(sbronze.getGraphics());
+//
+//            } else if (sscore > 5 && sscore <= 8) {
+//                swin.removeAll();
+//                swin = ssilver;
+//                swin.paintComponent(ssilver.getGraphics());
+//                // swin.setImageURL(ssilver.getImageURL());
+//            } else if (sscore > 8 && sscore <= 11) {
+//                swin.removeAll();
+//                swin = sgold;
+//                swin.paintComponent(sgold.getGraphics());
+//                // swin.setImageURL(sgold.getImageURL());
+//            }
 
         } catch (Exception e) {
         }
@@ -249,32 +249,32 @@ public class Trophy extends JFrame {
         }
     }
 
-    void JButton1_actionPerformed(java.awt.event.ActionEvent event) {
+    void nameEntryButton_actionPerformed(java.awt.event.ActionEvent event) {
         // to do: code goes here.
 
-        JButton1_actionPerformed_Interaction1(event);
+        nameEntryButton_actionPerformed_Interaction1(event);
     }
 
-    void JButton1_actionPerformed_Interaction1(java.awt.event.ActionEvent event) {
+    void nameEntryButton_actionPerformed_Interaction1(java.awt.event.ActionEvent event) {
         try {
-            double sscore;
-            sscore = (Double.valueOf(score2.getText())).doubleValue();
-            if (sscore <= 330) {
-                mwin.removeAll();
-                mwin = mbronze;
-                mwin.paintComponent(mbronze.getGraphics());
-
-            } else if (sscore > 330 && sscore <= 600) {
-                mwin.removeAll();
-                mwin = msilver;
-                mwin.paintComponent(msilver.getGraphics());
-
-            } else if (sscore > 600 && sscore <= 1000) {
-                mwin.removeAll();
-                mwin = mgold;
-                mwin.paintComponent(mgold.getGraphics());
-
-            }
+//            double sscore;
+//            sscore = (Double.valueOf(score2.getText())).doubleValue();
+//            if (sscore <= 330) {
+//                mwin.removeAll();
+//                mwin = mbronze;
+//                mwin.paintComponent(mbronze.getGraphics());
+//
+//            } else if (sscore > 330 && sscore <= 600) {
+//                mwin.removeAll();
+//                mwin = msilver;
+//                mwin.paintComponent(msilver.getGraphics());
+//
+//            } else if (sscore > 600 && sscore <= 1000) {
+//                mwin.removeAll();
+//                mwin = mgold;
+//                mwin.paintComponent(mgold.getGraphics());
+//
+//            }
 
         } catch (Exception e) {
         }

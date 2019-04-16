@@ -14,6 +14,7 @@ public class MathFrame extends JFrame {
      */
     private static final long serialVersionUID = 1L;
     private ClassLoader classLoader = getClass().getClassLoader();
+    private Score score = Score.getInstance();
 
     // {{DECLARE_CONTROLS
     JTextField plusbox = new JTextField();
@@ -31,7 +32,7 @@ public class MathFrame extends JFrame {
     JButton answer = new JButton();
 
     JLabel JLabel2 = new JLabel();
-    JButton JButton1 = new JButton();
+    JButton nameEntryButton = new JButton();
     JButton JButton2 = new JButton();
     JButton JButton3 = new JButton();
 
@@ -64,7 +65,7 @@ public class MathFrame extends JFrame {
     int randy = 0;
     int randsign = 0;
     int ans;
-    int score = 0;
+    //int score = 0;
     int level = 0;
     Thread waitThread;
 
@@ -162,10 +163,10 @@ public class MathFrame extends JFrame {
         JLabel2.setText("Hi-Score");
         getContentPane().add(JLabel2);
         JLabel2.setBounds(396, 360, 60, 40);
-        JButton1.setText("L2");
-        JButton1.setActionCommand("Close mathgame");
-        getContentPane().add(JButton1);
-        JButton1.setBounds(60, 108, 48, 24);
+        nameEntryButton.setText("L2");
+        nameEntryButton.setActionCommand("Close mathgame");
+        getContentPane().add(nameEntryButton);
+        nameEntryButton.setBounds(60, 108, 48, 24);
         JButton2.setText("L3");
         JButton2.setActionCommand("Close mathgame");
         getContentPane().add(JButton2);
@@ -266,7 +267,7 @@ public class MathFrame extends JFrame {
 
         JButton3.addActionListener(lSymAction);
         JButton2.addActionListener(lSymAction);
-        JButton1.addActionListener(lSymAction);
+        nameEntryButton.addActionListener(lSymAction);
 
         
     }
@@ -292,9 +293,9 @@ public class MathFrame extends JFrame {
 
                     e.printStackTrace();
                 }
-            else if (object == JButton1)
+            else if (object == nameEntryButton)
                 try {
-                    JButton1_actionPerformed(event);
+                    nameEntryButton_actionPerformed(event);
                 } catch (InterruptedException e) {
 
                     e.printStackTrace();
@@ -1178,18 +1179,18 @@ public class MathFrame extends JFrame {
             for (double count = 0; count < 39999999; count++)
                 ;
             // ;
-            if (score == hiscore) {
-                new PlaySound(classLoader.getResource("unbeleave.au").getFile());
-                hiscore = hiscore + 330;
-                for (double count = 0; count < 5999999; count++)
-                    ;
-                new PlaySound(classLoader.getResource("hi-score.au").getFile());// put
-                                                                      // good
-                                                                      // stuff
-                                                                      // here//
-                for (double count = 0; count < 5999999; count++)
-                    ;
-            }
+//            if (score == hiscore) {
+//                new PlaySound(classLoader.getResource("unbeleave.au").getFile());
+//                hiscore = hiscore + 330;
+//                for (double count = 0; count < 5999999; count++)
+//                    ;
+//                new PlaySound(classLoader.getResource("hi-score.au").getFile());// put
+//                                                                      // good
+//                                                                      // stuff
+//                                                                      // here//
+//                for (double count = 0; count < 5999999; count++)
+//                    ;
+//            }
 
             // answbox.setText(String.valueOf(ans));
 
@@ -1216,7 +1217,7 @@ public class MathFrame extends JFrame {
                 Thread.sleep(500);
 
                 diologebox.setText("Right");
-                score = score + 33;
+               // score = score + 33;
                 scorebox.setText(String.valueOf(score));
                 for (double count = 0; count < 19999999; count++)
                     ;
@@ -1479,7 +1480,7 @@ public class MathFrame extends JFrame {
 
     }
 
-    void JButton1_actionPerformed(java.awt.event.ActionEvent event)
+    void nameEntryButton_actionPerformed(java.awt.event.ActionEvent event)
             throws InterruptedException {
         level = 2;
         new PlaySound(classLoader.getResource("ready.when.you.au").getFile());

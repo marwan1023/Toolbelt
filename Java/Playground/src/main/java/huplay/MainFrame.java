@@ -1,13 +1,9 @@
 package huplay;
 
-import javafx.scene.image.Image;
-import javafx.scene.image.ImageView;
-
-import java.awt.Color;
-import java.awt.Font;
-
 import javax.swing.*;
 import javax.swing.border.BevelBorder;
+import java.awt.*;
+import java.util.Optional;
 
 /**
  * This project is an edutainment center focused towards children from
@@ -24,22 +20,20 @@ import javax.swing.border.BevelBorder;
 public class MainFrame extends JFrame {
     private static final long serialVersionUID = 1L;
     private ClassLoader classLoader = getClass().getClassLoader();
-    ImagePanel imageViewer1 = new ImagePanel();
+
+    ImagePanel title = new ImagePanel();
     JButton spell = new JButton();
     JButton art = new JButton();
     JButton math = new JButton();
     JButton trophy = new JButton();
-    JTextField personal = new JTextField();
-    JLabel JLabel1 = new JLabel();
-    JButton JButton1 = new JButton();
-    BevelBorder bevelBorder1 = new BevelBorder(0);
-    ImagePanel imageViewer2 = new ImagePanel();
-    ImagePanel imageViewer3 = new ImagePanel();
-    ImagePanel imageViewer4 = new ImagePanel();
 
-    String name1, name2, total2;
-    String total = "";
-    String test = "";
+    JTextField personal = new JTextField();
+    JLabel nameLabel = new JLabel();
+    JButton nameEntryButton = new JButton();
+    BevelBorder bevelBorder1 = new BevelBorder(0);
+
+    StringBuilder name = new StringBuilder();
+
 
     public MainFrame(String sTitle) {
         this();
@@ -48,8 +42,6 @@ public class MainFrame extends JFrame {
 
     public MainFrame() {
 
-        
-        
         
         // This line prevents the "Swing: checked access to system event queue"
         // message seen in some browsers.
@@ -63,13 +55,13 @@ public class MainFrame extends JFrame {
         try {
 
           
-            imageViewer1 = new ImagePanel(classLoader.getResource("play.gif").getFile());
-            imageViewer1.setBackground(Color.WHITE);
+            title = new ImagePanel(classLoader.getResource("play.gif").getFile());
+            title.setBackground(Color.WHITE);
         } catch (Exception error) {
         }
 
-        getContentPane().add(imageViewer1);
-        imageViewer1.setBounds(36, 12, 489, 72);
+        getContentPane().add(title);
+        title.setBounds(36, 12, 489, 72);
         spell.setText("Spelling");
         spell.setActionCommand("Spelling");
         spell.setBorder(bevelBorder1);
@@ -101,63 +93,46 @@ public class MainFrame extends JFrame {
         getContentPane().add(personal);
         personal.setFont(new Font("SansSerif", Font.BOLD, 12));
         personal.setBounds(264, 132, 190, 36);
-        JLabel1.setText("Enter your name:");
-        getContentPane().add(JLabel1);
-        JLabel1.setForeground(java.awt.Color.black);
-        JLabel1.setBounds(84, 144, 180, 24);
-        JButton1.setText("Ok!");
-        JButton1.setActionCommand("Ok!");
-        JButton1.setBorder(bevelBorder1);
-        getContentPane().add(JButton1);
-        JButton1.setBackground(java.awt.Color.lightGray);
-        JButton1.setBounds(456, 120, 60, 48);
+        nameLabel.setText("Enter your name:");
+        getContentPane().add(nameLabel);
+        nameLabel.setForeground(java.awt.Color.black);
+        nameLabel.setBounds(84, 144, 180, 24);
+        nameEntryButton.setText("Ok!");
+        nameEntryButton.setActionCommand("Ok!");
+        nameEntryButton.setBorder(bevelBorder1);
+        getContentPane().add(nameEntryButton);
+        nameEntryButton.setBackground(java.awt.Color.lightGray);
+        nameEntryButton.setBounds(456, 120, 60, 48);
 
         new PlaySound(classLoader.getResource("welcome.au").getFile());
-        imageViewer2 = new ImagePanel(classLoader.getResource("squirtle.gif").getFile());
-
         Icon imgIcon = new ImageIcon(classLoader.getResource("squirtle.gif"));
         JLabel label = new JLabel(imgIcon);
         label.setBounds(12, 252, 144, 144);
+        getContentPane().add(label);
 
-        imageViewer2.setBackground(Color.WHITE);
-         getContentPane().add(label);
-        imageViewer2.setBounds(12, 252, 144, 144);
-
-
-
-
-
-
-        imageViewer3 = new ImagePanel(classLoader.getResource("garfield.gif").getFile());
-        imageViewer3.setBackground(Color.WHITE);
 
         imgIcon = new ImageIcon(classLoader.getResource("garfield.gif"));
         label = new JLabel(imgIcon);
         label.setBounds(408, 240, 155, 166);
 
         getContentPane().add(label);
-        imageViewer3.setBounds(408, 240, 155, 166);
-
-        imageViewer4 = new ImagePanel(classLoader.getResource("clown2.gif").getFile());
-        imageViewer4.setBackground(Color.WHITE);
 
         imgIcon = new ImageIcon(classLoader.getResource("clown2.gif"));
         label = new JLabel(imgIcon);
         label.setBounds(204, 264, 144, 132);
 
         getContentPane().add(label);
-        imageViewer4.setBounds(204, 264, 144, 132);
 
         // {{REGISTER_LISTENERS
         SymMouse aSymMouse = new SymMouse();
-        JButton1.addMouseListener(aSymMouse);
+        nameEntryButton.addMouseListener(aSymMouse);
         spell.addMouseListener(aSymMouse);
         math.addMouseListener(aSymMouse);
         art.addMouseListener(aSymMouse);
         trophy.addMouseListener(aSymMouse);
         SymAction lSymAction = new SymAction();
         spell.addActionListener(lSymAction);
-        JButton1.addActionListener(lSymAction);
+        nameEntryButton.addActionListener(lSymAction);
         trophy.addActionListener(lSymAction);
         art.addActionListener(lSymAction);
         math.addActionListener(lSymAction);
@@ -167,8 +142,8 @@ public class MainFrame extends JFrame {
     class SymMouse extends java.awt.event.MouseAdapter {
         public void mouseExited(java.awt.event.MouseEvent event) {
             Object object = event.getSource();
-            if (object == JButton1)
-                JButton1_mouseExited(event);
+            if (object == nameEntryButton)
+                nameEntryButton_mouseExited(event);
             else if (object == spell)
                 spell_mouseExited(event);
             else if (object == math)
@@ -178,12 +153,13 @@ public class MainFrame extends JFrame {
             else if (object == trophy)
                 trophy_mouseExited(event);
 
+
         }
 
         public void mouseEntered(java.awt.event.MouseEvent event) {
             Object object = event.getSource();
-            if (object == JButton1)
-                JButton1_mouseEntered(event);
+            if (object == nameEntryButton)
+                nameEntryButton_mouseEntered(event);
             else if (object == spell)
                 spell_mouseEntered(event);
             else if (object == math)
@@ -193,20 +169,22 @@ public class MainFrame extends JFrame {
             else if (object == trophy)
                 trophy_mouseEntered(event);
 
+
         }
     }
 
-    void JButton1_mouseEntered(java.awt.event.MouseEvent event) {
+
+    void nameEntryButton_mouseEntered(java.awt.event.MouseEvent event) {
         // to do: code goes here.
 
-        JButton1_mouseEntered_Interaction1(event);
+        nameEntryButton_mouseEntered_Interaction1(event);
     }
 
-    void JButton1_mouseEntered_Interaction1(java.awt.event.MouseEvent event) {
+    void nameEntryButton_mouseEntered_Interaction1(java.awt.event.MouseEvent event) {
         try {
-            // JButton1 Set the Background Color; art The color green
-            JButton1.setBackground(Color.green);
-            JButton1.repaint();
+            // nameEntryButton Set the Background Color; art The color green
+            nameEntryButton.setBackground(Color.green);
+            nameEntryButton.repaint();
         } catch (Exception e) {
         }
     }
@@ -226,17 +204,17 @@ public class MainFrame extends JFrame {
         }
     }
 
-    void JButton1_mouseExited(java.awt.event.MouseEvent event) {
+    void nameEntryButton_mouseExited(java.awt.event.MouseEvent event) {
         // to do: code goes here.
 
-        JButton1_mouseExited_Interaction1(event);
+        nameEntryButton_mouseExited_Interaction1(event);
     }
 
-    void JButton1_mouseExited_Interaction1(java.awt.event.MouseEvent event) {
+    void nameEntryButton_mouseExited_Interaction1(java.awt.event.MouseEvent event) {
         try {
-            // JButton1 Set the Background Color; JLabel1 The color light gray
-            JButton1.setBackground(Color.lightGray);
-            JButton1.repaint();
+            // nameEntryButton Set the Background Color; JLabel1 The color light gray
+            nameEntryButton.setBackground(Color.lightGray);
+            nameEntryButton.repaint();
         } catch (Exception e) {
         }
     }
@@ -351,14 +329,15 @@ public class MainFrame extends JFrame {
             Object object = event.getSource();
             if (object == spell)
                 spell_actionPerformed(event);
-            else if (object == JButton1)
-                JButton1_actionPerformed(event);
+            else if (object == nameEntryButton)
+                nameEntryButton_actionPerformed(event);
             else if (object == trophy)
                 trophy_actionPerformed(event);
             else if (object == art)
                 art_actionPerformed(event);
             else if (object == math)
                 math_actionPerformed(event);
+
         }
     }
 
@@ -368,19 +347,26 @@ public class MainFrame extends JFrame {
         spell_actionPerformed_Interaction1(event);
     }
 
-    void JButton1_actionPerformed(java.awt.event.ActionEvent event) {
+    void nameEntryButton_actionPerformed(java.awt.event.ActionEvent event) {
         // to do: code goes here.
 
-        JButton1_actionPerformed_Interaction1(event);
+        nameEntryButton_actionPerformed_Interaction1(event);
     }
 
-    void JButton1_actionPerformed_Interaction1(java.awt.event.ActionEvent event) {
+    void nameEntryButton_actionPerformed_Interaction1(java.awt.event.ActionEvent event) {
         try {
-            // affirm.play();
-            new PlaySound(classLoader.getResource("Ding.au").getFile());
-            name1 = (String.valueOf(personal.getText()));
-            name2 = "'s";
-            total = name1 + name2;
+
+
+            Optional<String> nameValue = Optional.of(personal.getText());
+            if (nameValue.isPresent() && !nameValue.get().isEmpty())
+            {
+                new PlaySound(classLoader.getResource("Ding.au").getFile());
+                name.append(nameValue.get());
+                name.append("'s");
+                personal.setEnabled(false);
+            }
+
+
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -391,7 +377,7 @@ public class MainFrame extends JFrame {
             // SpellFrame Create and show the SpellFrame with a title
 
             new PlaySound(classLoader.getResource("Ding.au").getFile());
-            if (total.equals(test)) {
+            if (name.toString() == null || name.toString().isEmpty()) {
                 new PlaySound(classLoader.getResource("laugh.au").getFile());
                 personal.setText("Enter name please!");
             } else  {
@@ -399,8 +385,7 @@ public class MainFrame extends JFrame {
                 // click.play();
                 String app1 = " ";
                 app1 += "Spelling Activity";
-                total2 = total + app1;
-                (new SpellFrame(total2)).setVisible(true);
+                (new SpellFrame(name.toString() + app1)).setVisible(true);
             }
         } catch (Exception e) {
         }
@@ -417,15 +402,14 @@ public class MainFrame extends JFrame {
             // SpellFrame Create and show the SpellFrame with a title
 
             new PlaySound(classLoader.getResource("Ding.au").getFile());
-            if (total.equals(test)) {
+            if (name.toString().isEmpty()) {
                 new PlaySound(classLoader.getResource("laugh.au").getFile());
                 personal.setText("Enter name please!");
             } else {
                 new PlaySound(classLoader.getResource("Ding.au").getFile());
                 String app1 = " ";
                 app1 += "Trophy Room";
-                total2 = total + app1;
-                (new Trophy(total2)).setVisible(true);
+                (new Trophy(name.toString() + app1)).setVisible(true);
             }
         } catch (Exception e) {
         }
@@ -439,15 +423,12 @@ public class MainFrame extends JFrame {
 
     void art_actionPerformed_Interaction1(java.awt.event.ActionEvent event) {
         try {
-            if (total.equals(test)) {
+            if (name.toString().isEmpty()) {
                 new PlaySound(classLoader.getResource("laugh.au").getFile());
                 personal.setText("Enter name please!");
             } else  {
                 new PlaySound(classLoader.getResource("Ding.au").getFile());
-                String app1 = " ";
-                app1 += "Art Activity";
-                total2 = total + app1;
-                (new ArtFrame(total2)).setVisible(true);
+                (new ArtFrame(name.toString() + " Art Activity")).setVisible(true);
             }
         } catch (java.lang.Exception e) {
         }
@@ -461,13 +442,12 @@ public class MainFrame extends JFrame {
     void math_actionPerformed_Interaction2(java.awt.event.ActionEvent event) {
         try {
             // MFrame Create and show the MFrame with a title
-            if (total.equals(test)) {
+            if (name.toString().isEmpty()) {
                 new PlaySound(classLoader.getResource("laugh.au").getFile());
                 personal.setText("Enter name please!");
             } else  {
-                total2 = total + " Math Activity";
                 new PlaySound(classLoader.getResource("Ding.au").getFile());
-                (new MathFrame(total2)).setVisible(true);
+                (new MathFrame(name.toString() + " Math Activity")).setVisible(true);
             }
         } catch (java.lang.Exception e) {
         }
