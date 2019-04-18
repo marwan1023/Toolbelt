@@ -364,6 +364,7 @@ public class MainFrame extends JFrame {
                 name.append(nameValue.get());
                 name.append("'s");
                 personal.setEnabled(false);
+                nameEntryButton.setEnabled(false);
             }
 
 
@@ -409,7 +410,8 @@ public class MainFrame extends JFrame {
                 new PlaySound(classLoader.getResource("Ding.au").getFile());
                 String app1 = " ";
                 app1 += "Trophy Room";
-                (new Trophy(name.toString() + app1)).setVisible(true);
+                Trophy trophy = new Trophy(name.toString() + app1);
+                trophy.setVisible(true);
             }
         } catch (Exception e) {
         }
