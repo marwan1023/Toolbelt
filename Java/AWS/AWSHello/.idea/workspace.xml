@@ -3,10 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="e20d7f15-d816-4e93-b77f-3d703c56ef57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../../Fortran/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Fortran/a.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Javalin/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Javalin/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Javalin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Javalin/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Playground/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Playground/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../deepstreamExample/.idea/deepstreamExample.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../deepstreamExample/.idea/deepstreamExample.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../deepstreamExample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../deepstreamExample/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../hivegraph" beforeDir="false" />
@@ -20,6 +20,10 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -35,8 +39,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/helloworld/HelloLambda.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="60">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -44,7 +48,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/helloworld/AppTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
@@ -62,7 +66,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
@@ -263,6 +267,14 @@
       <option name="presentableId" value="Default" />
       <updated>1552258480437</updated>
     </task>
+    <task id="LOCAL-00001" summary="Adding Lambda to AWS">
+      <created>1554666349082</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1554666349082</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -270,6 +282,9 @@
       <configuration name="AppTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="AppTest - 2019.03.16 at 08h 16m 44s.xml">
+      <configuration name="AppTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest - 2019.04.07 at 15h 45m 13s.xml">
       <configuration name="AppTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -282,9 +297,9 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.4957265" visible="true" weight="0.26622295" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49287748" visible="true" weight="0.27454242" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info id="aws.explorer" order="7" sideWeight="0.50427353" side_tool="true" visible="true" weight="0.26622295" />
+      <window_info id="aws.explorer" order="7" sideWeight="0.5071225" side_tool="true" visible="true" weight="0.27454242" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="2" weight="0.32905984" />
@@ -309,6 +324,10 @@
       <window_info anchor="right" id="Maven" order="8" />
     </layout>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adding Lambda to AWS" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Lambda to AWS" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/.aws/credentials">
       <provider selected="true" editor-type-id="text-editor" />
@@ -320,10 +339,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/helloworld/AppTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/helloworld/HelloLambda.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        <state relative-caret-position="60">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -334,6 +356,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="17" selection-start-line="8" selection-start-column="4" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/helloworld/GatewayResponse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -341,20 +370,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/helloworld/HelloLambda.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/helloworld/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="17" selection-start-line="8" selection-start-column="4" selection-end-line="11" selection-end-column="17" />
+        <state relative-caret-position="150">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
         </state>
       </provider>
     </entry>

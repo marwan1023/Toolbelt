@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="00277777-f0d1-4277-8818-8b17e3d4611a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../Fortran/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/../../Fortran/a.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../deepstreamExample/.idea/deepstreamExample.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../deepstreamExample/.idea/deepstreamExample.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../deepstreamExample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../deepstreamExample/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hivegraph" beforeDir="false" />
@@ -93,91 +94,16 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="javalinexample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Javalin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javalinexample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Javalin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javalinexample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Javalin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javalinexample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Javalin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javalinexample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Javalin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javalinexample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Javalin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-              <item name="alzuma" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javalinexample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Javalin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-              <item name="kidbank" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javalinexample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Javalin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-              <item name="kidbank" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javalinexample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Javalin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-              <item name="kidbank" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
+      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -222,14 +148,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="356" y="90" width="1244" height="794" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Capture Tool" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.2579035" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.26206324" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />

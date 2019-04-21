@@ -25,7 +25,7 @@ public class MathFrame extends JFrame {
     JTextField diologebox = new JTextField();
     JTextField scorebox = new JTextField();
     JLabel JLabel1 = new JLabel();
-    // JButton startbutton = new JButton();
+
     JLabel equalsign = new JLabel();
     JTextField f = new JTextField();
     JTextField answbox = new JTextField();
@@ -58,18 +58,23 @@ public class MathFrame extends JFrame {
     ImagePanel imageViewer10 = new ImagePanel();
     ImagePanel imageViewer11 = new ImagePanel();
 
-    int hiscore = 330;
-    int giveup = 0;
-    int clone = 0;
-    int randx = 0;
-    int randy = 0;
-    int randsign = 0;
-    int ans;
-    //int score = 0;
+
+    private int giveup = 0;
+    private int clone = 0;
+    private int randx = 0;
+    private int randy = 0;
+    private int randsign = 0;
+    private int ans;
+
+    private final int numberOfQuestions = 25;
+    private int questionNumber = 0;
+
     int level = 0;
-    Thread waitThread;
+
 
     public MathFrame() {
+
+        score.resetMathScore();
 
         // {{INIT_CONTROLS
         getContentPane().setLayout(null);
@@ -81,8 +86,9 @@ public class MathFrame extends JFrame {
         plusbox.setSelectedTextColor(java.awt.Color.black);
         plusbox.setCaretColor(java.awt.Color.black);
         plusbox.setDisabledTextColor(new java.awt.Color(153, 153, 153));
+
         getContentPane().add(plusbox);
-        plusbox.setBounds(216, 108, 48, 40);
+        plusbox.setBounds(216, 108, 12, 40);
         plusbox.setVisible(false);
         xbox.setText("0");
         xbox.setSelectionColor(new java.awt.Color(204, 204, 255));
@@ -104,11 +110,13 @@ public class MathFrame extends JFrame {
         zbox.setSelectedTextColor(java.awt.Color.black);
         zbox.setCaretColor(java.awt.Color.black);
         zbox.setDisabledTextColor(new java.awt.Color(153, 153, 153));
+        zbox.setEnabled(false);
         getContentPane().add(zbox);
         zbox.setBounds(540, 180, 84, 40);
         enterbutton.setText("Answer!");
         enterbutton.setActionCommand("Answer!");
         getContentPane().add(enterbutton);
+        enterbutton.setEnabled(false);
         enterbutton.setBounds(528, 228, 108, 40);
         diologebox
                 .setText("Hello and Welcome to the Math page. Enjoy!");
@@ -120,21 +128,18 @@ public class MathFrame extends JFrame {
         getContentPane().add(diologebox);
         diologebox.setFont(new Font("SansSerif", Font.BOLD | Font.ITALIC, 14));
         diologebox.setBounds(120, 288, 396, 40);
-        scorebox.setText("0.0");
+        scorebox.setText("" + score.getMathScore());
         scorebox.setSelectionColor(new java.awt.Color(204, 204, 255));
         scorebox.setSelectedTextColor(java.awt.Color.black);
         scorebox.setCaretColor(java.awt.Color.black);
         scorebox.setDisabledTextColor(new java.awt.Color(153, 153, 153));
+        scorebox.setEnabled(false);
+
         getContentPane().add(scorebox);
         scorebox.setBounds(504, 396, 84, 40);
         JLabel1.setText("Score");
         getContentPane().add(JLabel1);
         JLabel1.setBounds(516, 360, 60, 40);
-
-        // startbutton.setText("Start Question");
-        // startbutton.setActionCommand("next question");
-        // getContentPane().add(startbutton);
-        // startbutton.setBounds(276,84,132,24);
 
         equalsign.setIconTextGap(9);
         equalsign.setText("=");
@@ -146,6 +151,8 @@ public class MathFrame extends JFrame {
         f.setSelectionColor(new java.awt.Color(204, 204, 255));
         f.setSelectedTextColor(java.awt.Color.black);
         f.setCaretColor(java.awt.Color.black);
+        f.setEnabled(false);
+        f.setText(""+score.getMathHighScore());
         f.setDisabledTextColor(new java.awt.Color(153, 153, 153));
         getContentPane().add(f);
         f.setBounds(384, 396, 84, 40);
@@ -153,10 +160,12 @@ public class MathFrame extends JFrame {
         answbox.setSelectedTextColor(java.awt.Color.black);
         answbox.setCaretColor(java.awt.Color.black);
         answbox.setDisabledTextColor(new java.awt.Color(153, 153, 153));
+        answbox.setEnabled(false);
         getContentPane().add(answbox);
         answbox.setBounds(180, 336, 84, 40);
         answer.setText("Give Up!");
         answer.setActionCommand("Give Up!");
+        answer.setEnabled(false);
         getContentPane().add(answer);
         answer.setBounds(24, 336, 96, 40);
 
@@ -321,7 +330,6 @@ public class MathFrame extends JFrame {
         else {
             try {
 
-                
                 int contin = 1;
                 if (giveup == 0) {
                     if (level == 1)
@@ -704,14 +712,10 @@ public class MathFrame extends JFrame {
                         randx = 9;
                     }
 
-                    for (double count = 0; count < 9999999; count++)
-                        if (count > 9999997)
-                            contin = 2;
                 }
                 randx = clone;
 
-                if (contin == 2) {
-                    // number change for sign box
+
                     if (giveup == 0)
                         randsign = (int) (Math.random() * 2);
                     if (randsign == 0) {
@@ -726,10 +730,7 @@ public class MathFrame extends JFrame {
                         Thread.sleep(500);
                         JLabel3.setText("-");
                     }
-                }
-                for (double count = 0; count < 10999999; count++)
-                    if (count > 10999997)
-                        contin = 3;
+
 
                 // number change for secount box
                 if (giveup == 0) {
@@ -1140,11 +1141,10 @@ public class MathFrame extends JFrame {
                         clone = randy;
                         randy = 9;
                     }
-                    for (double count = 0; count < 9999999; count++)
-                        ;
+
                 }
                 randy = clone;
-
+              //END BIG ASS FOR LOOP
                 if (randsign == 0) {
                     Thread.sleep(500);
                     new PlaySound(classLoader.getResource("equals.au").getFile());
@@ -1156,6 +1156,32 @@ public class MathFrame extends JFrame {
                     ans = randx - randy;
 
                 }
+
+                questionNumber++;
+
+                if (questionNumber > numberOfQuestions)
+                {
+                    diologebox
+                            .setText("Game Over! Great Job!");
+
+
+
+
+                    if(score.getMathScore() > score.getMathHighScore())
+                    {
+                        score.setMathHighScore(score.getMathScore());
+                        f.setText(""+score.getMathHighScore());
+                    }
+
+                    nameEntryButton.setEnabled(false);
+                    JButton2.setEnabled(false);
+                    JButton3.setEnabled(false);
+                    zbox.setEnabled(false);
+                    enterbutton.setEnabled(false);
+                    answer.setEnabled(false);
+                }
+
+
 
             } catch (java.lang.Exception e) {
             }
@@ -1170,29 +1196,10 @@ public class MathFrame extends JFrame {
 
     void enterbutton_actionPerformed_Interaction1(
             java.awt.event.ActionEvent event) {
-        double a;
+        int a;
         try {
-            // diologebox Set the JTextField's text
-            // a = (double.valueOf(zbox.getText()).DoubleValue();
-            a = (Double.valueOf(zbox.getText())).doubleValue();
-            f.setText(String.valueOf(hiscore));
-            for (double count = 0; count < 39999999; count++)
-                ;
-            // ;
-//            if (score == hiscore) {
-//                new PlaySound(classLoader.getResource("unbeleave.au").getFile());
-//                hiscore = hiscore + 330;
-//                for (double count = 0; count < 5999999; count++)
-//                    ;
-//                new PlaySound(classLoader.getResource("hi-score.au").getFile());// put
-//                                                                      // good
-//                                                                      // stuff
-//                                                                      // here//
-//                for (double count = 0; count < 5999999; count++)
-//                    ;
-//            }
 
-            // answbox.setText(String.valueOf(ans));
+            a = Integer.valueOf(zbox.getText());
 
             if (ans == a) {
                 int rand1;
@@ -1217,21 +1224,21 @@ public class MathFrame extends JFrame {
                 Thread.sleep(500);
 
                 diologebox.setText("Right");
-               // score = score + 33;
-                scorebox.setText(String.valueOf(score));
-                for (double count = 0; count < 19999999; count++)
-                    ;
+                score.incrementMathScore(5);
                 startbutton_actionPerformed_Interaction1(event);
             } else if (ans != a) {
                 int rand1;
                 rand1 = Double.valueOf(Math.random() * 2).intValue();
                 if (rand1 == 0)
-                    // soundPlayer1.play();
                     new PlaySound(classLoader.getResource("betterluck.au").getFile());
                 if (rand1 == 1)
                     new PlaySound(classLoader.getResource("tryagain.au").getFile());
-                diologebox.setText("wrong");
+                diologebox.setText("Wrong");
+                score.decrementMathScore(5);
+
             }
+            scorebox.setText(String.valueOf(score.getMathScore()));
+
 
         } catch (java.lang.Exception e) {
             e.printStackTrace();
@@ -1251,8 +1258,8 @@ public class MathFrame extends JFrame {
             // ybox Set the JTextField's text
             answbox.setText(String.valueOf(ans));
             startbutton_actionPerformed_Interaction1(event);
-            for (double count = 0; count < 9999999; count++)
-                ;
+//            for (double count = 0; count < 9999999; count++)
+//                ;
             giveup = 0;
             
             int subans = ans;
@@ -1436,8 +1443,6 @@ public class MathFrame extends JFrame {
                     clone = subans;
                     subans = 9;
                 }
-                for (double count = 0; count < 49999999; count++)
-                    ;
 
                 startbutton_actionPerformed_Interaction1(event);
             }
@@ -1467,9 +1472,6 @@ public class MathFrame extends JFrame {
         }
     }
 
-    void closebutton_actionPerformed(java.awt.event.ActionEvent event) {
-        // to do: code goes here.
-    }
 
     void JButton3_actionPerformed(java.awt.event.ActionEvent event)
             throws InterruptedException {
@@ -1477,6 +1479,11 @@ public class MathFrame extends JFrame {
         new PlaySound(classLoader.getResource("that.spir.au").getFile());
         Thread.sleep(1000);
         startbutton_actionPerformed_Interaction1(event);
+        nameEntryButton.setEnabled(false);
+        JButton2.setEnabled(false);
+        zbox.setEnabled(true);
+        enterbutton.setEnabled(true);
+        answer.setEnabled(true);
 
     }
 
@@ -1486,6 +1493,11 @@ public class MathFrame extends JFrame {
         new PlaySound(classLoader.getResource("ready.when.you.au").getFile());
         Thread.sleep(1000);
         startbutton_actionPerformed_Interaction1(event);
+        JButton3.setEnabled(false);
+        JButton2.setEnabled(false);
+        zbox.setEnabled(true);
+        enterbutton.setEnabled(true);
+        answer.setEnabled(true);
 
     }
 
@@ -1495,6 +1507,11 @@ public class MathFrame extends JFrame {
         new PlaySound(classLoader.getResource("good.choice.au").getFile());
         Thread.sleep(1000);
         startbutton_actionPerformed_Interaction1(event);
+        JButton3.setEnabled(false);
+        nameEntryButton.setEnabled(false);
+        zbox.setEnabled(true);
+        enterbutton.setEnabled(true);
+        answer.setEnabled(true);
 
     }
 

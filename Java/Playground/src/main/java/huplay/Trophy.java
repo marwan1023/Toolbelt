@@ -140,15 +140,15 @@ public class Trophy extends JFrame {
             sgold.setVisible(true);
         }
 
-        if (mathScore <= 330) {
+        if (mathScore >=5 && mathScore <= 70) {
             mbronze.setVisible(true);
 
 
-        } else if (mathScore > 330 && mathScore <= 600) {
+        } else if (mathScore > 70 && mathScore <= 100) {
             msilver.setVisible(true);
 
 
-        } else if (mathScore > 600 && mathScore <= 1000) {
+        } else if (mathScore > 100 && mathScore <= 125) {
             mgold.setVisible(true);
 
 

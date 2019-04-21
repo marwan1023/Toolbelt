@@ -386,7 +386,8 @@ public class MainFrame extends JFrame {
                 // click.play();
                 String app1 = " ";
                 app1 += "Spelling Activity";
-                (new SpellFrame(name.toString() + app1)).setVisible(true);
+                SpellFrame spellFrame = new SpellFrame(name.toString() + app1);
+                spellFrame.setVisible(true);
             }
         } catch (Exception e) {
         }

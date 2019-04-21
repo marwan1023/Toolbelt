@@ -5,24 +5,17 @@ import java.awt.Dimension;
 import java.awt.Font;
 import java.awt.Insets;
 
-import javax.swing.ButtonGroup;
-import javax.swing.JButton;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.JMenuBar;
-import javax.swing.JTextField;
-import javax.swing.SwingConstants;
+import javax.swing.*;
 
 public class SpellFrame extends JFrame {
 
     private static final long serialVersionUID = 1L;
     private ClassLoader classLoader = getClass().getClassLoader();
+    private Score score = Score.getInstance();
 
-    // Used by addNotify
-    boolean frameSizeAdjusted = false;
 
     // {{DECLARE_CONTROLS
-    JTextField score = new JTextField();
+    JTextField scoreField = new JTextField();
     JLabel JLabel1 = new JLabel();
     JLabel JLabel2 = new JLabel();
     JButton First = new JButton();
@@ -54,61 +47,62 @@ public class SpellFrame extends JFrame {
     JTextField level = new JTextField();
     JLabel JLabel4 = new JLabel();
     JLabel JLabel5 = new JLabel();
-    ImagePanel imageViewer1 = new ImagePanel();
+    JLabel starlabel1;
+    JLabel starlabel2;
+    ImagePanel imageViewer1;
 
     ImagePanel image = new ImagePanel();
-    ImagePanel dogs = new ImagePanel();
-    ImagePanel bd = new ImagePanel();
-    ImagePanel batd = new ImagePanel();
-    ImagePanel catd = new ImagePanel();
-    ImagePanel treed = new ImagePanel();
-    ImagePanel balld = new ImagePanel();
-    ImagePanel birdd = new ImagePanel();
-    ImagePanel lamp = new ImagePanel();
+    ImagePanel dogs;
+    ImagePanel bd;
+    ImagePanel batd;
+    ImagePanel catd;
+    ImagePanel treed;
+    ImagePanel balld;
+    ImagePanel birdd;
+    ImagePanel lamp;
 
-    ImagePanel coats = new ImagePanel();
-    ImagePanel soaps = new ImagePanel();
-    ImagePanel leaps = new ImagePanel();
-    ImagePanel tig = new ImagePanel();
-    ImagePanel bea = new ImagePanel();
-    ImagePanel slp = new ImagePanel();
-    ImagePanel boa = new ImagePanel();
-    ImagePanel mouse = new ImagePanel();
-    ImagePanel shark = new ImagePanel();
-    ImagePanel fish = new ImagePanel();
-    ImagePanel chr = new ImagePanel();
-    ImagePanel apple = new ImagePanel();
-    ImagePanel deer = new ImagePanel();
-    ImagePanel lite = new ImagePanel();
-    ImagePanel carrot = new ImagePanel();
-    ImagePanel pokemon = new ImagePanel();
-    ImagePanel book = new ImagePanel();
-    ImagePanel clock = new ImagePanel();
-    ImagePanel worm = new ImagePanel();
-    ImagePanel star2 = new ImagePanel();
-    ImagePanel star1 = new ImagePanel();
+    ImagePanel coats;
+    ImagePanel soaps;
+    ImagePanel leaps;
+    ImagePanel tig;
+    ImagePanel bea;
+    ImagePanel slp;
+    ImagePanel boa;
+    ImagePanel mouse;
+    ImagePanel shark;
+    ImagePanel fish;
+    ImagePanel chr;
+    ImagePanel apple;
+    ImagePanel deer;
+    ImagePanel lite;
+    ImagePanel carrot;
+    ImagePanel pokemon;
+    ImagePanel book;
+    ImagePanel clock;
+    ImagePanel worm;
+    ImagePanel star2;
+    ImagePanel star1;
 
-    double counter = 0;
-    double fin;
     String e = "Level 1";
     String m = "Level 2";
     String h = "Level 3";
 
     public SpellFrame() {
 
+        score.resetSpellingScore();
+
         // {{INIT_CONTROLS
         getContentPane().setLayout(null);
         getContentPane().setBackground(java.awt.Color.white);
         setSize(620, 464);
-        setVisible(false);
-        score.setSelectionColor(new java.awt.Color(204, 204, 255));
-        score.setSelectedTextColor(java.awt.Color.black);
-        score.setCaretColor(java.awt.Color.black);
-        score.setDisabledTextColor(java.awt.Color.white);
-        score.setEditable(false);
-        getContentPane().add(score);
-        score.setFont(new Font("SansSerif", Font.BOLD | Font.ITALIC, 12));
-        score.setBounds(60, 120, 46, 32);
+        scoreField.setSelectionColor(new java.awt.Color(204, 204, 255));
+        scoreField.setSelectedTextColor(java.awt.Color.black);
+        scoreField.setCaretColor(java.awt.Color.black);
+        scoreField.setDisabledTextColor(java.awt.Color.white);
+        scoreField.setEditable(false);
+        getContentPane().add(scoreField);
+        scoreField.setFont(new Font("SansSerif", Font.BOLD | Font.ITALIC, 12));
+        scoreField.setBounds(60, 120, 46, 32);
         JLabel1.setHorizontalAlignment(SwingConstants.CENTER);
         JLabel1.setText("Score:");
         getContentPane().add(JLabel1);
@@ -297,21 +291,6 @@ public class SpellFrame extends JFrame {
         getContentPane().add(Ans9);
         Ans9.setBounds(348, 396, 60, 24);
 
-        JLabel6.setHorizontalAlignment(SwingConstants.CENTER);
-        JLabel6.setText("Remember to ");
-        getContentPane().add(JLabel6);
-        JLabel6.setForeground(java.awt.Color.black);
-        JLabel6.setBounds(48, 360, 125, 23);
-        JLabel7.setHorizontalAlignment(SwingConstants.CENTER);
-        JLabel7.setText("note your score in ");
-        getContentPane().add(JLabel7);
-        JLabel7.setForeground(java.awt.Color.black);
-        JLabel7.setBounds(48, 384, 125, 23);
-        JLabel8.setHorizontalAlignment(SwingConstants.CENTER);
-        JLabel8.setText("trophy room!");
-        getContentPane().add(JLabel8);
-        JLabel8.setForeground(java.awt.Color.black);
-        JLabel8.setBounds(48, 408, 125, 23);
         spell.setHorizontalAlignment(SwingConstants.CENTER);
         spell.setText("Spell:");
         getContentPane().add(spell);
@@ -469,13 +448,28 @@ public class SpellFrame extends JFrame {
         star2 = new ImagePanel(classLoader.getResource("star.gif").getFile());
 
         star2.setLayout(null);
-        getContentPane().add(star2);
+        //getContentPane().add(star2);
+
+        Icon imgIcon = new ImageIcon(classLoader.getResource("star.gif"));
+        starlabel1 = new JLabel(imgIcon);
+        starlabel1.setBounds(504, 12, 72, 74);
+        getContentPane().add(starlabel1);
+       starlabel1.setVisible(false);
+
         star2.setBounds(504, 12, 72, 74);
         star2.setVisible(false);
+
+
         star1 = new ImagePanel(classLoader.getResource("star.gif").getFile());
 
         star1.setLayout(null);
-        getContentPane().add(star1);
+
+        imgIcon = new ImageIcon(classLoader.getResource("star.gif"));
+        starlabel2 = new JLabel(imgIcon);
+        starlabel2.setBounds(36, 12, 72, 74);
+        getContentPane().add(starlabel2);
+        starlabel2.setVisible(false);
+
         star1.setBounds(36, 12, 72, 74);
         star1.setVisible(false);
 
@@ -507,12 +501,11 @@ public class SpellFrame extends JFrame {
         // }}
     }
 
-    public void scoreKeep(double x) {
-        score.setText(String.valueOf(x));
-        // counter2 = x;
-        if (x == 11) {
-            star1.setVisible(true);
-            star2.setVisible(true);
+    public void scoreKeep() {
+        scoreField.setText(String.valueOf(score.getSpellingScore()));
+        if (score.getSpellingScore() >= 40) {
+            starlabel1.setVisible(true);
+            starlabel2.setVisible(true);
             new PlaySound(classLoader.getResource("applause2.au").getFile());
 
         }
@@ -523,34 +516,9 @@ public class SpellFrame extends JFrame {
         setTitle(sTitle);
     }
 
-    public void setVisible(boolean b) {
-        if (b)
-            setLocation(50, 50);
-        super.setVisible(b);
-    }
 
     static public void main(String args[]) {
         (new SpellFrame()).setVisible(true);
-    }
-
-    public void addNotify() {
-        // Record the size of the window prior to calling parents addNotify.
-        Dimension size = getSize();
-
-        super.addNotify();
-
-        if (frameSizeAdjusted)
-            return;
-        frameSizeAdjusted = true;
-
-        // Adjust size of frame according to the insets and menu bar
-        Insets insets = getInsets();
-        JMenuBar menuBar = getRootPane().getJMenuBar();
-        int menuBarHeight = 0;
-        if (menuBar != null)
-            menuBarHeight = menuBar.getPreferredSize().height;
-        setSize(insets.left + insets.right + size.width, insets.top
-                + insets.bottom + size.height + menuBarHeight);
     }
 
     JButton Eighth = new JButton();
@@ -559,16 +527,10 @@ public class SpellFrame extends JFrame {
     JButton bonus = new JButton();
     JTextField Word9 = new JTextField();
     JButton Ans9 = new JButton();
-
-    JLabel JLabel6 = new JLabel();
-    JLabel JLabel7 = new JLabel();
-    JLabel JLabel8 = new JLabel();
+    
     JLabel spell = new JLabel();
 
-    // }}
-
-    // {{DECLARE_MENUS
-    // }}
+  
 
     class SymAction implements java.awt.event.ActionListener {
         public void actionPerformed(java.awt.event.ActionEvent event) {
@@ -635,19 +597,19 @@ public class SpellFrame extends JFrame {
                     String input = (String.valueOf(Word1.getText())).toLowerCase();
 
                     if (input.equals(word)) {
-                        counter++;
+                        score.incrementSpellingScore(5);
                         // right.play();
                         new PlaySound(classLoader.getResource("Tada.au").getFile());
                         Word1.setEditable(false);
                         Ans1.setEnabled(false);
-                        scoreKeep(counter);
+                        scoreKeep();
                     } else { // Wrong.play();
                         new PlaySound(classLoader.getResource("wrong.au").getFile());
-                        counter = counter + .5;
+                       score.decrementSpellingScore(5);
                         Word1.setText("dog");
                         Word1.setEditable(false);
                         Ans1.setEnabled(false);
-                        scoreKeep(counter);
+                        scoreKeep();
                     }
                 }
             } catch (Exception e) {
@@ -662,18 +624,18 @@ public class SpellFrame extends JFrame {
                     if (input.equals(word)) {
 
                         new PlaySound(classLoader.getResource("Tada.au").getFile());
-                        counter++;
+                        score.incrementSpellingScore(5);
                         Word1.setEditable(false);
                         Ans1.setEnabled(false);
-                        scoreKeep(counter);
+                        scoreKeep();
                     } else {
-                        counter = counter + .5;
+                         score.decrementSpellingScore(5);
                         new PlaySound(classLoader.getResource("wrong.au").getFile());
 
                         Word1.setText("coat");
                         Word1.setEditable(false);
                         Ans1.setEnabled(false);
-                        scoreKeep(counter);
+                        scoreKeep();
                     }
                 }
             } catch (Exception e) {
@@ -688,18 +650,18 @@ public class SpellFrame extends JFrame {
                     if (input.equals(word)) {
                         // right.play();
                         new PlaySound(classLoader.getResource("Tada.au").getFile());
-                        counter++;
+                         score.incrementSpellingScore(5);
                         Word1.setEditable(false);
                         Ans1.setEnabled(false);
-                        scoreKeep(counter);
+                        scoreKeep();
                     } else {
-                        counter = counter + .5;
+                         score.decrementSpellingScore(5);
                         new PlaySound(classLoader.getResource("wrong.au").getFile());
                         // Wrong.play();
                         Word1.setText("mouse");
                         Word1.setEditable(false);
                         Ans1.setEnabled(false);
-                        scoreKeep(counter);
+                        scoreKeep();
                     }
                 }
             } catch (Exception e) {
@@ -853,19 +815,19 @@ public class SpellFrame extends JFrame {
                     String input = (String.valueOf(Word2.getText())).toLowerCase();
 
                     if (input.equals(word)) {
-                        counter++;
+                         score.incrementSpellingScore(5);
                         // right.play();
                         new PlaySound(classLoader.getResource("Tada.au").getFile());
                         Word2.setEditable(false);
                         Ans2.setEnabled(false);
-                        scoreKeep(counter);
+                        scoreKeep();
                     } else { // Wrong.play();
                         new PlaySound(classLoader.getResource("wrong.au").getFile());
-                        counter = counter + .5;
+                         score.decrementSpellingScore(5);
                         Word2.setText("bed");
                         Word2.setEditable(false);
                         Ans2.setEnabled(false);
-                        scoreKeep(counter);
+                        scoreKeep();
                     }
                 }
             } catch (Exception e) {
@@ -881,18 +843,18 @@ public class SpellFrame extends JFrame {
                     if (input.equals(word)) {
                         // right.play();
                         new PlaySound(classLoader.getResource("Tada.au").getFile());
-                        counter++;
+                         score.incrementSpellingScore(5);
                         Word2.setEditable(false);
                         Ans2.setEnabled(false);
-                        scoreKeep(counter);
+                        scoreKeep();
                     } else {
-                        counter = counter + .5;
+                         score.decrementSpellingScore(5);
                         // Wrong.play();
                         new PlaySound(classLoader.getResource("wrong.au").getFile());
                         Word2.setText("soap");
                         Word2.setEditable(false);
                         Ans2.setEnabled(false);
-                        scoreKeep(counter);
+                        scoreKeep();
                     }
                 }
             } catch (Exception e) {
@@ -908,18 +870,18 @@ public class SpellFrame extends JFrame {
                     if (input.equals(word)) {
                         // right.play();
                         new PlaySound(classLoader.getResource("Tada.au").getFile());
-                        counter++;
+                         score.incrementSpellingScore(5);
                         Word2.setEditable(false);
                         Ans2.setEnabled(false);
-                        scoreKeep(counter);
+                        scoreKeep();
                     } else {
-                        counter = counter + .5;
+                         score.decrementSpellingScore(5);
                         // Wrong.play();
                         new PlaySound(classLoader.getResource("wrong.au").getFile());
                         Word2.setText("shark");
                         Word2.setEditable(false);
                         Ans2.setEnabled(false);
-                        scoreKeep(counter);
+                        scoreKeep();
                     }
                 }
             } catch (Exception e) {
@@ -979,19 +941,19 @@ public class SpellFrame extends JFrame {
                     String input = (String.valueOf(Word3.getText()));
 
                     if (input.equals(word)) {
-                        counter++;
+                         score.incrementSpellingScore(5);
                         // right.play();
                         new PlaySound(classLoader.getResource("Tada.au").getFile());
                         Word3.setEditable(false);
                         Ans3.setEnabled(false);
-                        scoreKeep(counter);
+                        scoreKeep();
                     } else { // Wrong.play();
                         new PlaySound(classLoader.getResource("wrong.au").getFile());
-                        counter = counter + .5;
+                         score.decrementSpellingScore(5);
                         Word3.setText("bat");
                         Word3.setEditable(false);
                         Ans3.setEnabled(false);
-                        scoreKeep(counter);
+                        scoreKeep();
                     }
                 }
             } catch (Exception e) {
@@ -1007,18 +969,18 @@ public class SpellFrame extends JFrame {
                     if (input.equals(word)) {
                         // right.play();
                         new PlaySound(classLoader.getResource("Tada.au").getFile());
-                        counter++;
+                         score.incrementSpellingScore(5);
                         Word3.setEditable(false);
                         Ans3.setEnabled(false);
-                        scoreKeep(counter);
+                        scoreKeep();
                     } else {
-                        counter = counter + .5;
+                         score.decrementSpellingScore(5);
                         // Wrong.play();
                         new PlaySound(classLoader.getResource("wrong.au").getFile());
                         Word3.setText("frog");
                         Word3.setEditable(false);
                         Ans3.setEnabled(false);
-                        scoreKeep(counter);
+                        scoreKeep();
                     }
                 }
             } catch (Exception e) {
@@ -1034,18 +996,18 @@ public class SpellFrame extends JFrame {
                     if (input.equals(word)) {
                         // right.play();
                         new PlaySound(classLoader.getResource("Tada.au").getFile());
-                        counter++;
+                         score.incrementSpellingScore(5);
                         Word3.setEditable(false);
                         Ans3.setEnabled(false);
-                        scoreKeep(counter);
+                        scoreKeep();
                     } else {
-                        counter = counter + .5;
+                         score.decrementSpellingScore(5);
                         // Wrong.play();
                         new PlaySound(classLoader.getResource("wrong.au").getFile());
                         Word3.setText("fish");
                         Word3.setEditable(false);
                         Ans3.setEnabled(false);
-                        scoreKeep(counter);
+                        scoreKeep();
                     }
                 }
             } catch (Exception e) {
@@ -1104,19 +1066,19 @@ public class SpellFrame extends JFrame {
                     String input = (String.valueOf(Word4.getText())).toLowerCase();
 
                     if (input.equals(word)) {
-                        counter++;
+                         score.incrementSpellingScore(5);
                         // right.play();
                         new PlaySound(classLoader.getResource("Tada.au").getFile());
                         Word4.setEditable(false);
                         Ans4.setEnabled(false);
-                        scoreKeep(counter);
+                        scoreKeep();
                     } else { // Wrong.play();
                         new PlaySound(classLoader.getResource("wrong.au").getFile());
-                        counter = counter + .5;
+                         score.decrementSpellingScore(5);
                         Word4.setText("book");
                         Word4.setEditable(false);
                         Ans4.setEnabled(false);
-                        scoreKeep(counter);
+                        scoreKeep();
                     }
                 }
             } catch (Exception e) {
@@ -1132,18 +1094,18 @@ public class SpellFrame extends JFrame {
                     if (input.equals(word)) {
                         // right.play();
                         new PlaySound(classLoader.getResource("Tada.au").getFile());
-                        counter++;
+                         score.incrementSpellingScore(5);
                         Word4.setEditable(false);
                         Ans4.setEnabled(false);
-                        scoreKeep(counter);
+                        scoreKeep();
                     } else {
-                        counter = counter + .5;
+                         score.decrementSpellingScore(5);
                         // Wrong.play();
                         new PlaySound(classLoader.getResource("wrong.au").getFile());
                         Word4.setText("tiger");
                         Word4.setEditable(false);
                         Ans4.setEnabled(false);
-                        scoreKeep(counter);
+                        scoreKeep();
                     }
                 }
             } catch (Exception e) {
@@ -1159,18 +1121,18 @@ public class SpellFrame extends JFrame {
                     if (input.equals(word)) {
                         // right.play();
                         new PlaySound(classLoader.getResource("Tada.au").getFile());
-                        counter++;
+                         score.incrementSpellingScore(5);
                         Word4.setEditable(false);
                         Ans4.setEnabled(false);
-                        scoreKeep(counter);
+                        scoreKeep();
                     } else {
-                        counter = counter + .5;
+                         score.decrementSpellingScore(5);
                         // Wrong.play();
                         new PlaySound(classLoader.getResource("wrong.au").getFile());
                         Word4.setText("chair");
                         Word4.setEditable(false);
                         Ans4.setEnabled(false);
-                        scoreKeep(counter);
+                        scoreKeep();
                     }
                 }
             } catch (Exception e) {
@@ -1229,19 +1191,19 @@ public class SpellFrame extends JFrame {
                     String input = (String.valueOf(Word5.getText())).toLowerCase();
 
                     if (input.equals(word)) {
-                        counter++;
+                         score.incrementSpellingScore(5);
                         // right.play();
                         new PlaySound(classLoader.getResource("Tada.au").getFile());
                         Word5.setEditable(false);
                         Ans5.setEnabled(false);
-                        scoreKeep(counter);
+                        scoreKeep();
                     } else { // Wrong.play();
                         new PlaySound(classLoader.getResource("wrong.au").getFile());
-                        counter = counter + .5;
+                         score.decrementSpellingScore(5);
                         Word5.setText("cat");
                         Word5.setEditable(false);
                         Ans5.setEnabled(false);
-                        scoreKeep(counter);
+                        scoreKeep();
                     }
                 }
             } catch (Exception e) {
@@ -1257,18 +1219,18 @@ public class SpellFrame extends JFrame {
                     if (input.equals(word)) {
                         // right.play();
                         new PlaySound(classLoader.getResource("Tada.au").getFile());
-                        counter++;
+                         score.incrementSpellingScore(5);
                         Word5.setEditable(false);
                         Ans5.setEnabled(false);
-                        scoreKeep(counter);
+                        scoreKeep();
                     } else {
-                        counter = counter + .5;
+                         score.decrementSpellingScore(5);
                         // Wrong.play();
                         new PlaySound(classLoader.getResource("wrong.au").getFile());
                         Word5.setText("bear");
                         Word5.setEditable(false);
                         Ans5.setEnabled(false);
-                        scoreKeep(counter);
+                        scoreKeep();
                     }
                 }
             } catch (Exception e) {
@@ -1284,18 +1246,18 @@ public class SpellFrame extends JFrame {
                     if (input.equals(word)) {
                         // right.play();
                         new PlaySound(classLoader.getResource("Tada.au").getFile());
-                        counter++;
+                         score.incrementSpellingScore(5);
                         Word5.setEditable(false);
                         Ans5.setEnabled(false);
-                        scoreKeep(counter);
+                        scoreKeep();
                     } else {
-                        counter = counter + .5;
+                         score.decrementSpellingScore(5);
                         // Wrong.play();
                         new PlaySound(classLoader.getResource("wrong.au").getFile());
                         Word5.setText("apple");
                         Word5.setEditable(false);
                         Ans5.setEnabled(false);
-                        scoreKeep(counter);
+                        scoreKeep();
                     }
                 }
             } catch (Exception e) {
@@ -1354,19 +1316,19 @@ public class SpellFrame extends JFrame {
                     String input = (String.valueOf(Word6.getText())).toLowerCase();
 
                     if (input.equals(word)) {
-                        counter++;
+                         score.incrementSpellingScore(5);
                         // right.play();
                         new PlaySound(classLoader.getResource("Tada.au").getFile());
                         Word6.setEditable(false);
                         Ans6.setEnabled(false);
-                        scoreKeep(counter);
+                        scoreKeep();
                     } else { // Wrong.play();
                         new PlaySound(classLoader.getResource("wrong.au").getFile());
-                        counter = counter + .5;
+                         score.decrementSpellingScore(5);
                         Word6.setText("tree");
                         Word6.setEditable(false);
                         Ans6.setEnabled(false);
-                        scoreKeep(counter);
+                        scoreKeep();
                     }
                 }
             } catch (Exception e) {
@@ -1382,18 +1344,18 @@ public class SpellFrame extends JFrame {
                     if (input.equals(word)) {
                         // right.play();
                         new PlaySound(classLoader.getResource("Tada.au").getFile());
-                        counter++;
+                         score.incrementSpellingScore(5);
                         Word6.setEditable(false);
                         Ans6.setEnabled(false);
-                        scoreKeep(counter);
+                        scoreKeep();
                     } else {
-                        counter = counter + .5;
+                         score.decrementSpellingScore(5);
                         // Wrong.play();
                         new PlaySound(classLoader.getResource("wrong.au").getFile());
                         Word6.setText("clock");
                         Word6.setEditable(false);
                         Ans6.setEnabled(false);
-                        scoreKeep(counter);
+                        scoreKeep();
                     }
                 }
             } catch (Exception e) {
@@ -1409,18 +1371,18 @@ public class SpellFrame extends JFrame {
                     if (input.equals(word)) {
                         // right.play();
                         new PlaySound(classLoader.getResource("Tada.au").getFile());
-                        counter++;
+                         score.incrementSpellingScore(5);
                         Word6.setEditable(false);
                         Ans6.setEnabled(false);
-                        scoreKeep(counter);
+                        scoreKeep();
                     } else {
-                        counter = counter + .5;
+                         score.decrementSpellingScore(5);
                         // Wrong.play();
                         new PlaySound(classLoader.getResource("Tada.au").getFile());
                         Word6.setText("deer");
                         Word6.setEditable(false);
                         Ans6.setEnabled(false);
-                        scoreKeep(counter);
+                        scoreKeep();
                     }
                 }
             } catch (Exception e) {
@@ -1479,19 +1441,19 @@ public class SpellFrame extends JFrame {
                     String input = (String.valueOf(Word7.getText())).toLowerCase();
 
                     if (input.equals(word)) {
-                        counter++;
+                         score.incrementSpellingScore(5);
                         // right.play();
                         new PlaySound(classLoader.getResource("Tada.au").getFile());
                         Word7.setEditable(false);
                         Ans7.setEnabled(false);
-                        scoreKeep(counter);
+                        scoreKeep();
                     } else { // Wrong.play();
                         new PlaySound(classLoader.getResource("wrong.au").getFile());
-                        counter = counter + .5;
+                         score.decrementSpellingScore(5);
                         Word7.setText("ball");
                         Word7.setEditable(false);
                         Ans7.setEnabled(false);
-                        scoreKeep(counter);
+                        scoreKeep();
                     }
                 }
             } catch (Exception e) {
@@ -1507,18 +1469,18 @@ public class SpellFrame extends JFrame {
                     if (input.equals(word)) {
                         // right.play();
                         new PlaySound(classLoader.getResource("Tada.au").getFile());
-                        counter++;
+                         score.incrementSpellingScore(5);
                         Word7.setEditable(false);
                         Ans7.setEnabled(false);
-                        scoreKeep(counter);
+                        scoreKeep();
                     } else {
-                        counter = counter + .5;
+                         score.decrementSpellingScore(5);
                         // Wrong.play();
                         new PlaySound(classLoader.getResource("wrong.au").getFile());
                         Word7.setText("worm");
                         Word7.setEditable(false);
                         Ans7.setEnabled(false);
-                        scoreKeep(counter);
+                        scoreKeep();
                     }
                 }
             } catch (Exception e) {
@@ -1534,18 +1496,18 @@ public class SpellFrame extends JFrame {
                     if (input.equals(word)) {
                         // right.play();
                         new PlaySound(classLoader.getResource("Tada.au").getFile());
-                        counter++;
+                         score.incrementSpellingScore(5);
                         Word7.setEditable(false);
                         Ans7.setEnabled(false);
-                        scoreKeep(counter);
+                        scoreKeep();
                     } else {
-                        counter = counter + .5;
+                         score.decrementSpellingScore(5);
                         // Wrong.play();
                         new PlaySound(classLoader.getResource("wrong.au").getFile());
                         Word7.setText("light");
                         Word7.setEditable(false);
                         Ans7.setEnabled(false);
-                        scoreKeep(counter);
+                        scoreKeep();
                     }
                 }
             } catch (Exception e) {
@@ -1605,19 +1567,19 @@ public class SpellFrame extends JFrame {
                     String input = (String.valueOf(Word8.getText())).toLowerCase();
 
                     if (input.equals(word)) {
-                        counter++;
+                         score.incrementSpellingScore(5);
                       
                         new PlaySound(classLoader.getResource("Tada.au").getFile());
                         Word8.setEditable(false);
                         Ans8.setEnabled(false);
-                        scoreKeep(counter);
+                        scoreKeep();
                     } else { 
                         new PlaySound(classLoader.getResource("wrong.au").getFile());
-                        counter = counter + .5;
+                         score.decrementSpellingScore(5);
                         Word8.setText("bird");
                         Word8.setEditable(false);
                         Ans8.setEnabled(false);
-                        scoreKeep(counter);
+                        scoreKeep();
                     }
                 }
             } catch (Exception e) {
@@ -1633,18 +1595,18 @@ public class SpellFrame extends JFrame {
                     if (input.equals(word)) {
                        
                         new PlaySound(classLoader.getResource("Tada.au").getFile());
-                        counter++;
+                         score.incrementSpellingScore(5);
                         Word8.setEditable(false);
                         Ans8.setEnabled(false);
-                        scoreKeep(counter);
+                        scoreKeep();
                     } else {
-                        counter = counter + .5;
+                         score.decrementSpellingScore(5);
                         
                         new PlaySound(classLoader.getResource("wrong.au").getFile());
                         Word8.setText("sleep");
                         Word8.setEditable(false);
                         Ans8.setEnabled(false);
-                        scoreKeep(counter);
+                        scoreKeep();
                     }
                 }
             } catch (Exception e) {
@@ -1660,18 +1622,18 @@ public class SpellFrame extends JFrame {
                     if (input.equals(word)) {
                         // right.play();
                         new PlaySound(classLoader.getResource("Tada.au").getFile());
-                        counter++;
+                         score.incrementSpellingScore(5);
                         Word8.setEditable(false);
                         Ans8.setEnabled(false);
-                        scoreKeep(counter);
+                        scoreKeep();
                     } else {
-                        counter = counter + .5;
+                         score.decrementSpellingScore(5);
                         // Wrong.play();
                         new PlaySound(classLoader.getResource("wrong.au").getFile());
                         Word8.setText("carrot");
                         Word8.setEditable(false);
                         Ans8.setEnabled(false);
-                        scoreKeep(counter);
+                        scoreKeep();
                     }
                 }
             } catch (Exception e) {
@@ -1731,18 +1693,18 @@ public class SpellFrame extends JFrame {
                     String input = (String.valueOf(Word9.getText())).toLowerCase();
 
                     if (input.equals(word)) {
-                        counter = counter + 3;
+                        score.incrementSpellingScore(10);
                      
                         new PlaySound(classLoader.getResource("Tada.au").getFile());
                         Word9.setEditable(false);
                         Ans9.setEnabled(false);
-                        scoreKeep(counter);
+                        scoreKeep();
                     } else {
                         new PlaySound(classLoader.getResource("wrong.au").getFile());
                         Word9.setText("lamp");
                         Word9.setEditable(false);
                         Ans9.setEnabled(false);
-                        scoreKeep(counter);
+                        scoreKeep();
                     }
                 }
             } catch (Exception e) {
@@ -1758,10 +1720,10 @@ public class SpellFrame extends JFrame {
                     if (input.equals(word)) {
                       
                         new PlaySound(classLoader.getResource("Tada.au").getFile());
-                        counter = counter + 3;
+                        score.incrementSpellingScore(10);
                         Word9.setEditable(false);
                         Ans9.setEnabled(false);
-                        scoreKeep(counter);
+                        scoreKeep();
                     } else {
 
                       
@@ -1769,7 +1731,7 @@ public class SpellFrame extends JFrame {
                         Word9.setText("boat");
                         Word9.setEditable(false);
                         Ans9.setEnabled(false);
-                        scoreKeep(counter);
+                        scoreKeep();
                     }
                 }
             } catch (Exception e) {
@@ -1785,10 +1747,10 @@ public class SpellFrame extends JFrame {
                     if (input.equals(word)) {
                        
                         new PlaySound(classLoader.getResource("Tada.au").getFile());
-                        counter = counter + 3;
+                        score.incrementSpellingScore(10);
                         Word9.setEditable(false);
                         Ans9.setEnabled(false);
-                        scoreKeep(counter);
+                        scoreKeep();
                     } else {
 
                        
@@ -1796,7 +1758,7 @@ public class SpellFrame extends JFrame {
                         Word9.setText("pokemon");
                         Word9.setEditable(false);
                         Ans9.setEnabled(false);
-                        scoreKeep(counter);
+                        scoreKeep();
                     }
                 }
             } catch (Exception e) {

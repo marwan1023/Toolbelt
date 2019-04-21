@@ -16,6 +16,10 @@ public class Score {
 
     }
 
+    public void resetSpellingScore() { spellingScore = 0;}
+
+    public void resetMathScore() { mathScore = 0;}
+
     public void incrementMathScore(int point)
     {
         mathScore += point;
@@ -23,7 +27,8 @@ public class Score {
 
     public void decrementMathScore(int point)
     {
-        mathScore -= point;
+        if (mathScore != 0)
+           mathScore -= point;
     }
 
     public int getMathScore() {
@@ -36,7 +41,9 @@ public class Score {
     }
 
     public void decrementSpellingScore(int point) {
-        spellingScore -= point;
+
+        if (spellingScore != 0)
+            spellingScore -= point;
     }
 
     public int getSpellingScore() {
