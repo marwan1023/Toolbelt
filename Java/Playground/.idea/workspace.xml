@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f604195d-7ac0-4fa3-af12-6cd56b997751" name="Default Changelist" comment="Add Score singleton class">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/huplay/ArtFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/huplay/ArtFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/huplay/Paint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/huplay/Paint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/huplay/Test.java" beforeDir="false" />
-    </list>
+    <list default="true" id="f604195d-7ac0-4fa3-af12-6cd56b997751" name="Default Changelist" comment="Add Score singleton class" />
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,7 +19,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/huplay/HUPlay.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -32,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/huplay/Paint.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="221" column="41" selection-start-line="221" selection-start-column="41" selection-end-line="221" selection-end-column="41" />
+            <state relative-caret-position="174">
+              <caret line="221" column="55" lean-forward="true" selection-start-line="221" selection-start-column="55" selection-end-line="221" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -44,8 +39,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/huplay/ArtFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="681">
-              <caret line="61" selection-start-line="61" selection-end-line="61" />
+            <state relative-caret-position="600">
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -147,6 +142,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -184,7 +180,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -332,7 +327,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.30020705" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.3043478" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info id="aws.explorer" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
@@ -495,20 +490,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/huplay/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/huplay/Test.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/huplay/ArtFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="681">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        <state relative-caret-position="600">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -518,14 +504,14 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/huplay/HUPlay.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/huplay/Paint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="221" column="41" selection-start-line="221" selection-start-column="41" selection-end-line="221" selection-end-column="41" />
+        <state relative-caret-position="174">
+          <caret line="221" column="55" lean-forward="true" selection-start-line="221" selection-start-column="55" selection-end-line="221" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
