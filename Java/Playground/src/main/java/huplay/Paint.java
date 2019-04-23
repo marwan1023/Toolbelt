@@ -413,13 +413,6 @@ public class Paint {
         pane.setCenter(canvas);
 
         Scene scene = new Scene(pane, 1200, 800);
-
-        primaryStage.setOnCloseRequest(event -> {
-            System.out.println("Stage is closing");
-            // Save file
-        });
-
-
         return scene;
 
     }
