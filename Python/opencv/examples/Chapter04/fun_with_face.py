@@ -9,7 +9,7 @@ h_mask, w_mask = face_mask.shape[:2]
 if face_cascade.empty(): 
     raise IOError('Unable to load the face cascade classifier xml file') 
  
-cap = cv2.VideoCapture(1) 
+cap = cv2.VideoCapture(0) 
 scaling_factor = 0.5 
  
 while True: 

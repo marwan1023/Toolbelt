@@ -3,7 +3,7 @@ import numpy as np
  
 face_cascade = cv2.CascadeClassifier('./cascade_files/haarcascade_frontalface_alt.xml') 
  
-cap = cv2.VideoCapture(1) 
+cap = cv2.VideoCapture(0) 
 scaling_factor = 0.5 
  
 while True: 
