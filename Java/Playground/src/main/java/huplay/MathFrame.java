@@ -8,7 +8,7 @@ import javax.swing.JLabel;
 import javax.swing.JTextField;
 import javax.swing.SwingConstants;
 
-public class MathFrame extends JFrame {
+public class MathFrame extends MathWindow {
     /**
      * 
      */
@@ -17,46 +17,46 @@ public class MathFrame extends JFrame {
     private Score score = Score.getInstance();
 
     // {{DECLARE_CONTROLS
-    JTextField plusbox = new JTextField();
-    JTextField xbox = new JTextField();
-    JTextField ybox = new JTextField();
-    JTextField zbox = new JTextField();
-    JButton enterbutton = new JButton();
-    JTextField diologebox = new JTextField();
-    JTextField scorebox = new JTextField();
-    JLabel JLabel1 = new JLabel();
+//     JTextField plusbox = new JTextField();
+//     JTextField xbox = new JTextField();
+//     JTextField ybox = new JTextField();
+//     JTextField zbox = new JTextField();
+//     JButton enterbutton = new JButton();
+//     JTextField diologebox = new JTextField();
+//     JTextField scorebox = new JTextField();
+//     JLabel JLabel1 = new JLabel();
 
-    JLabel equalsign = new JLabel();
-    JTextField f = new JTextField();
-    JTextField answbox = new JTextField();
-    JButton answer = new JButton();
+//     JLabel equalsign = new JLabel();
+//     JTextField f = new JTextField();
+//     JTextField answbox = new JTextField();
+//     JButton answer = new JButton();
 
-    JLabel JLabel2 = new JLabel();
-    JButton nameEntryButton = new JButton();
-    JButton JButton2 = new JButton();
-    JButton JButton3 = new JButton();
+//     JLabel JLabel2 = new JLabel();
+//     JButton nameEntryButton = new JButton();
+//     JButton JButton2 = new JButton();
+//     JButton JButton3 = new JButton();
 
-    ImagePanel imagePanel1 = new ImagePanel();
-    ImagePanel imagePanel2 = new ImagePanel();
+//     ImagePanel imagePanel1 = new ImagePanel();
+//     ImagePanel imagePanel2 = new ImagePanel();
 
-    JLabel JLabel3 = new JLabel();
-    JLabel JLabel4 = new JLabel();
+//     JLabel JLabel3 = new JLabel();
+//     JLabel JLabel4 = new JLabel();
 
-    ImagePanel imagePanel3 = new ImagePanel();
-    ImagePanel imagePanel4 = new ImagePanel();
+//     ImagePanel imagePanel3 = new ImagePanel();
+//     ImagePanel imagePanel4 = new ImagePanel();
 
-    // Image Viewers
-    ImagePanel imageViewer1 = new ImagePanel();
-    ImagePanel imageViewer2 = new ImagePanel();
-    ImagePanel imageViewer3 = new ImagePanel();
-    ImagePanel imageViewer4 = new ImagePanel();
-    ImagePanel imageViewer5 = new ImagePanel();
-    ImagePanel imageViewer6 = new ImagePanel();
-    ImagePanel imageViewer7 = new ImagePanel();
-    ImagePanel imageViewer8 = new ImagePanel();
-    ImagePanel imageViewer9 = new ImagePanel();
-    ImagePanel imageViewer10 = new ImagePanel();
-    ImagePanel imageViewer11 = new ImagePanel();
+//     // Image Viewers
+//     ImagePanel imageViewer1 = new ImagePanel();
+//     ImagePanel imageViewer2 = new ImagePanel();
+//     ImagePanel imageViewer3 = new ImagePanel();
+//     ImagePanel imageViewer4 = new ImagePanel();
+//     ImagePanel imageViewer5 = new ImagePanel();
+//     ImagePanel imageViewer6 = new ImagePanel();
+//     ImagePanel imageViewer7 = new ImagePanel();
+//     ImagePanel imageViewer8 = new ImagePanel();
+//     ImagePanel imageViewer9 = new ImagePanel();
+//     ImagePanel imageViewer10 = new ImagePanel();
+//     ImagePanel imageViewer11 = new ImagePanel();
 
 
     private int giveup = 0;
@@ -314,8 +314,7 @@ public class MathFrame extends JFrame {
     }
 
     void startbutton_actionPerformed(java.awt.event.ActionEvent event) {
-        // to do: code goes here.
-
+        
         startbutton_actionPerformed_Interaction1(event);
 
         startbutton_actionPerformed_Interaction2(event);
@@ -1247,9 +1246,7 @@ public class MathFrame extends JFrame {
     }
 
     void answer_actionPerformed(java.awt.event.ActionEvent event) {
-        // to do: code goes here.
-
-        answer_actionPerformed_Interaction1(event);
+           answer_actionPerformed_Interaction1(event);
     }
 
     void answer_actionPerformed_Interaction1(java.awt.event.ActionEvent event) {
@@ -1258,8 +1255,6 @@ public class MathFrame extends JFrame {
             // ybox Set the JTextField's text
             answbox.setText(String.valueOf(ans));
             startbutton_actionPerformed_Interaction1(event);
-//            for (double count = 0; count < 9999999; count++)
-//                ;
             giveup = 0;
             
             int subans = ans;
