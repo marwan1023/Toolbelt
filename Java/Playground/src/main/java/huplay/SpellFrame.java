@@ -507,7 +507,6 @@ public class SpellFrame extends JFrame {
             starlabel1.setVisible(true);
             starlabel2.setVisible(true);
             new PlaySound(classLoader.getResource("applause2.au").getFile());
-
         }
     }
 
@@ -582,90 +581,47 @@ public class SpellFrame extends JFrame {
     }
 
     void Ans1_actionPerformed(java.awt.event.ActionEvent event) {
-        // to do: code goes here.
-
-        Ans1_actionPerformed_Interaction1(event);
+         Ans1_actionPerformed_Interaction1(event);
     }
+    
+    private void handleSpellingQuestion(String word, JTextField textfield, JButton button) {
+    
+           
+                    String input = (String.valueOf(textfield.getText())).toLowerCase();
 
+                    if (input.equals(word)) {
+                        score.incrementSpellingScore(5);
+                        new PlaySound(classLoader.getResource("Tada.au").getFile());
+                        textfield.setEditable(false);
+                        button.setEnabled(false);
+                       
+                    } else { // Wrong.play();
+                        new PlaySound(classLoader.getResource("wrong.au").getFile());
+                        score.decrementSpellingScore(5);
+                        textfield.setText(word);
+                        textfield.setEditable(false);
+                        button.setEnabled(false);
+                    }
+          scoreKeep();
+    
+    }
+     
     void Ans1_actionPerformed_Interaction1(java.awt.event.ActionEvent event) {
         String setting = (String.valueOf(level.getText()));
         if (setting.equals(e)) {
-            try {
-
-                {
-                    String word = "dog";
-                    String input = (String.valueOf(Word1.getText())).toLowerCase();
-
-                    if (input.equals(word)) {
-                        score.incrementSpellingScore(5);
-                        // right.play();
-                        new PlaySound(classLoader.getResource("Tada.au").getFile());
-                        Word1.setEditable(false);
-                        Ans1.setEnabled(false);
-                        scoreKeep();
-                    } else { // Wrong.play();
-                        new PlaySound(classLoader.getResource("wrong.au").getFile());
-                       score.decrementSpellingScore(5);
-                        Word1.setText("dog");
-                        Word1.setEditable(false);
-                        Ans1.setEnabled(false);
-                        scoreKeep();
-                    }
-                }
-            } catch (Exception e) {
-            }
+               
+              String word = "dog";
+              handleSpellingQuestion(word, Word1, Ans1);
+            
         } else if (setting.equals(m)) {
-            try {
-
-                {
-                    String word = "coat";
-                    String input = (String.valueOf(Word1.getText())).toLowerCase();
-
-                    if (input.equals(word)) {
-
-                        new PlaySound(classLoader.getResource("Tada.au").getFile());
-                        score.incrementSpellingScore(5);
-                        Word1.setEditable(false);
-                        Ans1.setEnabled(false);
-                        scoreKeep();
-                    } else {
-                         score.decrementSpellingScore(5);
-                        new PlaySound(classLoader.getResource("wrong.au").getFile());
-
-                        Word1.setText("coat");
-                        Word1.setEditable(false);
-                        Ans1.setEnabled(false);
-                        scoreKeep();
-                    }
-                }
-            } catch (Exception e) {
-            }
+           
+             String word = "coat";
+            handleSpellingQuestion(word, Word1, Ans1);
+         
         } else if (setting.equals(h)) {
-            try {
-
-                {
-                    String word = "mouse";
-                    String input = (String.valueOf(Word1.getText())).toLowerCase();
-
-                    if (input.equals(word)) {
-                        // right.play();
-                        new PlaySound(classLoader.getResource("Tada.au").getFile());
-                         score.incrementSpellingScore(5);
-                        Word1.setEditable(false);
-                        Ans1.setEnabled(false);
-                        scoreKeep();
-                    } else {
-                         score.decrementSpellingScore(5);
-                        new PlaySound(classLoader.getResource("wrong.au").getFile());
-                        // Wrong.play();
-                        Word1.setText("mouse");
-                        Word1.setEditable(false);
-                        Ans1.setEnabled(false);
-                        scoreKeep();
-                    }
-                }
-            } catch (Exception e) {
-            }
+           
+             String word = "mouse";
+             handleSpellingQuestion(word, Word1, Ans1);        
         }
     }
 
