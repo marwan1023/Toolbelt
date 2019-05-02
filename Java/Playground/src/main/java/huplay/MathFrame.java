@@ -57,24 +57,9 @@ public class MathFrame extends MathWindow {
         }
     }
 
-
-    void startbutton_actionPerformed_Interaction1(
-            java.awt.event.ActionEvent event) {
-        if (level < 1)
-            new PlaySound(classLoader.getResource("skill.au").getFile());
-        else {
-            try {
-
-                int contin = 1;
-                if (giveup == 0) {
-                    if (level == 1)
-                        randx = Double.valueOf(Math.random() * 10).intValue();
-                    if (level == 2)
-                        randx = Double.valueOf(Math.random() * 30).intValue();
-                    if (level == 3)
-                        randx = Double.valueOf(Math.random() * 50).intValue();
-                }
-                clone = randx;
+    private void handleFirstOperand()
+    {
+          clone = randx;
 
                 imageViewer1.setBounds(0, 156, 108, 108);
                 imagePanel1.removeAll();
@@ -448,25 +433,10 @@ public class MathFrame extends MathWindow {
 
                 }
                 randx = clone;
-
-
-                    if (giveup == 0)
-                        randsign = (int) (Math.random() * 2);
-                    if (randsign == 0) {
-                        plusbox.setText("+");
-                        new PlaySound(classLoader.getResource("pluss.au").getFile());
-                        onTick(500L);
-                        JLabel3.setText("+");
-                    }
-                    if (randsign == 1) {
-                        plusbox.setText("-");
-                        new PlaySound(classLoader.getResource("minus.au").getFile());
-                        onTick(500L);
-                        JLabel3.setText("-");
-                    }
-
-
-                // number change for secount box
+    }
+    
+    private int setSecondOperand() {
+         // number change for secount box
                 if (giveup == 0) {
                     if (level == 1)
                         randy = (int) (Math.random() * randx);
@@ -475,6 +445,23 @@ public class MathFrame extends MathWindow {
                     if (level == 3)
                         randy = (int) (Math.random() * 50);
                 }
+    }
+    
+    
+    private void handleSecondOperand()
+    {
+            
+              randy = setSecondOperand();
+              while (true) {
+                  if (randy < randx)
+                  {
+                      break;
+                  }
+                  else {
+                      randy = setSecondOperand();
+                  }                  
+              }
+              
                 clone = randy;
                 imageViewer1.setBounds(264, 156, 108, 108);
                 imagePanel3.removeAll();
@@ -878,7 +865,47 @@ public class MathFrame extends MathWindow {
 
                 }
                 randy = clone;
-              //END BIG ASS FOR LOOP
+    }
+    
+    private void handleOperator()
+    {
+               if (giveup == 0)
+                        randsign = (int) (Math.random() * 2);
+                    if (randsign == 0) {
+                        plusbox.setText("+");
+                        new PlaySound(classLoader.getResource("pluss.au").getFile());
+                        onTick(500L);
+                        JLabel3.setText("+");
+                    }
+                    if (randsign == 1) {
+                        plusbox.setText("-");
+                        new PlaySound(classLoader.getResource("minus.au").getFile());
+                        onTick(500L);
+                        JLabel3.setText("-");
+                    }
+    }
+      
+
+    void startbutton_actionPerformed_Interaction1(
+            java.awt.event.ActionEvent event) {
+        if (level < 1)
+            new PlaySound(classLoader.getResource("skill.au").getFile());
+        else {
+            try {
+
+                int contin = 1;
+                if (giveup == 0) {
+                    if (level == 1)
+                        randx = Double.valueOf(Math.random() * 10).intValue();
+                    if (level == 2)
+                        randx = Double.valueOf(Math.random() * 30).intValue();
+                    if (level == 3)
+                        randx = Double.valueOf(Math.random() * 50).intValue();
+                }
+                handleFirstOperand();
+                handleOperator();
+                handleSecondOperand();
+              
                 if (randsign == 0) {
                     onTick(500L);
                     new PlaySound(classLoader.getResource("equals.au").getFile());
@@ -889,7 +916,6 @@ public class MathFrame extends MathWindow {
                     onTick(500L);
                     new PlaySound(classLoader.getResource("equals.au").getFile());
                     ans = randx - randy;
-
                 }
 
                 questionNumber++;
@@ -898,9 +924,6 @@ public class MathFrame extends MathWindow {
                 {
                     diologebox
                             .setText("Game Over! Great Job!");
-
-
-
 
                     if(score.getMathScore() > score.getMathHighScore())
                     {
@@ -916,16 +939,12 @@ public class MathFrame extends MathWindow {
                     answer.setEnabled(false);
                 }
 
-
-
             } catch (java.lang.Exception e) {
             }
         }
     }
 
     void enterbutton_actionPerformed(java.awt.event.ActionEvent event) {
-        // to do: code goes here.
-
         enterbutton_actionPerformed_Interaction1(event);
     }
 
@@ -934,7 +953,7 @@ public class MathFrame extends MathWindow {
         int a;
         try {
 
-            a = Integer.valueOf(zbox.getText());
+            a = Integer.valueOf(zbox.getText().trim());
 
             if (ans == a) {
                 int rand1;
@@ -961,7 +980,7 @@ public class MathFrame extends MathWindow {
                 diologebox.setText("Right");
                 score.incrementMathScore(5);
                 startbutton_actionPerformed_Interaction1(event);
-            } else if (ans != a) {
+            } else {
                 int rand1;
                 rand1 = Double.valueOf(Math.random() * 2).intValue();
                 if (rand1 == 0)
@@ -1232,7 +1251,6 @@ public class MathFrame extends MathWindow {
             if((now - thisTime) >= PERIOD) break;
             // Do nothing
         }
-
     }
 
     public MathFrame(String sTitle) {
