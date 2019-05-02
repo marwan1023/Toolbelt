@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f604195d-7ac0-4fa3-af12-6cd56b997751" name="Default Changelist" comment="Add Score singleton class" />
+    <list default="true" id="f604195d-7ac0-4fa3-af12-6cd56b997751" name="Default Changelist" comment="Add Score singleton class">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/HUPlayground_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GNURadio/hackrf/HackRF-FM-Transmit.grc" beforeDir="false" afterPath="$PROJECT_DIR$/../../GNURadio/hackrf/HackRF-FM-Transmit.grc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GNURadio/hackrf/rc_car_read.grc" beforeDir="false" afterPath="$PROJECT_DIR$/../../GNURadio/hackrf/rc_car_read.grc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AWS/AWSHello/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AWS/AWSHello/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/aws.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HUPlayground.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HUPlayground.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/huplay/ImagePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/huplay/ImagePanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/huplay/MathFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/huplay/MathFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/huplay/MathWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/huplay/MathWindow.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/huplay/Paint.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/huplay/MathWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="221" column="55" lean-forward="true" selection-start-line="221" selection-start-column="55" selection-end-line="221" selection-end-column="55" />
+            <state relative-caret-position="750">
+              <caret line="50" column="29" lean-forward="true" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -36,14 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/huplay/ArtFrame.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/huplay/MathFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="47" selection-start-line="47" selection-end-line="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-17842">
+              <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -60,9 +68,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>nameEntryButton</find>
-      <find>mwin</find>
-      <find>sbronze</find>
       <find>dogs</find>
       <find>Trophy</find>
       <find>note</find>
@@ -90,6 +95,9 @@
       <find>hiscore</find>
       <find>exit</find>
       <find>primaryStage</find>
+      <find>startbutton_actionPerformed_Interaction1</find>
+      <find>Thread</find>
+      <find>Thread.sleep</find>
     </findStrings>
     <replaceStrings>
       <replace>nameEntryButton</replace>
@@ -110,16 +118,16 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/huplay/ImageViewer.java" />
         <option value="$PROJECT_DIR$/src/main/java/huplay/PlaySound.java" />
-        <option value="$PROJECT_DIR$/src/main/java/huplay/ImagePanel.java" />
         <option value="$PROJECT_DIR$/src/main/java/huplay/MainFrame.java" />
         <option value="$PROJECT_DIR$/src/main/java/huplay/Score.java" />
         <option value="$PROJECT_DIR$/src/main/java/huplay/SpellFrame.java" />
         <option value="$PROJECT_DIR$/src/main/java/huplay/Trophy.java" />
-        <option value="$PROJECT_DIR$/src/main/java/huplay/MathWindow.java" />
-        <option value="$PROJECT_DIR$/src/main/java/huplay/MathFrame.java" />
         <option value="$PROJECT_DIR$/src/main/java/huplay/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/huplay/Paint.java" />
         <option value="$PROJECT_DIR$/src/main/java/huplay/ArtFrame.java" />
+        <option value="$PROJECT_DIR$/src/main/java/huplay/ImagePanel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/huplay/MathWindow.java" />
+        <option value="$PROJECT_DIR$/src/main/java/huplay/MathFrame.java" />
       </list>
     </option>
   </component>
@@ -176,6 +184,14 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="huplay" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Playground" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Playground" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -186,9 +202,9 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.4511628" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="aws" />
   </component>
@@ -321,13 +337,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="111" y="36" width="1491" height="940" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Capture Tool" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.3043478" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.3167702" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info id="aws.explorer" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
@@ -407,16 +424,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/sgold.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/huplay/ImagePanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/javax/swing/ImageIcon.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="492">
@@ -431,34 +438,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1290">
           <caret line="91" column="13" selection-start-line="91" selection-start-column="8" selection-end-line="91" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/huplay/MainFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6570">
-          <caret line="441" column="49" selection-start-line="441" selection-start-column="49" selection-end-line="441" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/huplay/MathFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="76" column="31" selection-start-line="76" selection-start-column="31" selection-end-line="76" selection-end-column="31" />
-          <folding>
-            <element signature="e#63350#63351#0" expanded="true" />
-            <element signature="e#63400#63401#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/huplay/MathWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
@@ -491,15 +470,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/huplay/Test.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/huplay/ArtFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/huplay/HUPlay.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -510,11 +482,58 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/huplay/Paint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="221" column="55" lean-forward="true" selection-start-line="221" selection-start-column="55" selection-end-line="221" selection-end-column="55" />
+        <state relative-caret-position="2970">
+          <caret line="221" column="55" selection-start-line="221" selection-start-column="55" selection-end-line="221" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/huplay/MainFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/huplay/ArtFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/huplay/ImagePanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/huplay/MathWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="50" column="29" lean-forward="true" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/huplay/MathFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17842">
+          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -524,10 +543,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>HUPlayground:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.4511628" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -539,7 +560,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.4511628" />
               </list>
             </option>
           </splitter-proportions>
@@ -575,8 +596,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
-                <option value="0.6" />
+                <option value="0.4511628" />
               </list>
             </option>
           </splitter-proportions>
@@ -600,7 +620,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.4511628" />
               </list>
             </option>
           </splitter-proportions>
