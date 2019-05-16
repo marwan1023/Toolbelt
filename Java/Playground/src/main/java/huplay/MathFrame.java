@@ -445,6 +445,8 @@ public class MathFrame extends MathWindow {
                     if (level == 3)
                         randy = (int) (Math.random() * 50);
                 }
+
+                return randy;
     }
     
     

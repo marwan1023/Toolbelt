@@ -136,7 +136,7 @@ public class MainFrame extends JFrame {
         trophy.addActionListener(lSymAction);
         art.addActionListener(lSymAction);
         math.addActionListener(lSymAction);
-        // }}
+
     }
 
     class SymMouse extends java.awt.event.MouseAdapter {
