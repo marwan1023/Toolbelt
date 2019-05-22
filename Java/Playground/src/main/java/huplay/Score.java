@@ -10,7 +10,6 @@ public class Score {
     private int spellingScore = 0;
     private int mathScore = 0;
     private int mathHighScore = 0;
-    private int spellingHighScore = 0;
 
     private Score() {
 
@@ -57,15 +56,6 @@ public class Score {
     public void setMathHighScore(int mathHighScore) {
         this.mathHighScore = mathHighScore;
     }
-
-    public int getSpellingHighScore() {
-        return spellingHighScore;
-    }
-
-    public void setSpellingHighScore(int spellingHighScore) {
-        this.spellingHighScore = spellingHighScore;
-    }
-
 
 
 }

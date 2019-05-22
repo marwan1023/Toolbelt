@@ -3,11 +3,9 @@
 ##################################################
 # GNU Radio Python Flow Graph
 # Title: Dual Fm Stations
-<<<<<<< Updated upstream
 # Generated: Sat Apr 20 12:38:11 2019
-=======
 # Generated: Sat Apr 13 16:21:59 2019
->>>>>>> Stashed changes
+# GNU Radio version: 3.7.13.5
 ##################################################
 
 if __name__ == '__main__':
@@ -43,11 +41,8 @@ class dual_fm_stations(grc_wxgui.top_block_gui):
 
     def __init__(self):
         grc_wxgui.top_block_gui.__init__(self, title="Dual Fm Stations")
-<<<<<<< Updated upstream
-=======
         _icon_path = "/usr/share/icons/hicolor/32x32/apps/gnuradio-grc.png"
         self.SetIcon(wx.Icon(_icon_path, wx.BITMAP_TYPE_ANY))
->>>>>>> Stashed changes
 
         ##################################################
         # Variables
@@ -217,11 +212,6 @@ class dual_fm_stations(grc_wxgui.top_block_gui):
         self.analog_sig_source_x_0_0 = analog.sig_source_c(samp_rate, analog.GR_COS_WAVE, center_freq - channel_freq2, 1, 0)
         self.analog_sig_source_x_0 = analog.sig_source_c(samp_rate, analog.GR_COS_WAVE, center_freq - channel_freq1, 1, 0)
 
-<<<<<<< Updated upstream
-
-
-=======
->>>>>>> Stashed changes
         ##################################################
         # Connections
         ##################################################
