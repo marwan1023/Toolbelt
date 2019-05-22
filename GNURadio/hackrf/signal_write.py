@@ -3,7 +3,7 @@
 ##################################################
 # GNU Radio Python Flow Graph
 # Title: Signal Write
-# Generated: Sat Apr 13 03:12:52 2019
+# Generated: Fri Apr 19 22:42:35 2019
 ##################################################
 
 if __name__ == '__main__':
@@ -64,7 +64,7 @@ class signal_write(grc_wxgui.top_block_gui):
         self.Add(self.wxgui_fftsink2_0.win)
         self.osmosdr_source_0 = osmosdr.source( args="numchan=" + str(1) + " " + '' )
         self.osmosdr_source_0.set_sample_rate(samp_rate)
-        self.osmosdr_source_0.set_center_freq(27e6, 0)
+        self.osmosdr_source_0.set_center_freq(315e6, 0)
         self.osmosdr_source_0.set_freq_corr(0, 0)
         self.osmosdr_source_0.set_dc_offset_mode(0, 0)
         self.osmosdr_source_0.set_iq_balance_mode(0, 0)
@@ -75,7 +75,7 @@ class signal_write(grc_wxgui.top_block_gui):
         self.osmosdr_source_0.set_antenna('', 0)
         self.osmosdr_source_0.set_bandwidth(0, 0)
 
-        self.blocks_file_sink_0 = blocks.file_sink(gr.sizeof_gr_complex*1, '/tmp/signal/test', False)
+        self.blocks_file_sink_0 = blocks.file_sink(gr.sizeof_gr_complex*1, '/tmp/signal/Nissan.signal', False)
         self.blocks_file_sink_0.set_unbuffered(False)
 
         ##################################################
