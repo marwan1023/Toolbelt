@@ -17,6 +17,7 @@ FREQOUT 4, 2000, 3000
 
 DO
 
+
   GOSUB Get_Distances
   DEBUG CRSRXY,2,3, DEC1 distanceLeft,
         CRSRXY,9,3, DEC1 distanceRight
@@ -52,7 +53,7 @@ Get_Distances:
      distanceLeft = distanceLeft + irDetectLeft
 
      FREQOUT 0,1, irFrequency
-     irDetectRight = IN2
+     irDetectRight = IN0
      distanceRight = distanceRight + irDetectRight
 
      PAUSE 100
