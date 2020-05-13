@@ -113,7 +113,7 @@
     </param>
     <param>
       <key>value</key>
-      <value>915e6</value>
+      <value>193e3</value>
     </param>
   </block>
   <block>
@@ -226,7 +226,7 @@
     </param>
     <param>
       <key>file</key>
-      <value>/Users/asdf/programming/radio-stuff/stream_32k.fifo</value>
+      <value>/Users/johnson_marcus/git/Toolbelt/GNURadio/hackrf/fifo/stream_32k.fifo</value>
     </param>
     <param>
       <key>_coordinate</key>
