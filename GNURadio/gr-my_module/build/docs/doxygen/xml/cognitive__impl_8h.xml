@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="cognitive__impl_8h" kind="file" language="C++">
+    <compoundname>cognitive_impl.h</compoundname>
+    <includes refid="cognitive_8h" local="no">my_module/cognitive.h</includes>
+    <incdepgraph>
+      <node id="13">
+        <label>my_module/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>my_module/cognitive.h</label>
+        <link refid="cognitive_8h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="15">
+        <label>gnuradio/block.h</label>
+      </node>
+      <node id="11">
+        <label>cognitive_impl.h</label>
+        <link refid="cognitive__impl_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1my__module_1_1cognitive__impl" prot="public">gr::my_module::cognitive_impl</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1my__module">gr::my_module</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/johnson_marcus/Downloads/gr-my_module/lib/cognitive_impl.h"/>
+  </compounddef>
+</doxygen>

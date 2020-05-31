@@ -1,0 +1,15 @@
+<block>
+  <name>Cognitive</name>
+  <key>my_module_cognitive</key>
+  <category>[MY_MODULE]</category>
+  <import>import my_module</import>
+  <make>my_module.cognitive()</make>
+  <sink>
+    <name>in</name>
+    <type>float</type>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>float</type>
+  </source>
+</block>

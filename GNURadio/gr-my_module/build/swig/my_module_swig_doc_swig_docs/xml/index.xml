@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.14">
+  <compound refid="classgr_1_1my__module_1_1cognitive" kind="class"><name>gr::my_module::cognitive</name>
+    <member refid="classgr_1_1my__module_1_1cognitive_1a27ab9d2a307664f80c2a9420a2aa11e3" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1my__module_1_1cognitive_1a04cd9208eb4667a410918dacd352d33e" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="namespacegr" kind="namespace"><name>gr</name>
+  </compound>
+  <compound refid="namespacegr_1_1my__module" kind="namespace"><name>gr::my_module</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="api_8h" kind="file"><name>api.h</name>
+    <member refid="api_8h_1a5b0ea6f5e5442d7b7aa11f915f41d6d0" kind="define"><name>MY_MODULE_API</name></member>
+  </compound>
+  <compound refid="cognitive_8h" kind="file"><name>cognitive.h</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>include</name>
+  </compound>
+  <compound refid="dir_620366ed2b4c0c21f6b4985a170a6001" kind="dir"><name>my_module</name>
+  </compound>
+</doxygenindex>

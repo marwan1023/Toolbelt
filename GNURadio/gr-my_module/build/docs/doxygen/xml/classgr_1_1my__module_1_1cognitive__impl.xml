@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classgr_1_1my__module_1_1cognitive__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::my_module::cognitive_impl</compoundname>
+    <basecompoundref refid="classgr_1_1my__module_1_1cognitive" prot="public" virt="non-virtual">gr::my_module::cognitive</basecompoundref>
+    <includes refid="cognitive__impl_8h" local="no">cognitive_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1my__module_1_1cognitive__impl_1a2abf1c24a81c25cc9ea5c69c805cbca7" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::my_module::cognitive_impl::state</definition>
+        <argsstring></argsstring>
+        <name>state</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/johnson_marcus/Downloads/gr-my_module/lib/cognitive_impl.h" line="32" column="1" bodyfile="/Users/johnson_marcus/Downloads/gr-my_module/lib/cognitive_impl.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1my__module_1_1cognitive__impl_1a052d62f1537c6d58a5a3f7e905695315" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::my_module::cognitive_impl::cnt</definition>
+        <argsstring></argsstring>
+        <name>cnt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/johnson_marcus/Downloads/gr-my_module/lib/cognitive_impl.h" line="33" column="1" bodyfile="/Users/johnson_marcus/Downloads/gr-my_module/lib/cognitive_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1my__module_1_1cognitive__impl_1adecde62c24598e445aabcea37fd417a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::my_module::cognitive_impl::cognitive_impl</definition>
+        <argsstring>()</argsstring>
+        <name>cognitive_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/johnson_marcus/Downloads/gr-my_module/lib/cognitive_impl.h" line="36" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1my__module_1_1cognitive__impl_1ad5e72a2835d65271dd92fc473d25703d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::my_module::cognitive_impl::~cognitive_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~cognitive_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/johnson_marcus/Downloads/gr-my_module/lib/cognitive_impl.h" line="37" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1my__module_1_1cognitive__impl_1a5960a298e045e1403c782743c9cf9859" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::my_module::cognitive_impl::forecast</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items_required)</argsstring>
+        <name>forecast</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items_required</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/johnson_marcus/Downloads/gr-my_module/lib/cognitive_impl.h" line="40" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1my__module_1_1cognitive__impl_1af3b1487401bed6bb88fa4be3babb2ba2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::my_module::cognitive_impl::general_work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>general_work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/johnson_marcus/Downloads/gr-my_module/lib/cognitive_impl.h" line="42" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="6">
+        <label>gr::my_module::cognitive</label>
+        <link refid="classgr_1_1my__module_1_1cognitive"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>gr::block</label>
+      </node>
+      <node id="5">
+        <label>gr::my_module::cognitive_impl</label>
+        <link refid="classgr_1_1my__module_1_1cognitive__impl"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="9">
+        <label>gr::my_module::cognitive</label>
+        <link refid="classgr_1_1my__module_1_1cognitive"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>gr::block</label>
+      </node>
+      <node id="8">
+        <label>gr::my_module::cognitive_impl</label>
+        <link refid="classgr_1_1my__module_1_1cognitive__impl"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/johnson_marcus/Downloads/gr-my_module/lib/cognitive_impl.h" line="30" column="1" bodyfile="/Users/johnson_marcus/Downloads/gr-my_module/lib/cognitive_impl.h" bodystart="29" bodyend="46"/>
+    <listofallmembers>
+      <member refid="classgr_1_1my__module_1_1cognitive__impl_1a052d62f1537c6d58a5a3f7e905695315" prot="private" virt="non-virtual"><scope>gr::my_module::cognitive_impl</scope><name>cnt</name></member>
+      <member refid="classgr_1_1my__module_1_1cognitive__impl_1adecde62c24598e445aabcea37fd417a9" prot="public" virt="non-virtual"><scope>gr::my_module::cognitive_impl</scope><name>cognitive_impl</name></member>
+      <member refid="classgr_1_1my__module_1_1cognitive__impl_1a5960a298e045e1403c782743c9cf9859" prot="public" virt="non-virtual"><scope>gr::my_module::cognitive_impl</scope><name>forecast</name></member>
+      <member refid="classgr_1_1my__module_1_1cognitive__impl_1af3b1487401bed6bb88fa4be3babb2ba2" prot="public" virt="non-virtual"><scope>gr::my_module::cognitive_impl</scope><name>general_work</name></member>
+      <member refid="classgr_1_1my__module_1_1cognitive_1a04cd9208eb4667a410918dacd352d33e" prot="public" virt="non-virtual"><scope>gr::my_module::cognitive_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1my__module_1_1cognitive_1a27ab9d2a307664f80c2a9420a2aa11e3" prot="public" virt="non-virtual"><scope>gr::my_module::cognitive_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1my__module_1_1cognitive__impl_1a2abf1c24a81c25cc9ea5c69c805cbca7" prot="private" virt="non-virtual"><scope>gr::my_module::cognitive_impl</scope><name>state</name></member>
+      <member refid="classgr_1_1my__module_1_1cognitive__impl_1ad5e72a2835d65271dd92fc473d25703d" prot="public" virt="non-virtual"><scope>gr::my_module::cognitive_impl</scope><name>~cognitive_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

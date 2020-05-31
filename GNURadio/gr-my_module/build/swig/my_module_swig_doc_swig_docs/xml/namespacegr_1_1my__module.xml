@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="namespacegr_1_1my__module" kind="namespace" language="C++">
+    <compoundname>gr::my_module</compoundname>
+    <innerclass refid="classgr_1_1my__module_1_1cognitive" prot="public">gr::my_module::cognitive</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/johnson_marcus/Downloads/gr-my_module/include/my_module/cognitive.h" line="29" column="1"/>
+  </compounddef>
+</doxygen>

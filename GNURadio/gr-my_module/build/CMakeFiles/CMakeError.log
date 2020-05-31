@@ -1,0 +1,15 @@
+Performing C++ SOURCE FILE Test HAVE_WNO_UNUSED_BUT_SET_VARIABLE failed with the following output:
+Change Dir: /Users/johnson_marcus/Downloads/gr-my_module/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_108f4/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_108f4.dir/build.make CMakeFiles/cmTC_108f4.dir/build
+Building CXX object CMakeFiles/cmTC_108f4.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -DHAVE_WNO_UNUSED_BUT_SET_VARIABLE -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -Wno-unused-but-set-variable -o CMakeFiles/cmTC_108f4.dir/src.cxx.o -c /Users/johnson_marcus/Downloads/gr-my_module/build/CMakeFiles/CMakeTmp/src.cxx
+warning: unknown warning option '-Wno-unused-but-set-variable'; did you mean '-Wno-unused-const-variable'? [-Wunknown-warning-option]
+1 warning generated.
+Linking CXX executable cmTC_108f4
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_108f4.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -DHAVE_WNO_UNUSED_BUT_SET_VARIABLE -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_108f4.dir/src.cxx.o  -o cmTC_108f4 
+
+Source file was:
+int main() { return 0; }
