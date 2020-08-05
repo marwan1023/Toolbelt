@@ -1,0 +1,150 @@
+<theme author="Marcus Johnson and Jennifer Young" copyright="�2001">
+	<view width="245" height="575" visible="false" clippingColor="#000000"
+		backgroundColor="none" scriptFile="gnome.js;res://wmploc.dll/RT_TEXT/#132;"
+		onLoad="OnLoad();" titleBar="false">
+
+		<equalizerSettings id="eq" enabled="true">
+		</equalizerSettings>
+
+		<player OpenState_onchange="OnOpenStateChange();">
+		</player>
+
+		<subview id="crown" backgroundImage="crown.bmp" top="83" left="43"
+			zIndex="-1" transparencyColor="black">
+		</subview>
+
+		<subview id="pl" backgroundImage="crown3b.bmp" top="0"
+			backgroundColor="none" left="18" visible="false" zIndex="-1"
+			clippingColor="#000000">
+			<itemsPlaylist id="pl" left="20" top="79" width="150"
+				height="85" backgroundColor="none" foregroundColor="black"
+				dropDownVisible="true">
+			</itemsPlaylist>
+		</subview>
+
+		<subview id="aud" backgroundImage="crown3a.bmp" top="0"
+			mappingImage="crownmap.bmp" backgroundColor="none" left="18" visible="false"
+			zIndex="-1" clippingColor="#000000">
+
+			<buttongroup mappingImage="crownmap.bmp">
+				<buttonelement mappingColor="#7000D8" onClick="eq.reset();"
+					upToolTip="Reset" cursor="hand">
+				</buttonelement>
+			</buttongroup>
+
+			<slider id="bass" left="56" top="82" toolTip="Bass"
+				backgroundImage="eq_slider.bmp" thumbImage="sliderThumb.bmp"
+
+				transparencyColor="#FF00FF" min="-14" max="14" borderSize="10"
+				value="wmpprop:eq.gainLevel1" value_onchange="AdjustAudio();">
+			</slider>
+			<text value="Bass" top="jscript:bass.top+2;" width="jscript:bass.left-2;"
+				foregroundColor="black" justification="Right" fontSize="8">
+			</text>
+			<slider id="treble" left="jscript:bass.left;" top="jscript:bass.top+21;"
+				toolTip="Treble" min="-14" max="14" backgroundImage="eq_slider.bmp"
+				thumbImage="sliderThumb.bmp" transparencyColor="#FF00FF" borderSize="10"
+				value="wmpprop:eq.gainLevel10" value_onchange="AdjustAudio();">
+			</slider>
+			<text value="Treble" top="jscript:treble.top+1;" width="jscript:treble.left-2;"
+				foregroundColor="black" justification="Right" fontSize="8">
+			</text>
+			<balanceSlider id="balance" left="jscript:treble.left;"
+				top="jscript:treble.top+21;" backgroundImage="eq_slider.bmp"
+				thumbImage="sliderThumb.bmp" transparencyColor="#FF00FF" borderSize="10">
+			</balanceSlider>
+			<text value="Balance" top="jscript:balance.top+1;" width="jscript:balance.left-2;"
+				foregroundColor="black" justification="Right" fontSize="8">
+			</text>
+			<volumeSlider id="volume" left="jscript:balance.left;"
+				top="jscript:balance.top+17;" backgroundImage="eq_slider.bmp"
+				thumbImage="sliderThumb.bmp" transparencyColor="#FF00FF" borderSize="10">
+			</volumeSlider>
+			<text value="Volume" top="jscript:volume.top-0;" width="jscript:volume.left-2;"
+				foregroundColor="black" justification="Right" fontSize="8">
+			</text>
+
+
+
+
+		</subview>
+
+
+
+		<subview id="main" backgroundImage="gnome3a.bmp" top="150"
+			zIndex="1" transparencyColor="black">
+
+			<text id="metadata" tooltip="" zIndex="1" left="42" top="20"
+				width="95" foregroundColor="#00FF00" fontSize="10" scrollingDelay="40"
+				scrollingAmount="1">
+			</text>
+			<text left="135" top="20" width="50" fontSize="10"
+				justification="Right" tooltip="" foregroundColor="#00FF00"
+				value="wmpprop:player.controls.currentPositionString">
+			</text>
+
+
+			<slider left="4.5" top="142.5" direction="vertical" slide="false"
+				min="0" max="100" borderSize="5" toolTip="Volume" backgroundImage="volume.bmp"
+				foregroundImage="volumefill.bmp" thumbImage="vol_thumb_01.gif"
+				transparencyColor="#000000" value="wmpprop:player.settings.volume"
+				value_onchange="player.settings.volume=value;"
+				useForegroundProgress="false">
+			</slider>
+
+			<slider id="seek" zIndex="1" left="32" top="135" toolTip="Seek"
+				backgroundImage="prog2.bmp" slide="false" thumbImage="sliderthumb3.bmp"
+				transparencyColor="#FF00FF" borderSize="5" min="0"
+				max="wmpprop:player.currentmedia.duration" value="wmpprop:player.controls.currentposition"
+				onDragEnd="player.controls.currentposition=value;"
+				useForegroundProgress="true" foregroundProgress="wmpprop:player.network.downloadProgress">
+			</slider>
+
+			<effects id="myeffects2" clippingImage="viz.bmp" top="54"
+				left="46" currentEffectType="random" width="135" height="80" />
+
+
+			<buttongroup mappingImage="gnomemap2.bmp" downImage="gnomedown2.bmp"
+				hoverImage="gnomehover2.bmp">
+				<buttonelement mappingColor="#FFE611" onclick="myeffects2.next()"
+					upToolTip="Next Visualization" cursor="hand" />
+				<buttonelement mappingColor="#FD49FF"
+					onclick="view.returnToMediaCenter();" upToolTip="Return to Full Mode"
+					cursor="hand" />
+
+
+				<stopelement id="stop" mappingColor="#ffc320" upToolTip="Stop"
+					cursor="hand" />
+
+				<pauseelement id="pause" mappingColor="#ffbc53"
+					upToolTip="Pause" cursor="hand" />
+
+
+				<playelement id="play" mappingColor="#0cffcf" upToolTip="Play"
+					cursor="hand" />
+
+
+				<prevelement mappingColor="#ff6224" upToolTip="Previous"
+					cursor="hand" />
+
+				<nextelement mappingColor="#b590ff" upToolTip="Next"
+					cursor="hand" />
+
+				<buttonelement mappingColor="#5551FF" upToolTip="Equalizer"
+					cursor="hand" onclick="Jscript: EqmoveDrawer(),OpenHead(), eq.enabled=true" />
+
+				<buttonelement mappingColor="#20FFF8" upToolTip="Playlist"
+					onclick="Jscript: PlmoveDrawer(), OpenHead();" cursor="hand" />
+
+				<buttonelement mappingColor="#0219FF" upToolTip="Close Head"
+					onclick="Jscript: CloseHead();" cursor="hand" />
+
+				<buttonelement mappingColor="#FFAC68" onclick="view.minimize();"
+					upToolTip="Minimize" cursor="hand" />
+				<buttonelement mappingColor="#0EFF63" onclick="view.close();"
+					upToolTip="Close" cursor="hand" />
+
+			</buttongroup>
+		</subview>
+	</view>
+</theme>
