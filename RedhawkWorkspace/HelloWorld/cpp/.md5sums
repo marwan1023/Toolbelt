@@ -1,0 +1,10 @@
+a821bab0d7ad2e13dfa2e31ad2a37d0c  HelloWorld.h
+d5374df1aa83fa47357b7b386c4b5d51  HelloWorld.cpp
+8bfcd22353c3a57fee561ad86ee2a56b  reconf
+cdb286dd5701805767bda4cdf173a5e5  HelloWorld_base.h
+c0f7bbe886f1972a5df98888e0bcb5d5  main.cpp
+eca366ed4922117b7bae8d4ca3fc80ca  configure.ac
+93a3f24ab8d030ea1976b807acd4643a  Makefile.am
+c1d51b42ffb6610df37b546e7defcb1c  Makefile.am.ide
+4e6aea69df73b2e39674d03fa52188d7  HelloWorld_base.cpp
+2b2faa5cfc83438427491f4be5d6ee59  build.sh

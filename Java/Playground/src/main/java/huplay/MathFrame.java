@@ -74,7 +74,7 @@ public class MathFrame extends MathWindow {
                 for (int loop = 1; loop > 0; --loop) {
                     if (randx == 0) {
                         xbox.setText("0");
-                        new PlaySound(classLoader.getResource("zero.au").getFile());
+                        new PlaySound(classLoader.getResource("zero.au"));
                         onTick(1000L);
                        
                         imageViewer1.setBounds(120, 156, 108, 108);
@@ -85,7 +85,7 @@ public class MathFrame extends MathWindow {
                     }
                     if (randx == 1) {
                         xbox.setText("1"); 
-                        new PlaySound(classLoader.getResource("one.au").getFile());
+                        new PlaySound(classLoader.getResource("one.au"));
                        onTick(1000L);
 
                         imageViewer2.setBounds(120, 156, 108, 108);
@@ -96,7 +96,7 @@ public class MathFrame extends MathWindow {
                     }
                     if (randx == 2) {
                         xbox.setText("2");
-                        new PlaySound(classLoader.getResource("two.au").getFile());
+                        new PlaySound(classLoader.getResource("two.au"));
                         onTick(1000L);
 
                         imageViewer3.setBounds(120, 156, 108, 108);
@@ -107,7 +107,7 @@ public class MathFrame extends MathWindow {
                     }
                     if (randx == 3) {
                         xbox.setText("3");
-                        new PlaySound(classLoader.getResource("three.au").getFile());
+                        new PlaySound(classLoader.getResource("three.au"));
                        onTick(1000L);
                         imageViewer4.setBounds(120, 156, 108, 108);
                         imagePanel2.removeAll();
@@ -117,7 +117,7 @@ public class MathFrame extends MathWindow {
                     }
                     if (randx == 4) {
                         xbox.setText("4");
-                        new PlaySound(classLoader.getResource("four.au").getFile());
+                        new PlaySound(classLoader.getResource("four.au"));
                         onTick(1000L);
 
                         imageViewer5.setBounds(120, 156, 108, 108);
@@ -128,7 +128,7 @@ public class MathFrame extends MathWindow {
                     }
                     if (randx == 5) {
                         xbox.setText("5");
-                        new PlaySound(classLoader.getResource("five.au").getFile());
+                        new PlaySound(classLoader.getResource("five.au"));
                         onTick(1000L);
                         imageViewer6.setBounds(120, 156, 108, 108);
                         imagePanel2.removeAll();
@@ -138,7 +138,7 @@ public class MathFrame extends MathWindow {
                     }
                     if (randx == 6) {
                         xbox.setText("6");
-                        new PlaySound(classLoader.getResource("six.au").getFile());
+                        new PlaySound(classLoader.getResource("six.au"));
                         onTick(1000L);
                         imageViewer7.setBounds(120, 156, 108, 108);
                         imagePanel2.removeAll();
@@ -148,7 +148,7 @@ public class MathFrame extends MathWindow {
                     }
                     if (randx == 7) {
                         xbox.setText("7");
-                        new PlaySound(classLoader.getResource("seven.au").getFile());
+                        new PlaySound(classLoader.getResource("seven.au"));
                         onTick(1000L);
 
                         imageViewer8.setBounds(120, 156, 108, 108);
@@ -159,7 +159,7 @@ public class MathFrame extends MathWindow {
                     }
                     if (randx == 8) {
                         xbox.setText("8");
-                        new PlaySound(classLoader.getResource("eight.au").getFile());
+                        new PlaySound(classLoader.getResource("eight.au"));
                         onTick(1000L);
 
                         imageViewer9.setBounds(120, 156, 108, 108);
@@ -170,7 +170,7 @@ public class MathFrame extends MathWindow {
                     }
                     if (randx == 9) {
                         xbox.setText("9");
-                        new PlaySound(classLoader.getResource("nine.au").getFile());
+                        new PlaySound(classLoader.getResource("nine.au"));
                         onTick(1000L);
 
                         imageViewer10.setBounds(120, 156, 108, 108);
@@ -182,7 +182,7 @@ public class MathFrame extends MathWindow {
 
                     if (randx == 10) {
                         xbox.setText("10");
-                        new PlaySound(classLoader.getResource("ten.au").getFile());
+                        new PlaySound(classLoader.getResource("ten.au"));
                         onTick(1000L);
 
                         imageViewer2.setBounds(0, 156, 108, 108);
@@ -199,7 +199,7 @@ public class MathFrame extends MathWindow {
                     }
                     if (randx == 11) {
                         xbox.setText("11");
-                        new PlaySound(classLoader.getResource("eleven.au").getFile());
+                        new PlaySound(classLoader.getResource("eleven.au"));
                         onTick(1000L);
 
                         imageViewer2.setBounds(0, 156, 108, 108);
@@ -215,7 +215,7 @@ public class MathFrame extends MathWindow {
                     }
                     if (randx == 12) {
                         xbox.setText("12");
-                        new PlaySound(classLoader.getResource("twell.au").getFile());
+                        new PlaySound(classLoader.getResource("twell.au"));
                         onTick(1000L);
 
                         imageViewer2.setBounds(0, 156, 108, 108);
@@ -231,7 +231,7 @@ public class MathFrame extends MathWindow {
                     }
                     if (randx == 13) {
                         xbox.setText("13");
-                        new PlaySound(classLoader.getResource("thierdteen.au").getFile());
+                        new PlaySound(classLoader.getResource("thierdteen.au"));
                         onTick(1000L);
 
                         imageViewer2.setBounds(0, 156, 108, 108);
@@ -247,7 +247,7 @@ public class MathFrame extends MathWindow {
                     }
                     if (randx == 14) {
                         xbox.setText("14");
-                        new PlaySound(classLoader.getResource("14.au").getFile());
+                        new PlaySound(classLoader.getResource("14.au"));
                         onTick(1000L);
 
                         imageViewer2.setBounds(0, 156, 108, 108);
@@ -262,7 +262,7 @@ public class MathFrame extends MathWindow {
                     }
                     if (randx == 15) {
                         xbox.setText("15");
-                        new PlaySound(classLoader.getResource("15.au").getFile());
+                        new PlaySound(classLoader.getResource("15.au"));
                        onTick(1000L);
 
                         imageViewer2.setBounds(0, 156, 108, 108);
@@ -278,7 +278,7 @@ public class MathFrame extends MathWindow {
                     }
                     if (randx == 16) {
                         xbox.setText("16");
-                        new PlaySound(classLoader.getResource("16.au").getFile());
+                        new PlaySound(classLoader.getResource("16.au"));
                         onTick(1000L);
 
                         imageViewer2.setBounds(0, 156, 108, 108);
@@ -294,7 +294,7 @@ public class MathFrame extends MathWindow {
                     }
                     if (randx == 17) {
                         xbox.setText("17");
-                        new PlaySound(classLoader.getResource("17.au").getFile());
+                        new PlaySound(classLoader.getResource("17.au"));
                         onTick(1000L);
 
                         imageViewer2.setBounds(0, 156, 108, 108);
@@ -310,7 +310,7 @@ public class MathFrame extends MathWindow {
                     }
                     if (randx == 18) {
                         xbox.setText("18");
-                        new PlaySound(classLoader.getResource("18.au").getFile());
+                        new PlaySound(classLoader.getResource("18.au"));
                         onTick(1000L);
 
                         imageViewer2.setBounds(0, 156, 108, 108);
@@ -325,7 +325,7 @@ public class MathFrame extends MathWindow {
                     }
                     if (randx == 19) {
                         xbox.setText("19");
-                        new PlaySound(classLoader.getResource("19.au").getFile());
+                        new PlaySound(classLoader.getResource("19.au"));
                         onTick(1000L);
                         imageViewer2.setBounds(0, 156, 108, 108);
                         imagePanel1.removeAll();
@@ -340,7 +340,7 @@ public class MathFrame extends MathWindow {
 
                     if (randx > 19 && randx < 30) {
                         xbox.setText("20");
-                        new PlaySound(classLoader.getResource("20.au").getFile());
+                        new PlaySound(classLoader.getResource("20.au"));
                         onTick(1000L);
 
                         imageViewer3.setBounds(0, 156, 108, 108);
@@ -352,7 +352,7 @@ public class MathFrame extends MathWindow {
                     }
                     if (randx > 29 && randx < 40) {
                         xbox.setText("30");
-                        new PlaySound(classLoader.getResource("30.au").getFile());
+                        new PlaySound(classLoader.getResource("30.au"));
                         onTick(1000L);
                         imageViewer4.setBounds(0, 156, 108, 108);
                         imagePanel1.removeAll();
@@ -364,7 +364,7 @@ public class MathFrame extends MathWindow {
 
                     if (randx > 39 && randx < 50) {
                         xbox.setText("40");
-                        new PlaySound(classLoader.getResource("40.au").getFile());
+                        new PlaySound(classLoader.getResource("40.au"));
                         onTick(1000L);
                         imageViewer5.setBounds(0, 156, 108, 108);
                         imagePanel1.removeAll();
@@ -375,7 +375,7 @@ public class MathFrame extends MathWindow {
                     }
                     if (randx == 50) {
                         xbox.setText("50");
-                        new PlaySound(classLoader.getResource("50.au").getFile());
+                        new PlaySound(classLoader.getResource("50.au"));
                         onTick(1000L);
                         imageViewer6.setBounds(0, 156, 108, 108);
                         imagePanel1.removeAll();
@@ -478,7 +478,7 @@ public class MathFrame extends MathWindow {
                 for (int loop = 1; loop > 0; --loop) {
                     if (randy == 0) {
                         ybox.setText("0");
-                        new PlaySound(classLoader.getResource("zero.au").getFile());
+                        new PlaySound(classLoader.getResource("zero.au"));
 
                         imageViewer1.setBounds(384, 156, 108, 108);
                         imagePanel4.removeAll();
@@ -488,7 +488,7 @@ public class MathFrame extends MathWindow {
                     }
                     if (randy == 1) {
                         ybox.setText("1");
-                        new PlaySound(classLoader.getResource("one.au").getFile());
+                        new PlaySound(classLoader.getResource("one.au"));
 
                         imageViewer2.setBounds(384, 156, 108, 108);
                         imagePanel4.removeAll();
@@ -498,7 +498,7 @@ public class MathFrame extends MathWindow {
                     }
                     if (randy == 2) {
                         ybox.setText("2");
-                        new PlaySound(classLoader.getResource("two.au").getFile());
+                        new PlaySound(classLoader.getResource("two.au"));
                         imageViewer3.setBounds(384, 156, 108, 108);
                         imagePanel4.removeAll();
                         imagePanel4 = imageViewer3;
@@ -507,7 +507,7 @@ public class MathFrame extends MathWindow {
                     }
                     if (randy == 3) {
                         ybox.setText("3");
-                        new PlaySound(classLoader.getResource("three.au").getFile());
+                        new PlaySound(classLoader.getResource("three.au"));
 
                         imageViewer4.setBounds(384, 156, 108, 108);
                         imagePanel4.removeAll();
@@ -517,7 +517,7 @@ public class MathFrame extends MathWindow {
                     }
                     if (randy == 4) {
                         ybox.setText("4");
-                        new PlaySound(classLoader.getResource("four.au").getFile());
+                        new PlaySound(classLoader.getResource("four.au"));
 
                         imageViewer5.setBounds(384, 156, 108, 108);
                         imagePanel4.removeAll();
@@ -527,7 +527,7 @@ public class MathFrame extends MathWindow {
                     }
                     if (randy == 5) {
                         ybox.setText("5");
-                        new PlaySound(classLoader.getResource("five.au").getFile());
+                        new PlaySound(classLoader.getResource("five.au"));
 
                         imageViewer6.setBounds(384, 156, 108, 108);
                         imagePanel4.removeAll();
@@ -537,7 +537,7 @@ public class MathFrame extends MathWindow {
                     }
                     if (randy == 6) {
                         ybox.setText("6");
-                        new PlaySound(classLoader.getResource("six.au").getFile());
+                        new PlaySound(classLoader.getResource("six.au"));
 
                         imageViewer7.setBounds(384, 156, 108, 108);
                         imagePanel4.removeAll();
@@ -547,7 +547,7 @@ public class MathFrame extends MathWindow {
                     }
                     if (randy == 7) {
                         ybox.setText("7");
-                        new PlaySound(classLoader.getResource("seven.au").getFile());
+                        new PlaySound(classLoader.getResource("seven.au"));
 
                         imageViewer8.setBounds(384, 156, 108, 108);
                         imagePanel4.removeAll();
@@ -557,7 +557,7 @@ public class MathFrame extends MathWindow {
                     }
                     if (randy == 8) {
                         ybox.setText("8");
-                        new PlaySound(classLoader.getResource("eight.au").getFile());
+                        new PlaySound(classLoader.getResource("eight.au"));
 
                         imageViewer9.setBounds(384, 156, 108, 108);
                         imagePanel4.removeAll();
@@ -567,7 +567,7 @@ public class MathFrame extends MathWindow {
                     }
                     if (randy == 9) {
                         ybox.setText("9");
-                        new PlaySound(classLoader.getResource("nine.au").getFile());
+                        new PlaySound(classLoader.getResource("nine.au"));
 
                         imageViewer10.setBounds(384, 156, 108, 108);
                         imagePanel4.removeAll();
@@ -578,7 +578,7 @@ public class MathFrame extends MathWindow {
 
                     if (randy == 10) {
                         ybox.setText("10");
-                        new PlaySound(classLoader.getResource("ten.au").getFile());
+                        new PlaySound(classLoader.getResource("ten.au"));
 
                         imageViewer2.setBounds(264, 156, 108, 108);
                         imagePanel3.removeAll();
@@ -593,7 +593,7 @@ public class MathFrame extends MathWindow {
                     }
                     if (randy == 11) {
                         ybox.setText("11");
-                        new PlaySound(classLoader.getResource("eleven.au").getFile());
+                        new PlaySound(classLoader.getResource("eleven.au"));
                         imageViewer2.setBounds(264, 156, 108, 108);
                         imagePanel3.removeAll();
                         imagePanel3 = imageViewer2;
@@ -607,7 +607,7 @@ public class MathFrame extends MathWindow {
                     }
                     if (randy == 12) {
                         ybox.setText("12");
-                        new PlaySound(classLoader.getResource("twell.au").getFile());
+                        new PlaySound(classLoader.getResource("twell.au"));
                         imageViewer2.setBounds(264, 156, 108, 108);
                         imagePanel3.removeAll();
                         imagePanel3 = imageViewer2;
@@ -621,7 +621,7 @@ public class MathFrame extends MathWindow {
                     }
                     if (randy == 13) {
                         ybox.setText("13");
-                        new PlaySound(classLoader.getResource("theirdteen.au").getFile());
+                        new PlaySound(classLoader.getResource("theirdteen.au"));
                         imageViewer2.setBounds(264, 156, 108, 108);
                         imagePanel3.removeAll();
                         imagePanel3 = imageViewer2;
@@ -635,7 +635,7 @@ public class MathFrame extends MathWindow {
                     }
                     if (randy == 14) {
                         ybox.setText("14");
-                        new PlaySound(classLoader.getResource("14.au").getFile());
+                        new PlaySound(classLoader.getResource("14.au"));
 
                         imageViewer2.setBounds(264, 156, 108, 108);
                         imagePanel3.removeAll();
@@ -650,7 +650,7 @@ public class MathFrame extends MathWindow {
                     }
                     if (randy == 15) {
                         ybox.setText("15");
-                        new PlaySound(classLoader.getResource("15.au").getFile());
+                        new PlaySound(classLoader.getResource("15.au"));
                         imageViewer2.setBounds(264, 156, 108, 108);
                         imagePanel3.removeAll();
                         imagePanel3 = imageViewer2;
@@ -664,7 +664,7 @@ public class MathFrame extends MathWindow {
                     }
                     if (randy == 16) {
                         ybox.setText("16");
-                        new PlaySound(classLoader.getResource("16.au").getFile());
+                        new PlaySound(classLoader.getResource("16.au"));
                         imageViewer2.setBounds(264, 156, 108, 108);
                         imagePanel3.removeAll();
                         imagePanel3 = imageViewer2;
@@ -678,7 +678,7 @@ public class MathFrame extends MathWindow {
                     }
                     if (randy == 17) {
                         ybox.setText("17");
-                        new PlaySound(classLoader.getResource("17.au").getFile());
+                        new PlaySound(classLoader.getResource("17.au"));
                         imageViewer2.setBounds(264, 156, 108, 108);
                         imagePanel3.removeAll();
                         imagePanel3 = imageViewer2;
@@ -692,7 +692,7 @@ public class MathFrame extends MathWindow {
                     }
                     if (randy == 18) {
                         ybox.setText("18");
-                        new PlaySound(classLoader.getResource("18.au").getFile());
+                        new PlaySound(classLoader.getResource("18.au"));
                         imageViewer2.setBounds(264, 156, 108, 108);
                         imagePanel3.removeAll();
                         imagePanel3 = imageViewer2;
@@ -706,7 +706,7 @@ public class MathFrame extends MathWindow {
                     }
                     if (randy == 19) {
                         ybox.setText("19");
-                        new PlaySound(classLoader.getResource("19.au").getFile());
+                        new PlaySound(classLoader.getResource("19.au"));
                         imageViewer2.setBounds(264, 156, 108, 108);
                         imagePanel3.removeAll();
                         imagePanel3 = imageViewer2;
@@ -721,7 +721,7 @@ public class MathFrame extends MathWindow {
 
                     if (randy > 19 && randy < 30) {
                         ybox.setText("20");
-                        new PlaySound(classLoader.getResource("20.au").getFile());
+                        new PlaySound(classLoader.getResource("20.au"));
 
                         imageViewer3.setBounds(264, 156, 108, 108);
                         imagePanel3.removeAll();
@@ -733,7 +733,7 @@ public class MathFrame extends MathWindow {
                     }
                     if (randy > 29 && randy < 40) {
                         ybox.setText("30");
-                        new PlaySound(classLoader.getResource("30.au").getFile());
+                        new PlaySound(classLoader.getResource("30.au"));
 
                         imageViewer4.setBounds(264, 156, 108, 108);
                         imagePanel3.removeAll();
@@ -743,7 +743,7 @@ public class MathFrame extends MathWindow {
                     }
                     if (randy > 39 && randy < 50) {
                         ybox.setText("40");
-                        new PlaySound(classLoader.getResource("40.au").getFile());
+                        new PlaySound(classLoader.getResource("40.au"));
 
                         imageViewer5.setBounds(264, 156, 108, 108);
                         imagePanel3.removeAll();
@@ -753,7 +753,7 @@ public class MathFrame extends MathWindow {
                     }
                     if (randy > 49 && randy < 60) {
                         ybox.setText("50");
-                        new PlaySound(classLoader.getResource("50.au").getFile());
+                        new PlaySound(classLoader.getResource("50.au"));
 
                         imageViewer6.setBounds(264, 156, 108, 108);
                         imagePanel3.removeAll();
@@ -763,7 +763,7 @@ public class MathFrame extends MathWindow {
                     }
                     if (randy > 59 && randy < 70) {
                         ybox.setText("60");
-                        new PlaySound(classLoader.getResource("60.au").getFile());
+                        new PlaySound(classLoader.getResource("60.au"));
                         imageViewer7.setBounds(264, 156, 108, 108);
                         imagePanel3.removeAll();
                         imagePanel3 = imageViewer7;
@@ -772,7 +772,7 @@ public class MathFrame extends MathWindow {
                     }
                     if (randy > 69 && randy < 80) {
                         ybox.setText("70");
-                        new PlaySound(classLoader.getResource("70.au").getFile());
+                        new PlaySound(classLoader.getResource("70.au"));
 
                         imageViewer8.setBounds(264, 156, 108, 108);
                         imagePanel3.removeAll();
@@ -782,7 +782,7 @@ public class MathFrame extends MathWindow {
                     }
                     if (randy > 79 && randy < 90) {
                         ybox.setText("80");
-                        new PlaySound(classLoader.getResource("80.au").getFile());
+                        new PlaySound(classLoader.getResource("80.au"));
 
                         imageViewer9.setBounds(264, 156, 108, 108);
                         imagePanel3.removeAll();
@@ -792,7 +792,7 @@ public class MathFrame extends MathWindow {
                     }
                     if (randy > 89 && randy < 100) {
                         ybox.setText("90");
-                        new PlaySound(classLoader.getResource("90.au").getFile());
+                        new PlaySound(classLoader.getResource("90.au"));
 
                         imageViewer10.setBounds(264, 156, 108, 108);
                         imagePanel3.removeAll();
@@ -875,13 +875,13 @@ public class MathFrame extends MathWindow {
                         randsign = (int) (Math.random() * 2);
                     if (randsign == 0) {
                         plusbox.setText("+");
-                        new PlaySound(classLoader.getResource("pluss.au").getFile());
+                        new PlaySound(classLoader.getResource("pluss.au"));
                         onTick(500L);
                         JLabel3.setText("+");
                     }
                     if (randsign == 1) {
                         plusbox.setText("-");
-                        new PlaySound(classLoader.getResource("minus.au").getFile());
+                        new PlaySound(classLoader.getResource("minus.au"));
                         onTick(500L);
                         JLabel3.setText("-");
                     }
@@ -891,7 +891,7 @@ public class MathFrame extends MathWindow {
     void startbutton_actionPerformed_Interaction1(
             java.awt.event.ActionEvent event) {
         if (level < 1)
-            new PlaySound(classLoader.getResource("skill.au").getFile());
+            new PlaySound(classLoader.getResource("skill.au"));
         else {
             try {
 
@@ -910,13 +910,13 @@ public class MathFrame extends MathWindow {
               
                 if (randsign == 0) {
                     onTick(500L);
-                    new PlaySound(classLoader.getResource("equals.au").getFile());
+                    new PlaySound(classLoader.getResource("equals.au"));
                     ans = randx + randy;
 
                 }
                 if (randsign == 1) {
                     onTick(500L);
-                    new PlaySound(classLoader.getResource("equals.au").getFile());
+                    new PlaySound(classLoader.getResource("equals.au"));
                     ans = randx - randy;
                 }
 
@@ -961,22 +961,22 @@ public class MathFrame extends MathWindow {
                 int rand1;
                 rand1 = Double.valueOf(Math.random() * 6).intValue();
                 if (rand1 == 0)
-                    new PlaySound(classLoader.getResource("goodjob.au").getFile());
+                    new PlaySound(classLoader.getResource("goodjob.au"));
                onTick(500L);
                 if (rand1 == 1)
-                    new PlaySound(classLoader.getResource("super.au").getFile());
+                    new PlaySound(classLoader.getResource("super.au"));
                onTick(500L);
                 if (rand1 == 2)
-                    new PlaySound(classLoader.getResource("wowgratejob.au").getFile());
+                    new PlaySound(classLoader.getResource("wowgratejob.au"));
                 onTick(500L);
                 if (rand1 == 3)
-                    new PlaySound(classLoader.getResource("u.practice.au").getFile());
+                    new PlaySound(classLoader.getResource("u.practice.au"));
                 onTick(500L);
                 if (rand1 == 4)
-                    new PlaySound(classLoader.getResource("yagotit.au").getFile());
+                    new PlaySound(classLoader.getResource("yagotit.au"));
                 onTick(500L);
                 if (rand1 == 5)
-                    new PlaySound(classLoader.getResource("let.lay.au").getFile());
+                    new PlaySound(classLoader.getResource("let.lay.au"));
                 onTick(500L);
 
                 diologebox.setText("Right");
@@ -986,9 +986,9 @@ public class MathFrame extends MathWindow {
                 int rand1;
                 rand1 = Double.valueOf(Math.random() * 2).intValue();
                 if (rand1 == 0)
-                    new PlaySound(classLoader.getResource("betterluck.au").getFile());
+                    new PlaySound(classLoader.getResource("betterluck.au"));
                 if (rand1 == 1)
-                    new PlaySound(classLoader.getResource("tryagain.au").getFile());
+                    new PlaySound(classLoader.getResource("tryagain.au"));
                 diologebox.setText("Wrong");
                 score.decrementMathScore(5);
 
@@ -1018,117 +1018,117 @@ public class MathFrame extends MathWindow {
             
             for (int loop = 1; loop > 0; --loop) {
                 if (subans == 0) {
-                    new PlaySound(classLoader.getResource("zero.au").getFile());
+                    new PlaySound(classLoader.getResource("zero.au"));
                     onTick(500L);
                 }
                 if (subans == 1) {
-                    new PlaySound(classLoader.getResource("one.au").getFile());
+                    new PlaySound(classLoader.getResource("one.au"));
                     onTick(500L);
                 }
                 if (subans == 2) {
-                    new PlaySound(classLoader.getResource("two.au").getFile());
+                    new PlaySound(classLoader.getResource("two.au"));
                     onTick(500L);
                 }
                 if (subans == 3) {
-                    new PlaySound(classLoader.getResource("three.au").getFile());
+                    new PlaySound(classLoader.getResource("three.au"));
                     onTick(500L);
                 }
                 if (subans == 4) {
-                    new PlaySound(classLoader.getResource("four.au").getFile());
+                    new PlaySound(classLoader.getResource("four.au"));
                     onTick(500L);
                 }
                 if (subans == 5) {
-                    new PlaySound(classLoader.getResource("five.au").getFile());
+                    new PlaySound(classLoader.getResource("five.au"));
                     onTick(500L);
                 }
                 if (subans == 6) {
-                    new PlaySound(classLoader.getResource("six.au").getFile());
+                    new PlaySound(classLoader.getResource("six.au"));
                     onTick(500L);
                 }
                 if (subans == 7) {
-                    new PlaySound(classLoader.getResource("seven.au").getFile());
+                    new PlaySound(classLoader.getResource("seven.au"));
                     onTick(500L);
                 }
                 if (subans == 8) {
-                    new PlaySound(classLoader.getResource("eight.au").getFile());
+                    new PlaySound(classLoader.getResource("eight.au"));
                     onTick(500L);
                 }
                 if (subans == 9) {
-                    new PlaySound(classLoader.getResource("nine.au").getFile());
+                    new PlaySound(classLoader.getResource("nine.au"));
                     onTick(500L);
                 }
 
                 if (subans == 10) {
-                    new PlaySound(classLoader.getResource("ten.au").getFile());
+                    new PlaySound(classLoader.getResource("ten.au"));
                     onTick(500L);
                 }
                 if (subans == 11) {
-                    new PlaySound(classLoader.getResource("eleven.au").getFile());
+                    new PlaySound(classLoader.getResource("eleven.au"));
                     onTick(500L);
                 }
                 if (subans == 12) {
-                    new PlaySound(classLoader.getResource("twell.au").getFile());
+                    new PlaySound(classLoader.getResource("twell.au"));
                     onTick(500L);
                 }
                 if (subans == 13) {
-                    new PlaySound(classLoader.getResource("theirdteen.au").getFile());
+                    new PlaySound(classLoader.getResource("theirdteen.au"));
                     onTick(500L);
                 }
                 if (subans == 14) {
-                    new PlaySound(classLoader.getResource("14.au").getFile());
+                    new PlaySound(classLoader.getResource("14.au"));
                     onTick(500L);
                 }
                 if (subans == 15) {
-                    new PlaySound(classLoader.getResource("15.au").getFile());
+                    new PlaySound(classLoader.getResource("15.au"));
                     onTick(500L);
                 }
                 if (subans == 16) {
-                    new PlaySound(classLoader.getResource("16.au").getFile());
+                    new PlaySound(classLoader.getResource("16.au"));
                     onTick(500L);
                 }
                 if (subans == 17) {
-                    new PlaySound(classLoader.getResource("17.au").getFile());
+                    new PlaySound(classLoader.getResource("17.au"));
                     onTick(500L);
                 }
                 if (subans == 18) {
-                    new PlaySound(classLoader.getResource("18.au").getFile());
+                    new PlaySound(classLoader.getResource("18.au"));
                     onTick(500L);
                 }
                 if (subans == 19) {
-                    new PlaySound(classLoader.getResource("19.au").getFile());
+                    new PlaySound(classLoader.getResource("19.au"));
                     onTick(500L);
                 }
 
                 if (subans > 19 && subans < 30) {
-                    new PlaySound(classLoader.getResource("20.au").getFile());
+                    new PlaySound(classLoader.getResource("20.au"));
                     onTick(500L);
                 }
                 if (subans > 29 && subans < 40) {
-                    new PlaySound(classLoader.getResource("30.au").getFile());
+                    new PlaySound(classLoader.getResource("30.au"));
                     onTick(500L);
                 }
                 if (subans > 39 && subans < 50) {
-                    new PlaySound(classLoader.getResource("40.au").getFile());
+                    new PlaySound(classLoader.getResource("40.au"));
                     onTick(500L);
                 }
                 if (subans > 49 && subans < 60) {
-                    new PlaySound(classLoader.getResource("50.au").getFile());
+                    new PlaySound(classLoader.getResource("50.au"));
                     onTick(500L);
                 }
                 if (subans > 59 && subans < 70) {
-                    new PlaySound(classLoader.getResource("60.au").getFile());
+                    new PlaySound(classLoader.getResource("60.au"));
                     onTick(500L);
                 }
                 if (subans > 69 && subans < 80) {
-                    new PlaySound(classLoader.getResource("70.au").getFile());
+                    new PlaySound(classLoader.getResource("70.au"));
                     onTick(500L);
                 }
                 if (subans > 79 && subans < 90) {
-                    new PlaySound(classLoader.getResource("80.au").getFile());
+                    new PlaySound(classLoader.getResource("80.au"));
                     onTick(500L);
                 }
                 if (subans > 89 && subans < 100) {
-                    new PlaySound(classLoader.getResource("90.au").getFile());
+                    new PlaySound(classLoader.getResource("90.au"));
                     onTick(500L);
                 }
 
@@ -1207,7 +1207,7 @@ public class MathFrame extends MathWindow {
     void JButton3_actionPerformed(java.awt.event.ActionEvent event)
              {
         level = 1;
-        new PlaySound(classLoader.getResource("that.spir.au").getFile());
+        new PlaySound(classLoader.getResource("that.spir.au"));
         onTick(1000L);
         startbutton_actionPerformed_Interaction1(event);
         nameEntryButton.setEnabled(false);
@@ -1221,7 +1221,7 @@ public class MathFrame extends MathWindow {
     void nameEntryButton_actionPerformed(java.awt.event.ActionEvent event)
             {
         level = 2;
-        new PlaySound(classLoader.getResource("ready.when.you.au").getFile());
+        new PlaySound(classLoader.getResource("ready.when.you.au"));
         onTick(1000L);
         startbutton_actionPerformed_Interaction1(event);
         JButton3.setEnabled(false);
@@ -1235,7 +1235,7 @@ public class MathFrame extends MathWindow {
     void JButton2_actionPerformed(java.awt.event.ActionEvent event)
             {
         level = 3;
-        new PlaySound(classLoader.getResource("good.choice.au").getFile());
+        new PlaySound(classLoader.getResource("good.choice.au"));
         onTick(1000L);
         startbutton_actionPerformed_Interaction1(event);
         JButton3.setEnabled(false);

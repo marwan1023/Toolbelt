@@ -17,7 +17,7 @@ import javax.swing.JFrame;
 
 public class PhotonRoverKeys implements KeyListener {
 
-    private static final String accessToken = "da0d58dfbd0ced8098266f32038dccfcd4162d4f";
+    private static final String accessToken = "bbe65318bea7853a02b194c6be9072e84be00cdd";
     private static final String deviceID = "270036000d47343233323032";
     private static String controlURL;
 

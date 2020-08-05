@@ -41,7 +41,7 @@ public class Trophy extends JFrame {
         getContentPane().setBackground(java.awt.Color.white);
         setSize(652, 485);
 
-        imageViewer2 = new ImagePanel(classLoader.getResource("congrat.gif").getFile());
+        imageViewer2 = new ImagePanel(classLoader.getResource("congrat.gif"));
         imageViewer2.setBackground(Color.WHITE);
 
         getContentPane().add(imageViewer2);
@@ -56,26 +56,26 @@ public class Trophy extends JFrame {
         getContentPane().add(spellingScore);
 
 
-        imageViewer1 = new ImagePanel(classLoader.getResource("trophy.gif").getFile());
+        imageViewer1 = new ImagePanel(classLoader.getResource("trophy.gif"));
         imageViewer1.setBackground(Color.WHITE);
         getContentPane().add(imageViewer1);
         imageViewer1.setBounds(144, 12, 408, 84);
 
-        sbronze = new ImagePanel(classLoader.getResource("sbronze.jpg").getFile());
+        sbronze = new ImagePanel(classLoader.getResource("sbronze.jpg"));
         sbronze.setBackground(Color.WHITE);
 
         getContentPane().add(sbronze);
         sbronze.setBounds(36, 228, 264, 239);
         sbronze.setVisible(false);
 
-        ssilver = new ImagePanel(classLoader.getResource("ssilver.jpg").getFile());
+        ssilver = new ImagePanel(classLoader.getResource("ssilver.jpg"));
         ssilver.setBackground(Color.WHITE);
 
         getContentPane().add(ssilver);
         ssilver.setBounds(36, 228, 264, 239);
         ssilver.setVisible(false);
 
-        sgold = new ImagePanel(classLoader.getResource("sgold.jpg").getFile());
+        sgold = new ImagePanel(classLoader.getResource("sgold.jpg"));
         sgold.setBackground(Color.WHITE);
 
         getContentPane().add(sgold);
@@ -93,21 +93,21 @@ public class Trophy extends JFrame {
         mathScore.setText("" + score.getMathScore());
         getContentPane().add(mathScore);
 
-        mbronze = new ImagePanel(classLoader.getResource("mbronze.gif").getFile());
+        mbronze = new ImagePanel(classLoader.getResource("mbronze.gif"));
         mbronze.setBackground(Color.WHITE);
         getContentPane().add(mbronze);
 
         mbronze.setBounds(360, 228, 264, 239);
         mbronze.setVisible(false);
 
-        msilver = new ImagePanel(classLoader.getResource("msilver.gif").getFile());
+        msilver = new ImagePanel(classLoader.getResource("msilver.gif"));
         msilver.setBackground(Color.WHITE);
         getContentPane().add(msilver);
 
         msilver.setBounds(360, 228, 264, 239);
         msilver.setVisible(false);
 
-        mgold = new ImagePanel(classLoader.getResource("mgold.gif").getFile());
+        mgold = new ImagePanel(classLoader.getResource("mgold.gif"));
         mgold.setBackground(Color.WHITE);
         getContentPane().add(mgold);
 

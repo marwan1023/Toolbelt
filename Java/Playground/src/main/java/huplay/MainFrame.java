@@ -55,7 +55,7 @@ public class MainFrame extends JFrame {
         try {
 
           
-            title = new ImagePanel(classLoader.getResource("play.gif").getFile());
+            title = new ImagePanel(classLoader.getResource("play.gif"));
             title.setBackground(Color.WHITE);
         } catch (Exception error) {
         }
@@ -104,7 +104,7 @@ public class MainFrame extends JFrame {
         nameEntryButton.setBackground(java.awt.Color.lightGray);
         nameEntryButton.setBounds(456, 120, 60, 48);
 
-        new PlaySound(classLoader.getResource("welcome.au").getFile());
+        new PlaySound(classLoader.getResource("welcome.au"));
         Icon imgIcon = new ImageIcon(classLoader.getResource("squirtle.gif"));
         JLabel label = new JLabel(imgIcon);
         label.setBounds(12, 252, 144, 144);
@@ -360,7 +360,7 @@ public class MainFrame extends JFrame {
             Optional<String> nameValue = Optional.of(personal.getText());
             if (nameValue.isPresent() && !nameValue.get().isEmpty())
             {
-                new PlaySound(classLoader.getResource("Ding.au").getFile());
+                new PlaySound(classLoader.getResource("Ding.au"));
                 name.append(nameValue.get());
                 name.append("'s");
                 personal.setEnabled(false);
@@ -377,12 +377,12 @@ public class MainFrame extends JFrame {
         try {
             // SpellFrame Create and show the SpellFrame with a title
 
-            new PlaySound(classLoader.getResource("Ding.au").getFile());
+            new PlaySound(classLoader.getResource("Ding.au"));
             if (name.toString() == null || name.toString().isEmpty()) {
-                new PlaySound(classLoader.getResource("laugh.au").getFile());
+                new PlaySound(classLoader.getResource("laugh.au"));
                 personal.setText("Enter name please!");
             } else  {
-                new PlaySound(classLoader.getResource("Ding.au").getFile());
+                new PlaySound(classLoader.getResource("Ding.au"));
                 // click.play();
                 String app1 = " ";
                 app1 += "Spelling Activity";
@@ -403,12 +403,12 @@ public class MainFrame extends JFrame {
         try {
             // SpellFrame Create and show the SpellFrame with a title
 
-            new PlaySound(classLoader.getResource("Ding.au").getFile());
+            new PlaySound(classLoader.getResource("Ding.au"));
             if (name.toString().isEmpty()) {
-                new PlaySound(classLoader.getResource("laugh.au").getFile());
+                new PlaySound(classLoader.getResource("laugh.au"));
                 personal.setText("Enter name please!");
             } else {
-                new PlaySound(classLoader.getResource("Ding.au").getFile());
+                new PlaySound(classLoader.getResource("Ding.au"));
                 String app1 = " ";
                 app1 += "Trophy Room";
                 Trophy trophy = new Trophy(name.toString() + app1);
@@ -427,10 +427,10 @@ public class MainFrame extends JFrame {
     void art_actionPerformed_Interaction1(java.awt.event.ActionEvent event) {
         try {
             if (name.toString().isEmpty()) {
-                new PlaySound(classLoader.getResource("laugh.au").getFile());
+                new PlaySound(classLoader.getResource("laugh.au"));
                 personal.setText("Enter name please!");
             } else  {
-                new PlaySound(classLoader.getResource("Ding.au").getFile());
+                new PlaySound(classLoader.getResource("Ding.au"));
                 (new ArtFrame(name.toString() + " Art Activity")).setVisible(true);
             }
         } catch (java.lang.Exception e) {
@@ -446,10 +446,10 @@ public class MainFrame extends JFrame {
         try {
             // MFrame Create and show the MFrame with a title
             if (name.toString().isEmpty()) {
-                new PlaySound(classLoader.getResource("laugh.au").getFile());
+                new PlaySound(classLoader.getResource("laugh.au"));
                 personal.setText("Enter name please!");
             } else  {
-                new PlaySound(classLoader.getResource("Ding.au").getFile());
+                new PlaySound(classLoader.getResource("Ding.au"));
                 (new MathFrame(name.toString() + " Math Activity")).setVisible(true);
             }
         } catch (java.lang.Exception e) {

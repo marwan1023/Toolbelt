@@ -254,7 +254,7 @@ public class SpellWindow extends JFrame {
         JLabel5.setForeground(java.awt.Color.black);
         JLabel5.setFont(new Font("Dialog", Font.BOLD | Font.ITALIC, 12));
         JLabel5.setBounds(120, 96, 380, 19);
-        imageViewer1 = new ImagePanel(classLoader.getResource("spell.gif").getFile());
+        imageViewer1 = new ImagePanel(classLoader.getResource("spell.gif"));
         imageViewer1.setBackground(Color.WHITE);
 
         getContentPane().add(imageViewer1);
@@ -300,150 +300,150 @@ public class SpellWindow extends JFrame {
         getContentPane().add(image);
         image.setBounds(420, 192, 193, 264);
 
-        dogs = new ImagePanel(classLoader.getResource("dog.jpg").getFile());
+        dogs = new ImagePanel(classLoader.getResource("dog.jpg"));
         dogs.setBackground(Color.WHITE);
         getContentPane().add(dogs);
         dogs.setBounds(420, 192, 193, 264); // 636,36,108,72
         dogs.setVisible(false);
 
-        bd = new ImagePanel(classLoader.getResource("bed.jpg").getFile());
+        bd = new ImagePanel(classLoader.getResource("bed.jpg"));
         bd.setBackground(Color.WHITE);
         getContentPane().add(bd);
         bd.setBounds(420, 192, 193, 264);
         bd.setVisible(false);
 
-        batd = new ImagePanel(classLoader.getResource("bat.gif").getFile());
+        batd = new ImagePanel(classLoader.getResource("bat.gif"));
         batd.setBackground(Color.WHITE);
         getContentPane().add(batd);
         batd.setBounds(420, 192, 193, 264);
         batd.setVisible(false);
 
-        catd = new ImagePanel(classLoader.getResource("cat.gif").getFile());
+        catd = new ImagePanel(classLoader.getResource("cat.gif"));
         catd.setBackground(Color.WHITE);
         getContentPane().add(catd);
         catd.setBounds(420, 192, 193, 264);
         catd.setVisible(false);
 
-        treed = new ImagePanel(classLoader.getResource("tree.gif").getFile());
+        treed = new ImagePanel(classLoader.getResource("tree.gif"));
         treed.setBackground(Color.WHITE);
         getContentPane().add(treed);
         treed.setBounds(420, 192, 193, 264);
         treed.setVisible(false);
 
-        balld = new ImagePanel(classLoader.getResource("ball.jpg").getFile());
+        balld = new ImagePanel(classLoader.getResource("ball.jpg"));
         balld.setBackground(Color.WHITE);
         getContentPane().add(balld);
         balld.setBounds(420, 192, 193, 264);
         balld.setVisible(false);
 
-        birdd = new ImagePanel(classLoader.getResource("bird.jpg").getFile());
+        birdd = new ImagePanel(classLoader.getResource("bird.jpg"));
         birdd.setBackground(Color.WHITE);
         getContentPane().add(birdd);
         birdd.setBounds(420, 192, 193, 264);
         birdd.setVisible(false);
 
-        lamp = new ImagePanel(classLoader.getResource("lamps.gif").getFile());
+        lamp = new ImagePanel(classLoader.getResource("lamps.gif"));
         lamp.setBackground(Color.WHITE);
         getContentPane().add(lamp);
         lamp.setBounds(420, 192, 193, 264);
         lamp.setVisible(false);
 
-        coats = new ImagePanel(classLoader.getResource("coat.jpg").getFile());
+        coats = new ImagePanel(classLoader.getResource("coat.jpg"));
 
         getContentPane().add(coats);
         coats.setBounds(420, 192, 193, 264);
         coats.setVisible(false);
-        soaps = new ImagePanel(classLoader.getResource("soaps.jpg").getFile());
+        soaps = new ImagePanel(classLoader.getResource("soaps.jpg"));
 
         getContentPane().add(soaps);
         soaps.setBounds(420, 192, 193, 264);
         soaps.setVisible(false);
-        leaps = new ImagePanel(classLoader.getResource("leaps.gif").getFile());
+        leaps = new ImagePanel(classLoader.getResource("leaps.gif"));
 
         getContentPane().add(leaps);
         leaps.setBounds(420, 192, 193, 264);
         leaps.setVisible(false);
-        tig = new ImagePanel(classLoader.getResource("tiger.gif").getFile());
+        tig = new ImagePanel(classLoader.getResource("tiger.gif"));
 
         getContentPane().add(tig);
         tig.setBounds(420, 192, 193, 264);
         tig.setVisible(false);
-        bea = new ImagePanel(classLoader.getResource("pooh.gif").getFile());
+        bea = new ImagePanel(classLoader.getResource("pooh.gif"));
 
         getContentPane().add(bea);
         bea.setBounds(420, 192, 193, 264);
         bea.setVisible(false);
-        slp = new ImagePanel(classLoader.getResource("sleeps.gif").getFile());
+        slp = new ImagePanel(classLoader.getResource("sleeps.gif"));
 
         getContentPane().add(slp);
         slp.setBounds(420, 192, 193, 264);
         slp.setVisible(false);
-        boa = new ImagePanel(classLoader.getResource("boats.jpg").getFile());
+        boa = new ImagePanel(classLoader.getResource("boats.jpg"));
 
         getContentPane().add(boa);
         boa.setBounds(420, 192, 193, 264);
         boa.setVisible(false);
-        mouse = new ImagePanel(classLoader.getResource("mouse.gif").getFile());
+        mouse = new ImagePanel(classLoader.getResource("mouse.gif"));
 
         getContentPane().add(mouse);
         mouse.setBounds(420, 192, 193, 264);
         mouse.setVisible(false);
-        shark = new ImagePanel(classLoader.getResource("shark.gif").getFile());
+        shark = new ImagePanel(classLoader.getResource("shark.gif"));
 
         getContentPane().add(shark);
         shark.setBounds(420, 192, 193, 264);
         shark.setVisible(false);
-        fish = new ImagePanel(classLoader.getResource("fish.gif").getFile());
+        fish = new ImagePanel(classLoader.getResource("fish.gif"));
 
         getContentPane().add(fish);
         fish.setBounds(420, 192, 193, 264);
         fish.setVisible(false);
-        chr = new ImagePanel(classLoader.getResource("chairs.gif").getFile());
+        chr = new ImagePanel(classLoader.getResource("chairs.gif"));
 
         getContentPane().add(chr);
         chr.setBounds(420, 192, 193, 264);
         chr.setVisible(false);
-        apple = new ImagePanel(classLoader.getResource("apple.gif").getFile());
+        apple = new ImagePanel(classLoader.getResource("apple.gif"));
 
         getContentPane().add(apple);
         apple.setBounds(420, 192, 193, 264);
         apple.setVisible(false);
-        deer = new ImagePanel(classLoader.getResource("deer.gif").getFile());
+        deer = new ImagePanel(classLoader.getResource("deer.gif"));
 
         getContentPane().add(deer);
         deer.setBounds(420, 192, 193, 264);
         deer.setVisible(false);
-        lite = new ImagePanel(classLoader.getResource("bulb.gif").getFile());
+        lite = new ImagePanel(classLoader.getResource("bulb.gif"));
 
         getContentPane().add(lite);
         lite.setBounds(420, 192, 193, 264);
         lite.setVisible(false);
-        carrot = new ImagePanel(classLoader.getResource("carrot.gif").getFile());
+        carrot = new ImagePanel(classLoader.getResource("carrot.gif"));
 
         getContentPane().add(carrot);
         carrot.setBounds(420, 192, 193, 264);
         carrot.setVisible(false);
-        pokemon = new ImagePanel(classLoader.getResource("pika.gif").getFile());
+        pokemon = new ImagePanel(classLoader.getResource("pika.gif"));
 
         getContentPane().add(pokemon);
         pokemon.setBounds(420, 192, 193, 264);
         pokemon.setVisible(false);
-        book = new ImagePanel(classLoader.getResource("book.png").getFile());
+        book = new ImagePanel(classLoader.getResource("book.png"));
 
         getContentPane().add(book);
         book.setBounds(420, 192, 193, 264);
         book.setVisible(false);
-        clock = new ImagePanel(classLoader.getResource("clock.gif").getFile());
+        clock = new ImagePanel(classLoader.getResource("clock.gif"));
 
         getContentPane().add(clock);
         clock.setBounds(420, 192, 193, 264);
         clock.setVisible(false);
-        worm = new ImagePanel(classLoader.getResource("worm.gif").getFile());
+        worm = new ImagePanel(classLoader.getResource("worm.gif"));
 
         getContentPane().add(worm);
         worm.setBounds(420, 192, 193, 264);
         worm.setVisible(false);
-        star2 = new ImagePanel(classLoader.getResource("star.gif").getFile());
+        star2 = new ImagePanel(classLoader.getResource("star.gif"));
 
         star2.setLayout(null);
         //getContentPane().add(star2);
@@ -458,7 +458,7 @@ public class SpellWindow extends JFrame {
         star2.setVisible(false);
 
 
-        star1 = new ImagePanel(classLoader.getResource("star.gif").getFile());
+        star1 = new ImagePanel(classLoader.getResource("star.gif"));
 
         star1.setLayout(null);
 

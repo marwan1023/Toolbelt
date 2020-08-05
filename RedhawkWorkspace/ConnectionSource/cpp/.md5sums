@@ -1,0 +1,10 @@
+e16713928a946f496fea5c2268053091  main.cpp
+c6a14f8587c0a2bb4b46d15773e49d5b  ConnectionSource.h
+8bfcd22353c3a57fee561ad86ee2a56b  reconf
+4730c137b6ee194fc53b43cf028319e2  ConnectionSource_base.h
+676b87d0959be07971d8fc21c72d718f  configure.ac
+030487b60c79a1d7fa290be4b836e631  Makefile.am
+5c87f7a3d5761051e6fdec7ad2928dd1  Makefile.am.ide
+2b2faa5cfc83438427491f4be5d6ee59  build.sh
+3f523cfbf69d239493658384690f0f35  ConnectionSource.cpp
+b0a074ecad39c7040fa4af847e372912  ConnectionSource_base.cpp

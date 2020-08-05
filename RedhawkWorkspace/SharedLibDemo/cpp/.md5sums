@@ -1,0 +1,8 @@
+8bfcd22353c3a57fee561ad86ee2a56b  reconf
+564cdba712e443c6cf4328f8d4f7a349  src/SharedLibDemo.cpp
+fd29e5c34a3eba9a2332ddb6b914eff2  SharedLibDemo.pc.in
+eefb61253bb864ec574c4ee5426b35b8  include/SharedLibDemo.h
+5df50d71bd58ff0fd45b5be8532eee8a  configure.ac
+90a131a17378e33291e08b6fbf7a9ef0  Makefile.am
+b105d6cda59e735d2b6b7ca7ef77fcc9  Makefile.am.ide
+2b2faa5cfc83438427491f4be5d6ee59  build.sh
