@@ -186,60 +186,60 @@ public abstract class MathWindow extends JFrame {
         getContentPane().add(imagePanel4);
         imagePanel4.setBounds(384, 156, 108, 108);
 
-        imageViewer1 = new ImagePanel(classLoader.getResource("0.jpg").getFile());
+        imageViewer1 = new ImagePanel(classLoader.getResource("0.jpg"));
 
         getContentPane().add(imageViewer1);
         imageViewer1.setBounds(624, 60, 24, 60);
         imageViewer1.setVisible(false);
 
-        imageViewer2 = new ImagePanel(classLoader.getResource("1.jpg").getFile());
+        imageViewer2 = new ImagePanel(classLoader.getResource("1.jpg"));
 
         getContentPane().add(imageViewer2);
         imageViewer2.setBounds(624, 96, 24, 24);
         imageViewer2.setVisible(false);
 
-        imageViewer3 = new ImagePanel(classLoader.getResource("2.jpg").getFile());
+        imageViewer3 = new ImagePanel(classLoader.getResource("2.jpg"));
 
         getContentPane().add(imageViewer3);
         imageViewer3.setBounds(624, 84, 24, 36);
         imageViewer3.setVisible(false);
-        imageViewer4 = new ImagePanel(classLoader.getResource("3.jpg").getFile());
+        imageViewer4 = new ImagePanel(classLoader.getResource("3.jpg"));
 
         getContentPane().add(imageViewer4);
         imageViewer4.setBounds(612, 96, 36, 24);
         imageViewer4.setVisible(false);
-        imageViewer5 = new ImagePanel(classLoader.getResource("4.jpg").getFile());
+        imageViewer5 = new ImagePanel(classLoader.getResource("4.jpg"));
 
         getContentPane().add(imageViewer5);
         imageViewer5.setBounds(612, 84, 36, 48);
         imageViewer5.setVisible(false);
-        imageViewer6 = new ImagePanel(classLoader.getResource("5.jpg").getFile());
+        imageViewer6 = new ImagePanel(classLoader.getResource("5.jpg"));
 
         getContentPane().add(imageViewer6);
         imageViewer6.setBounds(612, 84, 48, 36);
         imageViewer6.setVisible(false);
-        imageViewer7 = new ImagePanel(classLoader.getResource("6.jpg").getFile());
+        imageViewer7 = new ImagePanel(classLoader.getResource("6.jpg"));
 
         getContentPane().add(imageViewer7);
         imageViewer7.setBounds(624, 84, 24, 48);
         imageViewer7.setVisible(false);
-        imageViewer8 = new ImagePanel(classLoader.getResource("7.jpg").getFile());
+        imageViewer8 = new ImagePanel(classLoader.getResource("7.jpg"));
 
         getContentPane().add(imageViewer8);
         imageViewer8.setBounds(612, 84, 48, 48);
         imageViewer8.setVisible(false);
-        imageViewer9 = new ImagePanel(classLoader.getResource("8.jpg").getFile());
+        imageViewer9 = new ImagePanel(classLoader.getResource("8.jpg"));
 
         getContentPane().add(imageViewer9);
         imageViewer9.setBounds(612, 96, 36, 24);
         imageViewer9.setVisible(false);
-        imageViewer10 = new ImagePanel(classLoader.getResource("9.jpg").getFile());
+        imageViewer10 = new ImagePanel(classLoader.getResource("9.jpg"));
 
         getContentPane().add(imageViewer10);
         imageViewer10.setBounds(612, 84, 48, 36);
         imageViewer10.setVisible(false);
 
-        imageViewer11 = new ImagePanel(classLoader.getResource("math.gif").getFile());
+        imageViewer11 = new ImagePanel(classLoader.getResource("math.gif"));
         getContentPane().add(imageViewer11);
         imageViewer11.setBounds(96, 12, 481, 56);
 

@@ -1,17 +1,19 @@
 package bump;
 
+import com.jogamp.common.nio.Buffers;
+import com.jogamp.opengl.GL4;
+import com.jogamp.opengl.GLAutoDrawable;
+import com.jogamp.opengl.GLContext;
+import com.jogamp.opengl.GLEventListener;
+import com.jogamp.opengl.awt.GLCanvas;
 import graphicslib3D.*;
-import graphicslib3D.shape.*;
-import graphicslib3D.light.*;
-import graphicslib3D.GLSLUtils.*;
+import graphicslib3D.light.PositionalLight;
+import graphicslib3D.shape.Torus;
 
 import javax.swing.*;
-import java.nio.*;
+import java.nio.FloatBuffer;
 
 import static com.jogamp.opengl.GL4.*;
-import com.jogamp.opengl.*;
-import com.jogamp.opengl.awt.GLCanvas;
-import com.jogamp.common.nio.Buffers;
 
 public class Code extends JFrame implements GLEventListener
 {	private GLCanvas myCanvas;

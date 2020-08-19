@@ -6,8 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="NeoProcedure" />
         <module name="ProcedureExample" />
+        <module name="NeoProcedure" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8" />

@@ -18,10 +18,10 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="library" name="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER" level="application" />
-    <orderEntry type="library" name="Maven: org.pcap4j:pcap4j-core:1.7.2" level="project" />
-    <orderEntry type="library" name="Maven: net.java.dev.jna:jna:4.2.1" level="project" />
-    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.12" level="project" />
-    <orderEntry type="library" name="Maven: org.pcap4j:pcap4j-packetfactory-static:1.7.2" level="project" />
+    <orderEntry type="library" name="Maven: org.pcap4j:pcap4j-core:2.0.0-alpha.6" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.slf4j:slf4j-api:1.7.26" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: net.java.dev.jna:jna:5.3.1" level="project" />
+    <orderEntry type="library" name="Maven: org.pcap4j:pcap4j-packetfactory-static:2.0.0-alpha.6" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: junit:junit:3.8.1" level="project" />
   </component>
 </module>

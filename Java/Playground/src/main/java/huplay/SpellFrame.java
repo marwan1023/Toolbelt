@@ -51,7 +51,7 @@ public class SpellFrame extends SpellWindow {
         if (score.getSpellingScore() >= 40) {
             starlabel1.setVisible(true);
             starlabel2.setVisible(true);
-            new PlaySound(classLoader.getResource("applause2.au").getFile());
+            new PlaySound(classLoader.getResource("applause2.au"));
         }
     }
 
@@ -126,12 +126,12 @@ public class SpellFrame extends SpellWindow {
 
         if (input.equals(word)) {
             score.incrementSpellingScore(5);
-            new PlaySound(classLoader.getResource("Tada.au").getFile());
+            new PlaySound(classLoader.getResource("Tada.au"));
             textfield.setEditable(false);
             button.setEnabled(false);
 
         } else { // Wrong.play();
-            new PlaySound(classLoader.getResource("wrong.au").getFile());
+            new PlaySound(classLoader.getResource("wrong.au"));
             score.decrementSpellingScore(5);
             textfield.setText(word);
             textfield.setEditable(false);
@@ -170,7 +170,7 @@ public class SpellFrame extends SpellWindow {
         try {
             // level Set the JTextField's text
             level.setText("Level 1");
-            new PlaySound(classLoader.getResource("level1.au").getFile());
+            new PlaySound(classLoader.getResource("level1.au"));
 
             hard.setEnabled(false);
             medium.setEnabled(false);
@@ -189,7 +189,7 @@ public class SpellFrame extends SpellWindow {
         try {
             // level Set the JTextField's text
             level.setText("Level 2");
-            new PlaySound(classLoader.getResource("level2.au").getFile());
+            new PlaySound(classLoader.getResource("level2.au"));
 
             easy.setEnabled(false);
             hard.setEnabled(false);
@@ -208,7 +208,7 @@ public class SpellFrame extends SpellWindow {
         try {
             // level Set the JTextField's text
             level.setText("Level 3");
-            new PlaySound(classLoader.getResource("level3.au").getFile());
+            new PlaySound(classLoader.getResource("level3.au"));
 
             easy.setEnabled(false);
             medium.setEnabled(false);
@@ -227,21 +227,21 @@ public class SpellFrame extends SpellWindow {
         String setting = (String.valueOf(level.getText()));
         try {
             if (setting.equals(e)) {
-                new PlaySound(classLoader.getResource("dog.au").getFile());
+                new PlaySound(classLoader.getResource("dog.au"));
                 spell.setVisible(true);
                 image.removeAll();
                 image = dogs;
                 image.paintComponent(dogs.getGraphics());
 
             } else if (setting.equals(m)) {
-                new PlaySound(classLoader.getResource("coat.au").getFile());
+                new PlaySound(classLoader.getResource("coat.au"));
 
                 image.removeAll();
                 image = coats;
                 image.paintComponent(coats.getGraphics());
                 spell.setVisible(true);
             } else if (setting.equals(h)) {
-                new PlaySound(classLoader.getResource("leave.au").getFile());
+                new PlaySound(classLoader.getResource("leave.au"));
 
                 image.removeAll();
                 image = mouse;
@@ -265,19 +265,19 @@ public class SpellFrame extends SpellWindow {
         String setting = (String.valueOf(level.getText()));
         try {
             if (setting.equals(e)) { // bed.play();
-                new PlaySound(classLoader.getResource("bed.au").getFile());
+                new PlaySound(classLoader.getResource("bed.au"));
 
                 image.removeAll();
                 image = bd;
                 image.paintComponent(bd.getGraphics());
             } else if (setting.equals(m)) { // soap.play();
-                new PlaySound(classLoader.getResource("soap.au").getFile());
+                new PlaySound(classLoader.getResource("soap.au"));
 
                 image.removeAll();
                 image = soaps;
                 image.paintComponent(soaps.getGraphics());
             } else if (setting.equals(h)) { // crawl.play();
-                new PlaySound(classLoader.getResource("crawl.au").getFile());
+                new PlaySound(classLoader.getResource("crawl.au"));
 
                 image.removeAll();
                 image = shark;
@@ -323,19 +323,19 @@ public class SpellFrame extends SpellWindow {
         String setting = (String.valueOf(level.getText()));
         try {
             if (setting.equals(e)) { // bat.play();
-                new PlaySound(classLoader.getResource("bat.au").getFile());
+                new PlaySound(classLoader.getResource("bat.au"));
 
                 image.removeAll();
                 image = batd;
                 image.paintComponent(batd.getGraphics());
             } else if (setting.equals(m)) { // leap.play();
-                new PlaySound(classLoader.getResource("leap.au").getFile());
+                new PlaySound(classLoader.getResource("leap.au"));
 
                 image.removeAll();
                 image = leaps;
                 image.paintComponent(leaps.getGraphics());
             } else if (setting.equals(h)) { // jump.play();
-                new PlaySound(classLoader.getResource("jump.au").getFile());
+                new PlaySound(classLoader.getResource("jump.au"));
 
                 image.removeAll();
                 image = fish;
@@ -380,19 +380,19 @@ public class SpellFrame extends SpellWindow {
         String setting = (String.valueOf(level.getText()));
         try {
             if (setting.equals(e)) {// sit.play();
-                new PlaySound(classLoader.getResource("sit.au").getFile());
+                new PlaySound(classLoader.getResource("sit.au"));
 
                 image.removeAll();
                 image = book;
                 image.paintComponent(book.getGraphics());
             } else if (setting.equals(m)) { // tigers.play();
-                new PlaySound(classLoader.getResource("tiger.au").getFile());
+                new PlaySound(classLoader.getResource("tiger.au"));
 
                 image.removeAll();
                 image = tig;
                 image.paintComponent(tig.getGraphics());
             } else if (setting.equals(h)) { // chair.play();
-                new PlaySound(classLoader.getResource("chair.au").getFile());
+                new PlaySound(classLoader.getResource("chair.au"));
 
                 image.removeAll();
                 image = chr;
@@ -438,19 +438,19 @@ public class SpellFrame extends SpellWindow {
         String setting = (String.valueOf(level.getText()));
         try {
             if (setting.equals(e)) {// cat.play();
-                new PlaySound(classLoader.getResource("cat.au").getFile());
+                new PlaySound(classLoader.getResource("cat.au"));
 
                 image.removeAll();
                 image = catd;
                 image.paintComponent(catd.getGraphics());
             } else if (setting.equals(m)) { // bear.play();
-                new PlaySound(classLoader.getResource("bear.au").getFile());
+                new PlaySound(classLoader.getResource("bear.au"));
 
                 image.removeAll();
                 image = bea;
                 image.paintComponent(bea.getGraphics());
             } else if (setting.equals(h)) { // speak.play();
-                new PlaySound(classLoader.getResource("speak.au").getFile());
+                new PlaySound(classLoader.getResource("speak.au"));
 
                 image.removeAll();
                 image = apple;
@@ -495,19 +495,19 @@ public class SpellFrame extends SpellWindow {
         String setting = (String.valueOf(level.getText()));
         try {
             if (setting.equals(e)) {// tree.play();
-                new PlaySound(classLoader.getResource("tree.au").getFile());
+                new PlaySound(classLoader.getResource("tree.au"));
 
                 image.removeAll();
                 image = treed;
                 image.paintComponent(treed.getGraphics());
             } else if (setting.equals(m)) { // drop.play();
-                new PlaySound(classLoader.getResource("drop.au").getFile());
+                new PlaySound(classLoader.getResource("drop.au"));
 
                 image.removeAll();
                 image = clock;
                 image.paintComponent(clock.getGraphics());
             } else if (setting.equals(h)) { // table.play();
-                new PlaySound(classLoader.getResource("table.au").getFile());
+                new PlaySound(classLoader.getResource("table.au"));
 
                 image.removeAll();
                 image = deer;
@@ -552,19 +552,19 @@ public class SpellFrame extends SpellWindow {
         String setting = (String.valueOf(level.getText()));
         try {
             if (setting.equals(e)) {// ball.play();
-                new PlaySound(classLoader.getResource("ball.au").getFile());
+                new PlaySound(classLoader.getResource("ball.au"));
 
                 image.removeAll();
                 image = balld;
                 image.paintComponent(balld.getGraphics());
             } else if (setting.equals(m)) { // clas.play();
-                new PlaySound(classLoader.getResource("class.au").getFile());
+                new PlaySound(classLoader.getResource("class.au"));
 
                 image.removeAll();
                 image = worm;
                 image.paintComponent(worm.getGraphics());
             } else if (setting.equals(h)) { // light.play();
-                new PlaySound(classLoader.getResource("light.au").getFile());
+                new PlaySound(classLoader.getResource("light.au"));
 
                 image.removeAll();
                 image = lite;
@@ -609,19 +609,19 @@ public class SpellFrame extends SpellWindow {
         String setting = (String.valueOf(level.getText()));
         try {
             if (setting.equals(e)) {
-                new PlaySound(classLoader.getResource("bird.au").getFile());
+                new PlaySound(classLoader.getResource("bird.au"));
 
                 image.removeAll();
                 image = birdd;
                 image.paintComponent(birdd.getGraphics());
             } else if (setting.equals(m)) { // sleep.play();
-                new PlaySound(classLoader.getResource("sleep.au").getFile());
+                new PlaySound(classLoader.getResource("sleep.au"));
 
                 image.removeAll();
                 image = slp;
                 image.paintComponent(slp.getGraphics());
             } else if (setting.equals(h)) { // radio.play();
-                new PlaySound(classLoader.getResource("radio.au").getFile());
+                new PlaySound(classLoader.getResource("radio.au"));
 
                 image.removeAll();
                 image = carrot;
@@ -667,20 +667,20 @@ public class SpellFrame extends SpellWindow {
         String setting = (String.valueOf(level.getText()));
         try {
             if (setting.equals(e)) {
-                new PlaySound(classLoader.getResource("bonus1.au").getFile());
+                new PlaySound(classLoader.getResource("bonus1.au"));
 
                 image.removeAll();
                 image = lamp;
                 image.paintComponent(lamp.getGraphics());
             } else if (setting.equals(m)) {
-                new PlaySound(classLoader.getResource("float.au").getFile());
+                new PlaySound(classLoader.getResource("float.au"));
 
                 image.removeAll();
                 image = boa;
                 image.paintComponent(boa.getGraphics());
 
             } else if (setting.equals(h)) {
-                new PlaySound(classLoader.getResource("cabinet.au").getFile());
+                new PlaySound(classLoader.getResource("cabinet.au"));
 
                 image.removeAll();
                 image = pokemon;

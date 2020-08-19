@@ -6,6 +6,7 @@ import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
+import java.net.URL;
 
 public class ImagePanel extends JPanel {
 
@@ -16,10 +17,15 @@ public class ImagePanel extends JPanel {
         this.setBackground(Color.WHITE);
     }
 
-    public ImagePanel(String filename) {
+    public ImagePanel(URL url) {
         try {
             this.setBackground(Color.WHITE);
 
+            int index = url.getPath().lastIndexOf('/');
+            String name = url.getPath().substring(index+1, url.getPath().length());
+            String filename = "./resources/" + name;
+            
+            
             image = ImageIO.read(new File(filename));
         } catch (IOException ex) {
             ex.printStackTrace();

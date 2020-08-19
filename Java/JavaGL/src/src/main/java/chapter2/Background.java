@@ -1,11 +1,16 @@
 package chapter2;
 
-import java.nio.*;
-import javax.swing.*;
-import static com.jogamp.opengl.GL4.*;
-import com.jogamp.opengl.*;
-import com.jogamp.opengl.awt.GLCanvas;
 import com.jogamp.common.nio.Buffers;
+import com.jogamp.opengl.GL4;
+import com.jogamp.opengl.GLAutoDrawable;
+import com.jogamp.opengl.GLContext;
+import com.jogamp.opengl.GLEventListener;
+import com.jogamp.opengl.awt.GLCanvas;
+
+import javax.swing.*;
+import java.nio.FloatBuffer;
+
+import static com.jogamp.opengl.GL4.GL_COLOR;
 
 public class Background extends JFrame implements GLEventListener
 {	private GLCanvas myCanvas;

@@ -1,410 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="8c3aa69c-1c5e-406e-8029-54e170f7945d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../ESExamples/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ESExamples/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ESExamples/.idea/libraries/Maven__io_netty_netty_buffer_4_1_16_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ESExamples/.idea/libraries/Maven__io_netty_netty_codec_4_1_16_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ESExamples/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_16_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ESExamples/.idea/libraries/Maven__io_netty_netty_common_4_1_16_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ESExamples/.idea/libraries/Maven__io_netty_netty_handler_4_1_16_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ESExamples/.idea/libraries/Maven__io_netty_netty_resolver_4_1_16_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ESExamples/.idea/libraries/Maven__io_netty_netty_transport_4_1_16_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ESExamples/.idea/libraries/Maven__org_elasticsearch_client_transport_6_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ESExamples/.idea/libraries/Maven__org_elasticsearch_plugin_lang_mustache_client_6_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ESExamples/.idea/libraries/Maven__org_elasticsearch_plugin_parent_join_client_6_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ESExamples/.idea/libraries/Maven__org_elasticsearch_plugin_percolator_client_6_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ESExamples/.idea/libraries/Maven__org_elasticsearch_plugin_reindex_client_6_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ESExamples/.idea/libraries/Maven__org_elasticsearch_plugin_transport_netty4_client_6_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ESExamples/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ESExamples/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ESExamples/ESExamples.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ESExamples/ESExamples.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ESExamples/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ESExamples/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ESExamples/target/classes/examples/HelloWorld.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GNURadio/fm_radio_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../GNURadio/fm_radio_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/ImageProcess/chapter03/prog01.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PythonScripts/ImageProcess/chapter03/prog01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/ImageProcess/img/shot_0_000.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/ImageProcess/img/shot_0_001.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/._README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/._bonus" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/._ch01" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/._ch02" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/._ch03" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/._ch04" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/._ch05" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/._ch06" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/._ch07" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/._ch08" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/._ch09" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/._ch10" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/._ch11" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/._ch12" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/._ch13" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/bonus/._.DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/bonus/._.ipynb_checkpoints" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/bonus/._README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/bonus/._flask_webapp_ex01" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/bonus/._images" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/bonus/._logistic_regression.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/bonus/._nested_cross_validation.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/bonus/._reading_mnist.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/bonus/._scikit-model-to-json.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/bonus/._sckit-model-to-json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/bonus/._svm_iris_pipeline_and_gridsearch.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/bonus/.ipynb_checkpoints/._logistic_regression-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/bonus/.ipynb_checkpoints/._mean_accuracy-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/bonus/.ipynb_checkpoints/._reading_mnist-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/bonus/.ipynb_checkpoints/._scikit-model-to-json-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/bonus/.ipynb_checkpoints/._svm_iris_pipeline_and_gridsearch-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/bonus/flask_webapp_ex01/._.DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/bonus/flask_webapp_ex01/._README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/bonus/flask_webapp_ex01/._app.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/bonus/flask_webapp_ex01/._flask_webapp_ex01.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/bonus/flask_webapp_ex01/._img" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/bonus/flask_webapp_ex01/._static" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/bonus/flask_webapp_ex01/._templates" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/bonus/flask_webapp_ex01/img/._img_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/bonus/flask_webapp_ex01/static/._style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/bonus/flask_webapp_ex01/templates/.__formhelpers.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/bonus/flask_webapp_ex01/templates/._entry.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/bonus/images/._logistic_regression_schematic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/bonus/sckit-model-to-json/._attributes.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/bonus/sckit-model-to-json/._params.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch01/._.DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch01/._.ipynb_checkpoints" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch01/._README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch01/._ch01.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch01/._images" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch01/.ipynb_checkpoints/._ch01-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch01/images/._01_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch01/images/._01_02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch01/images/._01_03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch01/images/._01_04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch01/images/._01_05.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch01/images/._01_06.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch01/images/._01_07.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch01/images/._01_08.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch01/images/._01_09.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch01/images/._ipynb_ex1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch01/images/._ipynb_ex2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch02/._.ipynb_checkpoints" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch02/._README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch02/._ch02.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch02/._images" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch02/.ipynb_checkpoints/._3547_02_Code-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch02/.ipynb_checkpoints/._ch02-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch02/images/._02_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch02/images/._02_02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch02/images/._02_03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch02/images/._02_04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch02/images/._02_05.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch02/images/._02_06.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch02/images/._02_07.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch02/images/._02_08.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch02/images/._02_09.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch02/images/._02_10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch02/images/._02_11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch02/images/._02_12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch02/images/._02_13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch02/images/._02_14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch03/._.ipynb_checkpoints" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch03/._README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch03/._ch03.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch03/._images" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch03/.ipynb_checkpoints/._ch03-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch03/images/._03_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch03/images/._03_02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch03/images/._03_03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch03/images/._03_04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch03/images/._03_05.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch03/images/._03_06.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch03/images/._03_07.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch03/images/._03_08.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch03/images/._03_09.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch03/images/._03_10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch03/images/._03_11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch03/images/._03_12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch03/images/._03_13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch03/images/._03_14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch03/images/._03_15.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch03/images/._03_16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch03/images/._03_17.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch03/images/._03_18.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch03/images/._03_19.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch03/images/._03_20.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch03/images/._03_21.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch03/images/._03_22.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch03/images/._03_23.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch04/._.DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch04/._.ipynb_checkpoints" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch04/._README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch04/._ch04.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch04/._images" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch04/.ipynb_checkpoints/._ch04-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch04/images/._.DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch04/images/._04_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch04/images/._04_02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch04/images/._04_03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch04/images/._04_04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch04/images/._04_05.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch04/images/._04_06.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch04/images/._04_07.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch04/images/._04_08.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch04/images/._04_09.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch04/images/._04_10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch04/images/._04_11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch04/images/._04_12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch04/images/._04_13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch04/images/._04_14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch04/images/._04_15.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch04/images/._04_16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch05/._.DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch05/._.ipynb_checkpoints" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch05/._README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch05/._ch05.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch05/._code" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch05/._images" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch05/.ipynb_checkpoints/._ch05-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch05/code/._.ipynb_checkpoints" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch05/code/.ipynb_checkpoints/._3547_Ch05_Code-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch05/images/._.DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch05/images/._05_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch05/images/._05_02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch05/images/._05_03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch05/images/._05_04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch05/images/._05_05.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch05/images/._05_06.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch05/images/._05_07.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch05/images/._05_08.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch05/images/._05_09.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch05/images/._05_10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch05/images/._05_11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch05/images/._05_12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch05/images/._05_13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch05/images/._05_14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch05/images/._05_15.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch05/images/._05_16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch05/images/._05_17.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch05/images/._05_18.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch05/images/._05_19.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch06/._.ipynb_checkpoints" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch06/._README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch06/._ch06.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch06/._images" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch06/.ipynb_checkpoints/._ch06-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch06/images/._06_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch06/images/._06_02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch06/images/._06_03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch06/images/._06_04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch06/images/._06_05.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch06/images/._06_06.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch06/images/._06_07.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch06/images/._06_08.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch06/images/._06_09.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch06/images/._06_10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch07/._.ipynb_checkpoints" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch07/._README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch07/._ch07.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch07/._images" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch07/.ipynb_checkpoints/._ch07-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch07/images/._07_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch07/images/._07_02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch07/images/._07_03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch07/images/._07_04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch07/images/._07_05.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch07/images/._07_06.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch07/images/._07_07.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch07/images/._07_08.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch07/images/._07_09.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch07/images/._07_10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch07/images/._07_11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch08/._.ipynb_checkpoints" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch08/._README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch08/._ch08.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch08/._images" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch08/.ipynb_checkpoints/._ch08-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch08/images/._08_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/._.DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/._.ipynb_checkpoints" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/._1st_flask_app_1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/._1st_flask_app_2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/._README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/._ch09.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/._images" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/._movieclassifier" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/._movieclassifier_with_update" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/.ipynb_checkpoints/._ch09-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/1st_flask_app_1/._.DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/1st_flask_app_1/._app.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/1st_flask_app_1/._templates" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/1st_flask_app_1/templates/._first_app.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/1st_flask_app_2/._.DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/1st_flask_app_2/._app.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/1st_flask_app_2/._static" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/1st_flask_app_2/._templates" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/1st_flask_app_2/static/._style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/1st_flask_app_2/templates/.__formhelpers.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/1st_flask_app_2/templates/._first_app.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/1st_flask_app_2/templates/._hello.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/images/._09_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/images/._09_02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/images/._09_03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/images/._09_04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/images/._09_05.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/images/._09_06.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/images/._09_07.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/images/._09_08.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/movieclassifier/._.DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/movieclassifier/._app.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/movieclassifier/._pkl_objects" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/movieclassifier/._reviews.sqlite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/movieclassifier/._static" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/movieclassifier/._templates" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/movieclassifier/._vectorizer.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/movieclassifier/pkl_objects/._classifier.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/movieclassifier/pkl_objects/._stopwords.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/movieclassifier/static/._style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/movieclassifier/templates/.__formhelpers.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/movieclassifier/templates/._results.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/movieclassifier/templates/._reviewform.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/movieclassifier/templates/._thanks.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/movieclassifier_with_update/._.DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/movieclassifier_with_update/._app.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/movieclassifier_with_update/._pkl_objects" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/movieclassifier_with_update/._reviews.sqlite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/movieclassifier_with_update/._static" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/movieclassifier_with_update/._templates" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/movieclassifier_with_update/._update.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/movieclassifier_with_update/._vectorizer.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/movieclassifier_with_update/pkl_objects/._classifier.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/movieclassifier_with_update/pkl_objects/._stopwords.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/movieclassifier_with_update/static/._style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/movieclassifier_with_update/templates/.__formhelpers.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/movieclassifier_with_update/templates/._results.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/movieclassifier_with_update/templates/._reviewform.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch09/movieclassifier_with_update/templates/._thanks.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch10/._.ipynb_checkpoints" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch10/._README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch10/._ch10.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch10/._images" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch10/.ipynb_checkpoints/._ch10-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch10/images/._10_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch10/images/._10_02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch10/images/._10_03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch10/images/._10_04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch10/images/._10_05.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch10/images/._10_06.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch10/images/._10_07.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch10/images/._10_08.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch10/images/._10_09.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch10/images/._10_10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch10/images/._10_11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch10/images/._10_12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch10/images/._10_13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch10/images/._10_14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch11/._.ipynb_checkpoints" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch11/._README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch11/._ch11.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch11/._images" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch11/.ipynb_checkpoints/._ch11-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch11/images/._11_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch11/images/._11_02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch11/images/._11_03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch11/images/._11_04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch11/images/._11_05.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch11/images/._11_06.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch11/images/._11_07.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch11/images/._11_08.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch11/images/._11_09.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch11/images/._11_10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch11/images/._11_11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch11/images/._11_12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch11/images/._11_13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch11/images/._11_14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch11/images/._11_15.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch11/images/._11_16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch12/._.DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch12/._.ipynb_checkpoints" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch12/._README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch12/._ch12.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch12/._images" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch12/.ipynb_checkpoints/._ch12-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch12/images/._12_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch12/images/._12_02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch12/images/._12_03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch12/images/._12_04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch12/images/._12_05.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch12/images/._12_06.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch12/images/._12_07.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch12/images/._12_08.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch12/images/._12_09.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch12/images/._12_10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch12/images/._12_11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch12/images/._12_12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch12/images/._12_13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch12/images/._12_14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch12/images/._12_15.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch12/images/._12_16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch12/images/._12_17.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch13/._.ipynb_checkpoints" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch13/._README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch13/._ch13.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch13/._images" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch13/._mnist_keras_mlp.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch13/.ipynb_checkpoints/._ch13-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch13/images/._13_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch13/images/._13_02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch13/images/._13_03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch13/images/._13_04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/PythonScience/MachineLearn/__MACOSX/ch13/images/._13_05.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/forensics/imageextract/RESULTS/ForensicLog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../PythonScripts/forensics/imageextract/RESULTS/ForensicLog.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/forensics/imageextract/RESULTS/imageResults.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../PythonScripts/forensics/imageextract/RESULTS/imageResults.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonScripts/forensics/imageextract/p-GPSExtractor.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PythonScripts/forensics/imageextract/p-GPSExtractor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Python/DataScience/Machine-Learning" beforeDir="false" afterPath="$PROJECT_DIR$/../../Python/DataScience/Machine-Learning" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="2073487183">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.5" value="2" />
-          <entry key="project.opened" value="2" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/example/SampleController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#347#348#0" expanded="true" />
-                <element signature="e#384#385#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -414,21 +20,13 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/example/SampleController.java" />
-      </list>
-    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
     </option>
   </component>
   <component name="ProjectFrameBounds">
@@ -437,62 +35,18 @@
     <option name="width" value="1028" />
     <option name="height" value="651" />
   </component>
+  <component name="ProjectId" id="1feoSGEUaQopN6neEwQJB4NkHKr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="springbootexample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springbootexample" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springbootexample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springbootexample" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springbootexample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springbootexample" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springbootexample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springbootexample" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -522,12 +76,14 @@
       </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
       <listeners />
@@ -546,6 +102,7 @@
       <projects_view />
     </option>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="8c3aa69c-1c5e-406e-8029-54e170f7945d" name="Default" comment="" />
@@ -555,65 +112,6 @@
       <updated>1519788378014</updated>
     </task>
     <servers />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="242" y="244" width="1028" height="651" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Capture Tool" order="0" />
-      <window_info id="Designer" order="1" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.3326572" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.5020284" side_tool="true" weight="0.32737032" />
-      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Messages" order="2" sideWeight="0.4979716" visible="true" weight="0.32737032" />
-      <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info anchor="bottom" id="Terminal" order="4" />
-      <window_info anchor="bottom" id="JProfiler" order="5" />
-      <window_info anchor="bottom" id="Message" order="6" />
-      <window_info anchor="bottom" id="Find" order="7" />
-      <window_info anchor="bottom" id="Run" order="8" weight="0.3291367" />
-      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="12" />
-      <window_info anchor="bottom" id="Dependency Viewer" order="13" weight="0.3291367" />
-      <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="right" id="Maven Projects" order="1" />
-      <window_info anchor="right" id="Palette&#9;" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Commander" order="5" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
-    </layout>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/example/SampleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#347#348#0" expanded="true" />
-            <element signature="e#384#385#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>
