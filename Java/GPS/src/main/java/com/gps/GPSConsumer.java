@@ -88,12 +88,12 @@ public class GPSConsumer {
           
         }
        
-        CSVCreation csv = new CSVCreation();
-        try {
-            csv.generateCSV(sb.toString());
-        } catch (IOException e) {
-           Logger.getRootLogger().error(e);
-        }
+//        CSVCreation csv = new CSVCreation();
+//        try {
+//            csv.generateCSV(sb.toString());
+//        } catch (IOException e) {
+//           Logger.getRootLogger().error(e);
+//        }
         
         try {
             TimeUnit.MINUTES.sleep(3);

@@ -34,12 +34,12 @@ public class GPSProducer {
     public void run(String contents) throws JMSException {
         MessageProducer producer = session.createProducer(destination);
 
-        if (!contents.isEmpty())
-        {
+        if (!contents.isEmpty()) {
+        } else {
             TextMessage message = session.createTextMessage(contents);
             producer.send(message);
         }
-        
+
         producer.close();
     }
 
